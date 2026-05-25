@@ -28,6 +28,7 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
+    bool exportReadmeScreens(const QString &outputDir);
 
 private slots:
     void on_buttonBox_accepted();//设置中的确定按键，ok
@@ -76,6 +77,7 @@ private:
     };
 
     void initNavigation();                 //初始化顶部一级功能按钮
+    void initAppStyle();                   //统一界面样式
     void initRememberPage();               //初始化背单词界面
     void initWrongBookPage();              //初始化错题本界面
     void startRemember(bool wrongOnly);    //开始背单词

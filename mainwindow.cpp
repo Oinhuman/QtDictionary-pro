@@ -24,6 +24,7 @@
 #include<QToolButton>
 #include<QUrl>
 #include<QVBoxLayout>
+#include<QPixmap>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -88,6 +89,7 @@ MainWindow::MainWindow(QWidget *parent) :
     initRememberPage();
     initWrongBookPage();
     initNavigation();
+    initAppStyle();
 }
 
 MainWindow::~MainWindow()
@@ -96,6 +98,72 @@ MainWindow::~MainWindow()
     saveWrongBook();
     delete ui;
     delete myDictionary;
+}
+
+bool MainWindow::exportReadmeScreens(const QString &outputDir)
+{
+    QDir dir(outputDir);
+    if(!dir.exists() && !dir.mkpath("."))
+        return false;
+
+    resize(900,640);
+    show();
+
+    auto grabPage=[&](const QString &fileName)->bool
+    {
+        qApp->processEvents();
+        QPixmap pixmap=this->grab();
+        return pixmap.save(dir.absoluteFilePath(fileName));
+    };
+
+    ui->stackedWidget->setCurrentIndex(0);
+    ui->lineEditinPut->setText("abandon");
+    on_ButtonFind_clicked();
+    statusBar()->clearMessage();
+    if(!grabPage("optimized-search.png"))
+        return false;
+
+    ui->stackedWidget->setCurrentIndex(4);
+    i=myDictionary->Englishwords.indexOf("abandon");
+    if(i<0)
+        i=0;
+    ui->labelShow->setText(makeRememberQuestion(myDictionary->Englishwords.value(i)));
+    ui->lineEditHint->setText(myDictionary->Chinesewords.value(i));
+    ui->lineEditSure->setText("abandon");
+    ui->ButtonSure->setEnabled(true);
+    ui->ButtonNext->setEnabled(true);
+    rememberTipLabel->setText("当前为随机练习，答错会自动进入错题本。");
+    statusBar()->clearMessage();
+    if(!grabPage("optimized-remember.png"))
+        return false;
+
+    QMap<QString,WrongWord> oldWrongBook=wrongBook;
+    wrongBook.clear();
+    WrongWord abandon;
+    abandon.ChineseWord="v. 放弃；抛弃；离弃";
+    abandon.Count=3;
+    abandon.LastAnswer="abandn";
+    abandon.LastTime=QDateTime::currentDateTime();
+    wrongBook.insert("abandon",abandon);
+    WrongWord brief;
+    brief.ChineseWord="adj. 短暂的；简洁的";
+    brief.Count=2;
+    brief.LastAnswer="brif";
+    brief.LastTime=QDateTime::currentDateTime();
+    wrongBook.insert("brief",brief);
+    WrongWord constant;
+    constant.ChineseWord="adj. 不断的；恒定的";
+    constant.Count=1;
+    constant.LastAnswer="constent";
+    constant.LastTime=QDateTime::currentDateTime();
+    wrongBook.insert("constant",constant);
+    refreshWrongBook();
+    ui->stackedWidget->setCurrentWidget(wrongBookPage);
+    statusBar()->clearMessage();
+    bool ok=grabPage("optimized-wrongbook.png");
+    wrongBook=oldWrongBook;
+    refreshWrongBook();
+    return ok;
 }
 
 //初始化顶部一级功能按钮，取消原来的菜单层级
@@ -126,6 +194,26 @@ void MainWindow::initNavigation()
     ui->mainToolBar->addAction(ui->actionRemember);
     ui->mainToolBar->addAction(actionWrongBook);
     ui->mainToolBar->addAction(ui->actionset);
+}
+
+void MainWindow::initAppStyle()
+{
+    setMinimumSize(820,560);
+    setStyleSheet(
+        "QMainWindow{background:#f5f7fb;}"
+        "QWidget#centralWidget{background:#ffffff;}"
+        "QToolBar{background:#eef2f7;border:0;border-bottom:1px solid #ccd5e1;spacing:6px;padding:8px;}"
+        "QToolButton{background:transparent;color:#334155;border:0;border-radius:6px;padding:7px 14px;font-size:14px;}"
+        "QToolButton:hover{background:#dbeafe;color:#1d4ed8;}"
+        "QPushButton{background:#ffffff;color:#1f2937;border:1px solid #cbd5e1;border-radius:6px;padding:7px 14px;font-size:14px;}"
+        "QPushButton:hover{background:#eff6ff;border-color:#60a5fa;}"
+        "QPushButton#ButtonFind,QPushButton#ButtonSure{background:#2878d0;color:white;border-color:#2878d0;font-weight:bold;}"
+        "QPushButton#ButtonFind:hover,QPushButton#ButtonSure:hover{background:#1d64ad;}"
+        "QLineEdit,QTextEdit,QListWidget{background:#ffffff;color:#1f2937;border:1px solid #cbd5e1;border-radius:6px;padding:6px;selection-background-color:#bfdbfe;}"
+        "QTextEdit{font-size:18px;}"
+        "QLabel{color:#1f2937;}"
+        "QStatusBar{background:#f8fafc;color:#475569;}"
+    );
 }
 
 //初始化背单词界面，让键盘操作更顺手
