@@ -16,6 +16,11 @@
 #include<QAction>
 #include<QLabel>
 #include<QPushButton>
+#include<QDialogButtonBox>
+#include<QGroupBox>
+#include<QLineEdit>
+#include<QRadioButton>
+#include<QTimer>
 #include"showword.h"
 namespace Ui {
 class MainWindow;
@@ -65,6 +70,14 @@ private slots:
 
     void on_ButtonFile_clicked();//用于设置界面选择文本
 
+    void updateTimer(); //测验倒计时
+
+    void on_actionQuiz_triggered(); //开始测验
+
+    void on_actionQuizHistory_triggered(); //查看测验历史
+
+    void on_ButtonSubmitAnswer_clicked(); //提交测验答案
+
 
 
 private:
@@ -74,6 +87,27 @@ private:
         int Count;
         QString LastAnswer;
         QDateTime LastTime;
+    };
+
+    struct QuizQuestion
+    {
+        QString English;
+        QString Chinese;
+        int Type;
+        QString CorrectAnswer;
+        QString UserAnswer;
+        QStringList Options;
+        bool IsCorrect;
+    };
+
+    struct QuizRecord
+    {
+        QString TestTime;
+        QString TestRange;
+        int TotalQuestions;
+        int CorrectCount;
+        double Score;
+        QStringList ErrorWords;
     };
 
     void initNavigation();                 //初始化顶部一级功能按钮
@@ -89,6 +123,22 @@ private:
     void refreshWrongBook();               //刷新错题本界面
     void showWrongBookDetail(QListWidgetItem *item); //显示错题详情
     void playRememberSound(bool correct);  //播放背词反馈音
+    void initQuizPage();                   //初始化测验界面
+    void startQuiz(bool useWrongBookOnly); //开始测验
+    void generateQuizQuestions();          //生成测验题目
+    void generateQuestionOfType(const QString &word,int type); //生成单题
+    void showCurrentQuizQuestion();        //显示当前测验题
+    void evaluateAndRecord();              //判定当前答案
+    void showQuizResult();                 //显示测验结果
+    void saveQuizHistory();                //保存测验历史
+    void loadQuizHistory();                //读取测验历史
+    void showQuizHistoryDialog();          //显示测验历史
+    void showAnswerDialog(bool isCorrect,const QString &correctAnswer); //显示单题结果
+    void handleQuizTimeout();              //处理超时
+    void speakEnglish(QString word);       //优化英文朗读
+    QString getCurrentTimeString() const;  //当前时间文本
+    QString getRating(double score) const; //成绩评级
+    QStringList getWrongBookWordList() const; //错题词列表
 
     Ui::MainWindow *ui;
     Dictionary *myDictionary;   //字典类
@@ -109,12 +159,37 @@ private:
     QPushButton *masterWrongButton;   //标记掌握
     QPushButton *clearWrongButton;    //清空错题
     QPushButton *readWrongButton;     //朗读错题
+    QWidget *rememberOptionsWidget;   //背单词选择题选项区域
+    QButtonGroup *m_rememberOptionsGroup; //背单词选择题按钮组
+    QList<QPushButton*> m_rememberOptionButtons; //背单词选项按钮
     QMap<QString,WrongWord> wrongBook;//个性化错题本
     QString wrongBookPath;     //错题本保存路径
     QString rememberLastTip;   //上一题反馈
     bool rememberWrongOnly;    //是否只练错题
     int rememberDone;          //本轮已做题数
     int rememberRight;         //本轮正确数
+    QString rememberCurrentCorrectAnswer; //当前选择题正确答案
+    QStringList rememberCurrentOptions;   //当前选择题选项
+    int rememberCurrentQuestionType;      //当前选择题类型
+
+    QTimer *m_quizTimer;       //测验倒计时
+    int m_currentTimeLeft;     //当前题剩余秒数
+    QWidget *m_quizPage;       //测验页面
+    QLabel *m_quizProgressLabel; //测验进度
+    QLabel *m_timerLabel;      //倒计时显示
+    QLabel *m_quizQuestionLabel; //测验题面
+    QGroupBox *m_quizOptionsGroup; //选择题区域
+    QButtonGroup *m_quizRadioGroup; //测验选项组
+    QList<QRadioButton*> m_quizRadioButtons; //测验选项按钮
+    QLineEdit *m_quizInputEdit; //默写输入框
+    QPushButton *m_quizSubmitButton; //提交测验答案
+    QList<QuizQuestion> m_quizQuestions; //本次测验题
+    QList<QuizRecord> m_quizHistoryList; //测验历史
+    QString m_quizHistoryPath; //测验历史路径
+    int m_currentQuizIndex;    //当前题号
+    int m_quizCorrectCount;    //答对数量
+    QString m_quizRangeName;   //测验范围名称
+    bool m_quizUseWrongBookOnly; //是否只测错题
 
 };
 

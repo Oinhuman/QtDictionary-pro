@@ -136,7 +136,7 @@ altitude	/ˈæltitjuːd/
 altogether	/ˌɔːltəˈgeðə/
 aluminium	/ˌæljuːˈminjəm/
 always	/ˈɔːlweiz/
-a.m	/?e? ??m/
+a.m	/ˌeɪ ˈem/
 amaze	/əˈmeiz/
 ambition	/æmˈbi∫ən/
 ambulance	/ˈæmbjuləns/
@@ -336,7 +336,7 @@ bathroom	/ˈbɑːθruːm/
 battery	/ˈbætəri/
 battle	/ˈbætl/
 bay	/bei/
-B.C.	/?bi? ?si?/
+B.C.	/ˌbiː ˈsiː/
 be	/biː/
 beach	/biːt∫/
 beam	/biːm/
@@ -2254,7 +2254,7 @@ live	/liv/
 lively	/ˈlaivli/
 liver	/ˈlivə/
 living	/ˈliviŋ/
-living-room	/?l?v?? ru?m/
+living-room	/ˈlɪvɪŋ ruːm/
 load	/ləud/
 loaf	/ləuf/
 loan	/ləun/
@@ -2901,7 +2901,7 @@ plug	/plʌg/
 plunge	/plʌndʒ/
 plural	/ˈpluərəl/
 plus	/plʌs/
-P.M.	/?pi? ??m/
+P.M.	/ˌpiː ˈem/
 pocket	/ˈpɔkit/
 poem	/ˈpəuim/
 poet	/ˈpəuit/
@@ -3467,7 +3467,7 @@ season	/ˈsiːzn/
 seat	/siːt/
 second	/ˈsekənd/
 secondary	/ˈsekəndəri/
-secondly	/?s?k?ndli/
+secondly	/ˈsekəndli/
 secret	/ˈsiːkrit/
 secretary	/ˈsekrəteri/
 section	/ˈsek∫ən/
@@ -3920,7 +3920,7 @@ surgery	/ˈsəːdʒəri/
 surname	/ˈsəːneim/
 surprise	/səˈpraiz/
 surprising	/səˈpraiziŋ/
-surprisingly	/s?r?pra?z??li/
+surprisingly	/səˈpraɪzɪŋli/
 surrender	/səˈrendə/
 surround	/səˈraund/
 surroundings	/səˈraundiŋz/

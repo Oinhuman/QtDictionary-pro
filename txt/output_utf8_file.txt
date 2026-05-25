@@ -405,7 +405,7 @@ always
 /ˈɔːlweiz/
 ad.总是，一直；永远
 a.m
-/?e? ??m/
+/ˌeɪ ˈem/
 (缩)上午，午前
 amaze
 /əˈmeiz/
@@ -1005,7 +1005,7 @@ bay
 /bei/
 n.湾；山脉中的凹处
 B.C.
-/?bi? ?si?/
+/ˌbiː ˈsiː/
 (缩)公元前
 be
 /biː/
@@ -6759,7 +6759,7 @@ living
 /ˈliviŋ/
 a.活的 n.生活，生计
 living-room
-/?l?v?? ru?m/
+/ˈlɪvɪŋ ruːm/
 n.起居室
 load
 /ləud/
@@ -8700,7 +8700,7 @@ plus
 /plʌs/
 prep.加，加上 a.正的
 P.M.
-/?pi? ??m/
+/ˌpiː ˈem/
 n.下午，午后
 pocket
 /ˈpɔkit/
@@ -10398,7 +10398,7 @@ secondary
 /ˈsekəndəri/
 a.第二的；次要的
 secondly
-/?s?k?ndli/
+/ˈsekəndli/
 ad.第二(点)；其次
 secret
 /ˈsiːkrit/
@@ -11757,7 +11757,7 @@ surprising
 /səˈpraiziŋ/
 a.惊人/出人意外的
 surprisingly
-/s?r?pra?z??li/
+/səˈpraɪzɪŋli/
 ad.惊人地
 surrender
 /səˈrendə/

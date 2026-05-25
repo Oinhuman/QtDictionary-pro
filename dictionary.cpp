@@ -59,13 +59,24 @@ Dictionary::Dictionary(QString path)
 //析构函数会对单词进行储存，储存在读进来的文本当中
 Dictionary::~Dictionary()
 {
-    //写入方式有待改进
+    saveToFile();
+    delete DicTree;
+}
+
+bool Dictionary::saveToFile()
+{
+    if(savePath.isEmpty())
+        return false;
+    return saveToFile(savePath);
+}
+
+bool Dictionary::saveToFile(const QString &path)
+{
     this->setWords();
-    QFile file(savePath);
+    QFile file(path);
     if(!file.open(QIODevice::WriteOnly|QIODevice::Text))
     {
-        delete DicTree;
-        return;
+        return false;
     }
     QTextStream out(&file);
     out<<WordlistHeader<<Qt::endl;
@@ -80,7 +91,7 @@ Dictionary::~Dictionary()
       out<<Qt::endl;
     }
     file.close();
-    delete DicTree;
+    return true;
 }
 
 //插入函数，一个通过单个单词插入，一个通过文件插入,需要考虑重复插入
