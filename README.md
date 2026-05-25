@@ -59,25 +59,15 @@
 
 查询界面：
 
-<img src="/image/image-20200813230003289.png" alt="image-20200813230003289" style="zoom:67%;" />
-
-<img src="/image/image-20200813230020930.png" alt="image-20200813230020930" style="zoom:67%;" />
-
-历史记录：
-
-<img src="/image/image-20200813230129257.png" alt="image-20200813230129257" style="zoom:67%;" />
-
-逐条查看：
-
-<img src="/image/image-20200813230151562.png" alt="image-20200813230151562" style="zoom:67%;" />
+![查询界面](image/optimized-search.png)
 
 背单词：
 
-<img src="/image/image-20200813230252513.png" alt="image-20200813230252513" style="zoom:67%;" />
+![背单词界面](image/optimized-remember.png)
 
-设置：
+错题本：
 
-<img src="/image/image-20200813230549302.png" alt="image-20200813230549302" style="zoom:67%;" />
+![错题本界面](image/optimized-wrongbook.png)
 
 ## 编译
 
