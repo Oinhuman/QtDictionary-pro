@@ -1,0 +1,4543 @@
+# Source: mahavivo/english-wordlists CET4_edited.txt parsed from cached GitHub page.
+# Fallbacks: previous generated phonetics plus six manual abbreviations/derived forms.
+# Format: word<TAB>phonetic
+a	/ə/
+abandon	/əˈbændən/
+ability	/əˈbiliti/
+able	/ˈeibl/
+abnormal	/æbˈnɔːməl/
+aboard	/əˈbɔːd/
+about	/ˈəbaut/
+above	/əˈbʌv/
+abroad	/əˈbrɔːd/
+absence	/ˈæbsəns/
+absent	/ˈæbsənt/
+absolute	/ˈæbsəluːt/
+absolutely	/ˈæbsəluːtli/
+absorb	/əbˈsɔːb/
+abstract	/ˈæbstrækt/
+abundant	/əˈbʌndənt/
+abuse	/əˈbjuːz/
+academic	/ˌækəˈdemik/
+academy	/əˈkædəmi/
+accelerate	/ækˈseləreit/
+acceleration	/ækˌseləˈrei∫ən/
+accent	/ˈæksənt/
+accept	/əkˈsept/
+acceptable	/əkˈseptəbl/
+acceptance	/əkˈseptəns/
+access	/ˈækses/
+accessory	/ækˈsesəri/
+accident	/ˈæksidənt/
+accidental	/ˌæksiˈdentl/
+accommodate	/əˈkɔmədeit/
+accommodation	/əˌkɔməˈdei∫ən/
+accompany	/əˈkʌmpəni/
+accomplish	/əˈkɔmpli∫/
+accord	/əˈkɔːd/
+accordance	/əˈkɔːdəns/
+accordingly	/əˈkɔːdiŋli/
+account	/əˈkaunt/
+accumulate	/əˈkjuːmjuleit/
+accuracy	/ˈækjurəsi/
+accurate	/ˈækjurit/
+accuse	/əˈkjuːz/
+accustom	/əˈkʌstəm/
+accustomed	/əˈkʌstəmd/
+ache	/eik/
+achieve	/əˈt∫iːv/
+achievement	/əˈt∫iːvmənt/
+acid	/ˈæsid/
+acquaintance	/əˈkweintəns/
+acquire	/əˈkwaiə/
+acre	/ˈeikə/
+across	/əˈkrɔs/
+act	/ækt/
+action	/ˈæk∫ən/
+active	/ˈæktiv/
+activity	/ækˈtiviti/
+actor	/ˈæktə/
+actress	/ˈæktris/
+actual	/ˈæktjuəl/
+actually	/ˈækt∫uəli/
+acute	/əˈkjuːt/
+ad	/æd/
+adapt	/əˈdæpt/
+add	/æd/
+addition	/əˈdi∫ən/
+additional	/əˈdi∫ənl/
+address	/əˈdres/
+adequate	/ˈædikwit/
+adjective	/ˈædʒiktiv/
+adjust	/əˈdʒʌst/
+administration	/ədminisˈtrei∫ən/
+admire	/ədˈmaiə/
+admission	/ədˈmi∫ən/
+admit	/ədˈmit/
+adopt	/əˈdɔpt/
+adult	/ˈædʌlt/
+advance	/ədˈvɑːns/
+advanced	/ədˈvɑːnst/
+advantage	/ədˈvɑːntidʒ/
+adventure	/ədˈvent∫ə/
+adverb	/ˈædvəːb/
+advertisement	/ədˈvəːtismənt/
+advice	/ədˈvais/
+advisable	/ədˈvaizəbl/
+advise	/ədˈvaiz/
+aeroplane	/ˈeərəplein/
+affair	/əˈfeə/
+affect	/əˈfekt/
+affection	/əˈfek∫ən/
+afford	/əˈfɔːd/
+afraid	/əˈfreid/
+africa	/ˈæfrikə/
+african	/ˈæfrikən/
+after	/ˈɑːftə/
+afternoon	/ˈɑːftəˈnuːn/
+afterward	/ˈɑːftəwəd/
+again	/əˈgein/
+against	/əˈgeinst/
+age	/eidʒ/
+agency	/ˈeidʒənsi/
+agent	/ˈeidʒənt/
+aggressive	/əˈgresiv/
+ago	/əˈgəu/
+agony	/ˈægəni/
+agree	/əˈgriː/
+agreement	/əˈgriːmənt/
+agriculture	/ˈægrikʌlt∫ə/
+ahead	/əˈhed/
+aid	/eid/
+aim	/eim/
+air	/eə/
+aircraft	/ˈeəkrɑːft/
+airline	/ˈeəlain/
+airplane	/ˈeəˌplein/
+airport	/ˈeəpɔːt/
+alarm	/əˈlɑːm/
+alcohol	/ˈælkəhɔl/
+alike	/əˈlaik/
+alive	/əˈlaiv/
+all	/ɔːl/
+allow	/əˈlau/
+alloy	/ˈælɔi/
+almost	/ˈɔːlməust/
+alone	/əˈləun/
+along	/əˈlɔŋ/
+aloud	/əˈlaud/
+alphabet	/ˈælfəbit/
+already	/ɔːlˈredi/
+also	/ˈɔːlsəu/
+alter	/ˈɔːltə/
+alternative	/ɔːlˈtəːnətiv/
+although	/ɔːlˈðəu/
+altitude	/ˈæltitjuːd/
+altogether	/ˌɔːltəˈgeðə/
+aluminium	/ˌæljuːˈminjəm/
+always	/ˈɔːlweiz/
+a.m	/?e? ??m/
+amaze	/əˈmeiz/
+ambition	/æmˈbi∫ən/
+ambulance	/ˈæmbjuləns/
+america	/əˈmerikə/
+american	/əˈmerikən/
+among	/əˈmʌŋ/
+amongst	/əˈmʌŋst/
+amount	/əˈmaunt/
+ampere	/ˈæmpiər/
+amplify	/ˈæmplifai/
+amuse	/əˈmjuːz/
+analyse	/ˈænəlaiz/
+analysis	/əˈnælisis/
+ancestor	/ˈænsistə/
+anchor	/ˈæŋkə/
+ancient	/ˈein∫ənt/
+and	/ænd/
+angel	/ˈeindʒəl/
+anger	/ˈæŋgə/
+angle	/ˈæŋgl/
+angry	/ˈæŋgri/
+animal	/ˈæniməl/
+ankle	/ˈæŋkl/
+announce	/əˈnauns/
+announcer	/əˈnaunsə/
+annoy	/əˈnɔi/
+annual	/ˈænjuəl/
+another	/əˈnʌðə/
+answer	/ˈɑːnsə/
+ant	/ænt/
+anticipate	/ænˈtisipeit/
+anxiety	/æŋˈzaiəti/
+anxious	/ˈæŋk∫əs/
+any	/ˈeni/
+anybody	/ˈeniˌbɔdi/
+anyhow	/ˈenihau/
+anyone	/ˈeniwʌn/
+anything	/ˈeniθiŋ/
+anyway	/ˈeniwei/
+anywhere	/ˈeniweə/
+apart	/əˈpɑːt/
+apartment	/əˈpɑːtmənt/
+apologize	/əˈpɔlədʒaiz/
+apology	/əˈpɔlədʒi/
+apparatus	/ˌæpəˈreitəs/
+apparent	/əˈpærənt/
+appeal	/əˈpiːl/
+appear	/əˈpiə/
+appearance	/əˈpiərəns/
+appetite	/ˈæpitait/
+apple	/ˈæpl/
+appliance	/əˈplaiəns/
+applicable	/ˈæplikəbl/
+application	/ˌæpliˈkei∫ən/
+apply	/əˈplai/
+appoint	/əˈpɔint/
+appointment	/əˈpɔintmənt/
+appreciate	/əˈpriː∫ieit/
+approach	/əˈprəut∫/
+appropriate	/əˈprəupriit/
+approval	/əˈpruːvəl/
+approve	/əˈpruːv/
+approximate	/əˈprɔksimeit/
+approximately	/əprɔksiˈmətli/
+april	/ˈeiprəl/
+arabian	/əˈreibjən/
+arbitrary	/ˈɑːbitrəri/
+architecture	/ˈɑːkitekt∫ə/
+area	/ˈeəriə/
+argue	/ˈɑːgjuː/
+argument	/ˈɑːgjumənt/
+arise	/əˈraiz/
+arithmetic	/əˈriθmətik/
+arm	/ɑːm/
+army	/ˈɑːmi/
+around	/əˈraund/
+arouse	/əˈrauz/
+arrange	/əˈreindʒ/
+arrangement	/əˈreindʒmənt/
+arrest	/əˈrest/
+arrival	/əˈraivəl/
+arrive	/əˈraiv/
+arrow	/ˈærəu/
+art	/ɑːt/
+article	/ˈɑːtikl/
+artificial	/ˌɑːtiˈfi∫əl/
+artist	/ˈɑːtist/
+artistic	/ɑːˈtistik/
+as	/æz/
+ash	/æ∫/
+ashamed	/əˈ∫eimd/
+asia	/ˈei∫ə/
+asian	/ˈei∫ən/
+aside	/əˈsaid/
+ask	/ɑːsk/
+asleep	/əˈsliːp/
+aspect	/ˈæspekt/
+assemble	/əˈsembl/
+assembly	/əˈsembli/
+assess	/əˈses/
+assign	/əˈsain/
+assignment	/əˈsainmənt/
+assist	/əˈsist/
+assistant	/əˈsistənt/
+associate	/əˈsəu∫ieit/
+association	/əˌsəusiˈei∫ən/
+assume	/əˈsjuːm/
+assure	/əˈ∫uə/
+astonish	/əsˈtɔni∫/
+astronaut	/ˈæstrənɔːt/
+at	/æt/
+athlete	/ˈæθliːt/
+atlantic	/ətˈlæntik/
+atmosphere	/ˈætməsfiə/
+atmospheric	/ˌætməsˈferik/
+atom	/ˈætəm/
+atomic	/əˈtɔmik/
+attach	/əˈtæt∫/
+attack	/əˈtæk/
+attain	/əˈtein/
+attempt	/əˈtempt/
+attend	/əˈtend/
+attention	/əˈten∫ən/
+attentive	/əˈtentiv/
+attitude	/ˈætitjuːd/
+attract	/əˈtrækt/
+attraction	/əˈtræk∫ən/
+attractive	/əˈtræktiv/
+attribute	/əˈtribju(ː)t/
+audience	/ˈɔːdjəns/
+august	/ˈɔːgəst/
+aunt	/ɑːnt/
+aural	/ˈɔːrəl/
+australia	/ɔsˈtreiljə/
+australian	/ɔsˈtreiliən/
+author	/ˈɔːθə/
+authority	/ɔːˈθɔriti/
+auto	/ˈɔːtəu/
+automatic	/ˌɔːtəˈmætik/
+automation	/ɔːtəˈmei∫ən/
+automobile	/ˌɔːtəˈməubil/
+autumn	/ˈɔːtəm/
+auxiliary	/ɔːgˈziljəri/
+available	/əˈveiləbl/
+avenue	/ˈævinjuː/
+average	/ˈævəridʒ/
+aviation	/ˌeiviˈei∫ən/
+avoid	/əˈvɔid/
+await	/əˈweit/
+awake	/əˈweik/
+award	/əˈwɔːd/
+aware	/əˈweə/
+away	/əˈwei/
+awful	/ˈɔːful/
+awfully	/ˈɔːfuli/
+awkward	/ˈɔːkwəd/
+ax	/æks/
+axis	/ˈæksis/
+baby	/ˈbeibi/
+back	/bæk/
+background	/ˈbækgraund/
+backward	/ˈbækwəd/
+bacteria	/bækˈtiəriə/
+bad	/bæd/
+badly	/ˈbædli/
+badminton	/ˈbædmintən/
+bag	/bæg/
+baggage	/ˈbægidʒ/
+bake	/beik/
+balance	/ˈbæləns/
+ball	/bɔːl/
+balloon	/bəˈluːn/
+banana	/bəˈnɑːnə/
+band	/bænd/
+bang	/bæŋ/
+bank	/bæŋk/
+banner	/ˈbænə/
+bar	/bɑː(r)/
+barber	/ˈbɑːbə/
+bare	/beə/
+bargain	/ˈbɑːgin/
+bark	/bɑːk/
+barn	/bɑːn/
+barrel	/ˈbærəl/
+barrier	/ˈbæriə/
+base	/beis/
+basic	/ˈbeisik/
+basically	/ˈbeisikəli/
+basin	/ˈbeisn/
+basis	/ˈbeisis/
+basket	/bɑːskit/
+basketball	/ˈbɑːskitbɔːl/
+bat	/bæt/
+bath	/bɑːθ/
+bathe	/beið/
+bathroom	/ˈbɑːθruːm/
+battery	/ˈbætəri/
+battle	/ˈbætl/
+bay	/bei/
+B.C.	/?bi? ?si?/
+be	/biː/
+beach	/biːt∫/
+beam	/biːm/
+bean	/biːn/
+bear	/beə/
+beard	/biəd/
+beast	/biːst/
+beat	/biːt/
+beautiful	/ˈbjuːtəful/
+beauty	/ˈbjuːti/
+because	/biˈkɔz/
+become	/biˈkʌm/
+bed	/bed/
+bee	/biː/
+beef	/biːf/
+beer	/biə/
+before	/biˈfɔː/
+beg	/beg/
+beggar	/ˈbegə/
+begin	/biˈgin/
+beginner	/biˈginə/
+beginning	/biˈginiŋ/
+behalf	/biˈhɑːf/
+behave	/biˈheiv/
+behavior	/biˈheivjə/
+behind	/biˈhaind/
+being	/ˈbiːiŋ/
+belief	/biˈliːf/
+believe	/biˈliːv/
+bell	/bel/
+belong	/biˈlɔŋ/
+beloved	/biˈlʌvid/
+below	/biˈləu/
+belt	/belt/
+bench	/bent∫/
+bend	/bend/
+beneath	/biˈniːθ/
+beneficial	/beniˈfi∫əl/
+benefit	/ˈbenifit/
+berry	/ˈberi/
+beside	/biˈsaid/
+besides	/biˈsaidz/
+best	/best/
+bet	/bet/
+betray	/biˈtrei/
+better	/ˈbetə/
+between	/biˈtwiːn/
+beyond	/biˈjɔnd/
+Bible	/ˈbaibl/
+bicycle	/ˈbaisikl/
+big	/big/
+bike	/baik/
+bill	/bil/
+billion	/ˈbiljən/
+bind	/baind/
+biology	/baiˈɔlədʒi/
+bird	/bəːd/
+birth	/bəːθ/
+birthday	/ˈbəːθdei/
+biscuit	/ˈbiskit/
+bit	/bit/
+bite	/bait/
+bitter	/ˈbitə/
+bitterly	/ˈbitəli/
+black	/blæk/
+blackboard	/ˈblækbɔːd/
+blade	/bleid/
+blame	/bleim/
+blank	/blæŋk/
+blanket	/ˈblæŋkit/
+blast	/blɑːst/
+blaze	/bleiz/
+bleed	/bliːd/
+blend	/blend/
+bless	/bles/
+blind	/blaind/
+block	/blɔk/
+blood	/blʌd/
+bloom	/bluːm/
+blossom	/ˈblɔsəm/
+blow	/bləu/
+blue	/bluː/
+board	/bɔːd/
+boast	/bəust/
+boat	/bəut/
+body	/ˈbɔdi/
+boil	/bɔil/
+bold	/bəuld/
+bolt	/bəult/
+bomb	/bɔm/
+bond	/bɔnd/
+bone	/bəun/
+book	/buk/
+boot	/buːt/
+booth	/buːθ/
+border	/ˈbɔːdə/
+bore	/bɔː/
+born	/bɔːn/
+borrow	/ˈbɔrəu/
+bosom	/ˈbuzəm/
+boss	/bɔs/
+both	/bəuθ/
+bother	/ˈbɔðə/
+bottle	/ˈbɔtl/
+bottom	/ˈbɔtəm/
+bough	/bau/
+bounce	/bauns/
+bound	/baund/
+boundary	/ˈbaundəri/
+bow	/bau/
+bowl	/bəul/
+box	/bɔks/
+boy	/bɔi/
+brain	/brein/
+brake	/breik/
+branch	/brɑːnt∫/
+brand	/brænd/
+brandy	/ˈbrændi/
+brass	/brɑːs/
+brave	/breiv/
+bread	/bred/
+breadth	/bredθ/
+break	/breik/
+breakfast	/ˈbrekfəst/
+breast	/brest/
+breath	/breθ/
+breathe	/briːð/
+breed	/briːd/
+breeze	/briːz/
+brick	/brik/
+bridge	/bridʒ/
+brief	/briːf/
+bright	/brait/
+brighten	/ˈbraitn/
+brilliant	/ˈbriljənt/
+brim	/brim/
+bring	/briŋ/
+brisk	/brisk/
+bristle	/ˈbrisl/
+Britain	/ˈbritən/
+British	/ˈbriti∫/
+brittle	/ˈbritl/
+broad	/brɔːd/
+broadcast	/ˈbrɔːdkɑːst/
+broken	/ˈbrəukən/
+bronze	/brɔnz/
+brood	/bruːd/
+brook	/bruk/
+broom	/bruːm/
+brother	/ˈbrʌðə/
+brow	/brau/
+brown	/braun/
+bruise	/bruːz/
+brush	/brʌ∫/
+brute	/bruːt/
+bubble	/ˈbʌbl/
+bucket	/ˈbʌkit/
+bud	/bʌd/
+build	/bild/
+building	/ˈbildiŋ/
+bulb	/bʌlb/
+bulk	/bʌlk/
+bull	/bul/
+bullet	/ˈbulit/
+bunch	/bʌnt∫/
+bundle	/ˈbʌndl/
+burden	/ˈbəːdn/
+bureau	/bjuəˈrəu/
+burn	/bəːn/
+burst	/bəːst/
+bury	/ˈberi/
+bus	/bʌs/
+bush	/bu∫/
+business	/ˈbiznis/
+busy	/ˈbizi/
+but	/bʌt/
+butcher	/ˈbut∫ə/
+butter	/ˈbʌtə/
+butterfly	/ˈbʌtəflai/
+button	/ˈbʌtn/
+buy	/bai/
+by	/bai/
+cabbage	/ˈkæbidʒ/
+cabin	/ˈkæbin/
+cabinet	/ˈkæbinit/
+cable	/ˈkeibl/
+cafe	/ˈkæfei/
+cafeteria	/ˈkæfiˈtiəriə/
+cage	/keidʒ/
+cake	/keik/
+calculate	/ˈkælkjuleit/
+calculation	/ˌkælkjuˈlei∫ən/
+calculator	/ˈkælkjuleitə/
+calendar	/ˈkælində/
+call	/kɔːl/
+calm	/kɑːm/
+camel	/ˈkæməl/
+camera	/ˈkæmərə/
+camp	/kæmp/
+campaign	/kæmˈpein/
+campus	/ˈkæmpəs/
+can	/kæn/
+Canada	/ˈkænədə/
+Canadian	/kəˈneidjən/
+canal	/kəˈnæl/
+cancel	/ˈkænsəl/
+cancer	/ˈkænsə/
+candidate	/ˈkændidit/
+candle	/ˈkændl/
+candy	/ˈkændi/
+cannon	/ˈkænən/
+canoe	/kəˈnuː/
+canteen	/kænˈtiːn/
+canvas	/ˈkænvəs/
+cap	/kæp/
+capable	/ˈkeipəbl/
+capacity	/kəˈpæsiti/
+capital	/ˈkæpitəl/
+captain	/ˈkæptin/
+captive	/ˈkæptiv/
+capture	/ˈkæpt∫ə/
+car	/kɑː/
+carbon	/ˈkɑːbən/
+card	/kɑːd/
+care	/keə/
+career	/kəˈriə/
+careful	/ˈkeəful/
+careless	/ˈkeəlis/
+cargo	/ˈkɑːgəu/
+carpenter	/ˈkɑːpintə/
+carpet	/ˈkɑːpit/
+carriage	/ˈkæridʒ/
+carrier	/ˈkæriə/
+carrot	/ˈkærət/
+carry	/ˈkæri/
+cart	/kɑːt/
+carve	/kɑːv/
+case	/keis/
+cash	/kæ∫/
+cassette	/kɑːˈset/
+cast	/kɑːst/
+castle	/ˈkæsl/
+casual	/ˈkæʒuəl/
+cat	/kæt/
+catalog	/ˈkætəlɔg/
+catch	/kæt∫/
+cathedral	/kəˈθiːdrəl/
+cattle	/ˈkætl/
+cause	/kɔːz/
+cave	/keiv/
+cease	/siːs/
+ceiling	/ˈsiːliŋ/
+celebrate	/ˈselibreit/
+cell	/sel/
+cellar	/ˈselə/
+cement	/siˈment/
+cent	/sent/
+centigrade	/ˈsentigreid/
+centimetre	/ˈsentiˌmiːtə/
+central	/ˈsentr(ə)l/
+centre	/ˈsentə/
+century	/ˈsent∫uri/
+ceremony	/ˈseriməni/
+certain	/ˈsəːtən/
+certainly	/ˈsəːtənli/
+certainty	/ˈsəːtənti/
+certificate	/səˈtifikit/
+chain	/t∫ein/
+chair	/t∫eə/
+chairman	/ˈt∫eəmən/
+chalk	/t∫ɔːk/
+challenge	/ˈt∫ælindʒ/
+chamber	/ˈt∫eimbə/
+champion	/ˈt∫æmpjən/
+chance	/t∫ɑːns/
+change	/t∫eindʒ/
+channel	/ˈt∫ænl/
+chapter	/ˈt∫æptə/
+character	/ˈkæriktə/
+characteristic	/ˌkæriktəˈristik/
+charge	/t∫ɑːdʒ/
+charity	/ˈt∫æriti/
+charming	/ˈt∫ɑːmiŋ/
+chart	/t∫ɑːt/
+chase	/t∫eis/
+cheap	/t∫iːp/
+cheat	/t∫iːt/
+check	/t∫ek/
+cheek	/t∫iːk/
+cheer	/t∫iə/
+cheerful	/ˈt∫iəful/
+cheese	/t∫iːz/
+chemical	/ˈkemikəl/
+chemist	/ˈkemist/
+chemistry	/ˈkemistri/
+cheque	/t∫ek/
+cherry	/ˈt∫eri/
+chess	/t∫es/
+chest	/t∫est/
+chew	/t∫uː/
+chicken	/ˈt∫ikin/
+chief	/t∫iːf/
+child	/t∫aild/
+childhood	/ˈt∫aildhud/
+childish	/ˈt∫aildi∫/
+chill	/t∫il/
+chimney	/ˈt∫imni/
+chin	/t∫in/
+China	/ˈt∫ainə/
+Chinese	/ˈt∫aiˈniːz/
+chocolate	/ˈt∫ɔkəlit/
+choice	/t∫ɔis/
+choke	/t∫əuk/
+choose	/t∫uːz/
+chop	/t∫ɔp/
+Christian	/ˈkristjən/
+Christmas	/ˈkrisməs/
+church	/t∫əːt∫/
+cigarette	/sigəˈret/
+cinema	/ˈsinimə/
+circle	/ˈsəːkl/
+circuit	/ˈsəːkit/
+circular	/ˈsəːkjulə/
+circulate	/ˈsəːkjuleit/
+circumference	/səˈkʌmfərəns/
+circumstance	/ˈsəːkəmstəns/
+citizen	/ˈsitizn/
+city	/ˈsiti/
+civil	/ˈsivl/
+civilization	/sivəliˈzei∫ən/
+civilize	/ˈsivilaiz/
+claim	/kleim/
+clap	/klæp/
+clarify	/ˈklærifai/
+clasp	/klɑːsp/
+class	/klɑːs/
+classical	/ˈklæsikəl/
+classification	/ˌklæsifiˈkei∫ən/
+classify	/ˈklæsifai/
+classmate	/ˈklɑːsmeit/
+classroom	/ˈklɑːsrum/
+claw	/klɔː/
+clay	/klei/
+clean	/kliːn/
+clear	/kliə/
+clearly	/ˈkliəli/
+clerk	/klərk/
+clever	/ˈklevə/
+cliff	/klif/
+climate	/ˈklaimit/
+climb	/klaim/
+cloak	/kləuk/
+clock	/klɔk/
+close	/kləuz/
+closely	/ˈkləuzli/
+cloth	/klɔ(ː)θ/
+clothe	/kləuð/
+clothes	/kləuðz/
+clothing	/ˈkləuðiŋ/
+cloud	/klaud/
+cloudy	/ˈklaudi/
+club	/klʌb/
+clue	/kluː/
+clumsy	/ˈklʌmzi/
+coach	/kəut∫/
+coal	/kəul/
+coarse	/kɔːs/
+coast	/kəust/
+coat	/kəut/
+cock	/kɔk/
+code	/kəud/
+coffee	/ˈkɔfi/
+coil	/kɔil/
+coin	/kɔin/
+cold	/kəuld/
+collapse	/kəˈlæps/
+collar	/ˈkɔlə/
+colleague	/ˈkɔliːg/
+collect	/kəˈlekt/
+collection	/kəˈlek∫ən/
+collective	/kəˈlektiv/
+college	/ˈkɔlidʒ/
+collision	/kəˈliʒən/
+colonel	/ˈkəːnl/
+colony	/ˈkɔləni/
+color	/ˈkʌlə/
+column	/ˈkɔləm/
+comb	/kəum/
+combination	/ˌkɔmbiˈnei∫ən/
+combine	/kəmˈbain/
+come	/kʌm/
+comfort	/ˈkʌmfət/
+comfortable	/ˈkʌmfətəbl/
+command	/kəˈmɑːnd/
+commander	/kəˈmɑːndə/
+comment	/ˈkɔment/
+commerce	/ˈkɔmə(ː)s/
+commercial	/kəˈməː∫əl/
+commission	/kəˈmi∫ən/
+commit	/kəˈmit/
+committee	/kəˈmiti/
+common	/ˈkɔmən/
+commonly	/ˈkɔmənli/
+communicate	/kəˈmjuːnikeit/
+communication	/kəˌmjuːniˈkei∫n/
+communism	/ˈkɔmjunizəm/
+communist	/ˈkɔmjunist/
+community	/kəˈmjuːniti/
+companion	/kəmˈpænjən/
+company	/ˈkʌmpəni/
+comparative	/kəmˈpærətiv/
+compare	/kəmˈpeə/
+comparison	/kəmˈpærisn/
+compass	/ˈkʌmpəs/
+compel	/kəmˈpel/
+compete	/kəmˈpiːt/
+competent	/ˈkɔmpitənt/
+competition	/kɔmpiˈti∫ən/
+compile	/kəmˈpail/
+complain	/kəmˈplein/
+complaint	/kəmˈpleint/
+complete	/kəmˈpliːt/
+completely	/kəmˈpliːtli/
+complex	/ˈkɔmpleks/
+complicate	/ˈkɔmplikeit/
+complicated	/ˈkɔmplikeitid/
+component	/kəmˈpəunənt/
+compose	/kəmˈpəuz/
+composition	/kɔmpəˈzi∫ən/
+compound	/ˈkɔmpaund/
+comprehension	/ˌkɔmpriˈhen∫ən/
+comprehensive	/ˌkɔmpriˈhensiv/
+compress	/kəmˈpres/
+comprise	/kəmˈpraiz/
+compromise	/ˈkɔmprəmaiz/
+compute	/kəmˈpjuːt/
+computer	/kəmˈpjuːtə/
+comrade	/ˈkɔmrid/
+conceal	/kənˈsiːl/
+concentrate	/ˈkɔnsentreit/
+concentration	/ˌkɔnsenˈtrei∫ən/
+concept	/ˈkɔnsept/
+concern	/kənˈsəːn/
+concerning	/kənˈsəːniŋ/
+concert	/ˈkɔnsət/
+conclude	/kənˈkluːd/
+conclusion	/kənˈkluːʒən/
+concrete	/ˈkɔnkriːt/
+condemn	/kənˈdem/
+condense	/kənˈdens/
+condition	/kənˈdi∫ən/
+conduct	/ˈkɔndʌkt,-dəkt/
+conductor	/kənˈdʌktə/
+conference	/ˈkɔnfərəns/
+confess	/kənˈfes/
+confidence	/ˈkɔnfidəns/
+confident	/ˈkɔnfidənt/
+confine	/ˈkɔnfain/
+confirm	/kənˈfəːm/
+conflict	/ˈkɔnflikt/
+confuse	/kənˈfjuːz/
+confusion	/kənˈfjuːʒən/
+congratulate	/kənˈgrætjuleit/
+congratulation	/kənˌgrætjuˈlei∫ən/
+congress	/ˈkɔŋgres/
+conjunction	/kənˈdʒʌŋk∫ən/
+connect	/kəˈnekt/
+connection	/kəˈnek∫ən/
+conquer	/ˈkɔŋkə/
+conquest	/ˈkɔŋkwest/
+conscience	/ˈkɔn∫əns/
+conscious	/ˈkɔn∫əs/
+consciousness	/ˈkɔn∫əsnis/
+consent	/kənˈsent/
+consequence	/ˈkɔnsikwəns/
+consequently	/ˈkɔnsikwəntli/
+conservation	/ˌkɔnsə(ː)ˈvei∫ən/
+conservative	/kənˈsəːvətiv/
+consider	/kənˈsidə/
+considerable	/kənˈsidərəbl/
+considerate	/kənˈsidərit/
+consideration	/kənsidəˈrei∫ən/
+consist	/kənˈsist/
+consistent	/kənˈsistənt/
+constant	/ˈkɔnstənt/
+constitution	/ˌkɔnstiˈtjuː∫ən/
+construct	/kənˈstrʌkt/
+construction	/kənˈstrʌk∫ən/
+consult	/kənˈsʌlt/
+consume	/kənˈsjuːm/
+consumption	/kənˈsʌmp∫ən/
+contact	/ˈkɔntækt/
+contain	/kənˈtein/
+container	/kənˈteinə/
+contemporary	/kənˈtempərəri/
+contempt	/kənˈtempt/
+content	/kənˈtent/
+contest	/ˈkɔntest/
+continent	/ˈkɔntinənt/
+continual	/kənˈtinjuəl/
+continue	/kənˈtinjuː/
+continuous	/kənˈtinjuəs/
+contract	/ˈkɔntrækt/
+contradiction	/ˌkɔntrəˈdik∫ən/
+contrary	/ˈkɔntrəri/
+contrast	/ˈkɔntræst/
+contribute	/kənˈtribjuːt/
+control	/kənˈtrəul/
+convenience	/kənˈviːnjəns/
+convenient	/kənˈviːnjənt/
+convention	/kənˈven∫ən/
+conventional	/kənˈven∫ənl/
+conversation	/ˌkɔnvəˈsei∫ən/
+conversely	/ˈkɔnvəːsli/
+conversion	/kənˈvəː∫ən/
+convert	/kənˈvəːt/
+convey	/kənˈvei/
+convince	/kənˈvins/
+cook	/kuk/
+cool	/kuːl/
+cooperate	/kəuˈɔpəreit/
+coordinate	/kəuˈɔːdinit/
+cope	/kəup/
+copper	/ˈkɔpə/
+copy	/ˈkɔpi/
+cord	/kɔːd/
+cordial	/ˈkɔːrdʒəl/
+core	/kɔː/
+corn	/kɔːn/
+corner	/ˈkɔːnə/
+corporation	/ˌkɔːpəˈrei∫ən/
+correct	/kəˈrekt/
+correction	/kəˈrek∫ən/
+correspond	/kɔːrəˈspɔnd/
+correspondent	/ˌkɔrisˈpɔndənt/
+corresponding	/ˌkɔrisˈpɔndiŋ/
+corridor	/ˈkɔridɔː/
+cost	/kɔst/
+costly	/ˈkɔstli/
+cottage	/ˈkɔtidʒ/
+cotton	/ˈkɔtn/
+cough	/kɔːf/
+could	/kud/
+council	/ˈkaunsil/
+count	/kaunt/
+counter	/ˈkauntə/
+country	/ˈkʌntri/
+countryside	/ˈkʌntrisaid/
+county	/ˈkaunti/
+couple	/ˈkʌpl/
+courage	/ˈkʌridʒ/
+course	/kɔːs/
+court	/kɔːt/
+cousin	/ˈkʌzn/
+cover	/ˈkʌvə/
+cow	/kau/
+coward	/ˈkauəd/
+crack	/kræk/
+craft	/krɑːft/
+crane	/krein/
+crash	/kræ∫/
+crawl	/krɔːl/
+crazy	/ˈkreizi/
+cream	/kriːm/
+create	/kriˈeit/
+creative	/kri(ː)ˈeitiv/
+creature	/ˈkriːt∫ə/
+credit	/ˈkredit/
+creep	/kriːp/
+crew	/kruː/
+cricket	/ˈkrikit/
+crime	/kraim/
+criminal	/ˈkriminl/
+cripple	/ˈkripl/
+crisis	/ˈkraisis/
+critic	/ˈkritik/
+critical	/ˈkritikəl/
+criticism	/ˈkritisiz(ə)m/
+criticize	/ˈkritisaiz/
+crop	/krɔp/
+cross	/krɔs/
+crow	/krəu/
+crowd	/kraud/
+crown	/kraun/
+crude	/kruːd/
+cruel	/ˈkruəl/
+crush	/krʌ∫/
+crust	/krʌst/
+cry	/krai/
+crystal	/ˈkristl/
+cube	/kjuːb/
+cubic	/ˈkjuːbik/
+cucumber	/ˈkjuːkʌmbə/
+cultivate	/ˈkʌltiveit/
+culture	/ˈkʌlt∫ə/
+cunning	/ˈkʌniŋ/
+cup	/kʌp/
+cupboard	/ˈkʌbəd/
+cure	/kjuə/
+curiosity	/ˌkjuəriˈɔsiti/
+curious	/ˈkjuəriəs/
+curl	/kəːl/
+current	/ˈkʌrənt/
+curse	/kəːs/
+curtain	/ˈkəːtən/
+curve	/kəːv/
+cushion	/ˈku∫ən/
+custom	/ˈkʌstəm/
+customer	/ˈkʌstəmə/
+cut	/kʌt/
+cycle	/ˈsaikl/
+daily	/ˈdeili/
+dairy	/ˈdeəri/
+dam	/dæm/
+damage	/ˈdæmidʒ/
+damp	/dæmp/
+dance	/ˈdɑːns/
+danger	/ˈdeindʒə/
+dangerous	/ˈdeindʒrəs/
+dare	/deə/
+daring	/ˈdeəriŋ/
+dark	/dɑːk/
+darling	/ˈdɑːliŋ/
+dash	/dæ∫/
+data	/ˈdeitə/
+date	/deit/
+daughter	/ˈdɔːtə/
+dawn	/dɔːn/
+day	/dei/
+daylight	/ˈdeilait/
+dead	/ded/
+deadly	/ˈdedli/
+deaf	/def/
+deal	/diːl/
+dear	/diə/
+death	/deθ/
+debate	/diˈbeit/
+debt	/det/
+decade	/ˈdekeid/
+decay	/diˈkei/
+deceit	/diˈsiːt/
+deceive	/diˈsiːv/
+December	/diˈsembə/
+decent	/ˈdiːsnt/
+decide	/diˈsaid/
+decision	/diˈsiʒən/
+deck	/dek/
+declare	/diˈkleə/
+decorate	/ˈdekəreit/
+decrease	/diːˈkriːs/
+deduce	/diˈdjuːs/
+deed	/diːd/
+deep	/diːp/
+deepen	/ˈdiːpən/
+deer	/diə/
+defeat	/diˈfiːt/
+defect	/diˈfekt/
+defence	/diˈfens/
+defend	/diˈfend/
+define	/diˈfain/
+definite	/ˈdefinit/
+definitely	/ˈdefinitli/
+definition	/ˌdefiˈni∫ən/
+degree	/diˈgriː/
+delay	/diˈlei/
+delete	/diˈliːt/
+delegation	/ˌdeliˈgei∫ən/
+delicate	/ˈdelikit/
+delicious	/diˈli∫əs/
+delight	/diˈlait/
+deliver	/diˈlivə/
+delivery	/diˈlivəri/
+demand	/diˈmɑːnd/
+democracy	/diˈmɔkrəsi/
+democratic	/ˌdeməˈkrætik/
+demonstrate	/ˈdemənstreit/
+dense	/dens/
+density	/ˈdensiti/
+deny	/diˈnai/
+depart	/diˈpɑːt/
+department	/diˈpɑːtmənt/
+departure	/diˈpɑːt∫ə/
+depend	/diˈpend/
+dependent	/diˈpendənt/
+deposit	/diˈpɔzit/
+depress	/diˈpres/
+depth	/depθ/
+derive	/diˈraiv/
+descend	/diˈsend/
+describe	/disˈkraib/
+description	/disˈkrip∫ən/
+desert	/diˈzəːt/
+deserve	/diˈzəːv/
+design	/diˈzain/
+desirable	/diˈzaiərəbl/
+desire	/diˈzaiə/
+desk	/desk/
+despair	/disˈpeə/
+desperate	/ˈdespərit/
+despise	/disˈpaiz/
+despite	/disˈpait/
+destination	/ˌdestiˈnei∫ən/
+destroy	/disˈtrɔi/
+destruction	/disˈtrʌk∫ən/
+detail	/diˈteil/
+detect	/diˈtekt/
+detection	/diˈtek∫ən/
+determination	/ditəːmiˈnei∫(ə)n/
+determine	/diˈtəːmin/
+develop	/diˈveləp/
+development	/diˈveləpmənt/
+device	/diˈvais/
+devil	/ˈdevl/
+devise	/diˈvaiz/
+devote	/diˈvəut/
+dew	/djuː/
+diagram	/ˈdaiəgræm/
+dial	/ˈdaiəl/
+dialect	/ˈdaiəlekt/
+dialog	/ˈdaiəlɔg/
+diameter	/daiˈæmitə/
+diamond	/ˈdaiəmənd/
+diary	/ˈdaiəri/
+dictate	/dikˈteit/
+dictation	/dikˈtei∫ən/
+dictionary	/ˈdik∫ənəri/
+die	/dai/
+differ	/ˈdifə/
+difference	/ˈdifərəns/
+different	/ˈdifrənt/
+difficult	/ˈdifikəlt/
+difficulty	/ˈdifikəlti/
+dig	/dig/
+digest	/daiˈdʒest/
+digital	/ˈdidʒitl/
+diligent	/ˈdilidʒənt/
+dim	/dim/
+dimension	/diˈmen∫ən/
+dinner	/ˈdinə/
+dip	/dip/
+direct	/diˈrekt/
+direction	/diˈrek∫ən/
+directly	/diˈrektli/
+director	/diˈrektə/
+dirt	/dəːt/
+dirty	/ˈdəːti/
+disable	/disˈeibl/
+disadvantage	/ˌdisədˈvɑːntidʒ/
+disagree	/ˌdisəˈgriː/
+disappear	/ˌdisəˈpiə/
+disappoint	/ˌdisəˈpɔint/
+disaster	/diˈzɑːstə/
+disk	/disk/
+discard	/disˈkɑːd/
+discharge	/disˈt∫ɑːdʒ/
+discipline	/ˈdisiplin/
+disclose	/disˈkləuz/
+discourage	/disˈkʌridʒ/
+discover	/disˈkʌvə/
+discovery	/disˈkʌvəri/
+discuss	/disˈkʌs/
+discussion	/disˈkʌ∫ən/
+disease	/diˈziːz/
+disguise	/disˈgaiz/
+disgust	/disˈgʌst/
+dish	/di∫/
+dishonor	/disˈɔnə/
+dislike	/disˈlaik/
+dismiss	/disˈmis/
+disorder	/disˈɔːdə/
+display	/diˈsplei/
+disposal	/disˈpəuzəl/
+dispose	/disˈpəuz/
+displease	/disˈpliːz/
+dispute	/disˈpjuːt/
+dissatisfy	/ˈdisˈsætisfai/
+dissolve	/diˈzɔlv/
+distance	/ˈdistəns/
+distant	/ˈdistənt/
+distinct	/disˈtiŋkt/
+distinction	/disˈtiŋk∫ən/
+distinguish	/disˈtiŋgwi∫/
+distress	/disˈtres/
+distribute	/disˈtribju(ː)t/
+distribution	/ˌdistriˈbjuː∫ən/
+district	/ˈdistrikt/
+disturb	/disˈtəːb/
+ditch	/dit∫/
+dive	/daiv/
+diverse	/daiˈvəːs/
+divide	/diˈvaid/
+division	/diˈviʒən/
+divorce	/diˈvɔːs/
+do	/duː/
+dock	/dɔk/
+doctor	/ˈdɔktə/
+document	/ˈdɔkjumənt/
+dog	/dɔg/
+dollar	/ˈdɔlə/
+domestic	/dəˈmestik/
+donkey	/ˈdɔŋki/
+door	/dɔː/
+dorm	/dɔːm/
+dormitory	/ˈdɔːmitri/
+dose	/dəus/
+dot	/dɔt/
+double	/ˈdʌbl/
+doubt	/daut/
+doubtful	/ˈdautful/
+doubtless	/ˈdautlis/
+down	/daun/
+downstairs	/daunˈsteəz/
+downward	/ˈdaunwəd/
+dozen	/ˈdʌzn/
+draft	/drɑːft/
+drag	/dræg/
+dragon	/ˈdrægən/
+drain	/drein/
+drama	/ˈdrɑːmə/
+dramatic	/drəˈmætik/
+draw	/drɔː/
+drawer	/ˈdrɔːə/
+drawing	/ˈdrɔːiŋ/
+dread	/dred/
+dream	/driːm/
+dress	/dres/
+drift	/drift/
+drill	/dril/
+drink	/driŋk/
+drip	/drip/
+drive	/draiv/
+driver	/ˈdraivə/
+drop	/drɔp/
+drought	/draut/
+drown	/draun/
+drug	/drʌg/
+drum	/drʌm/
+drunk	/drʌŋk/
+dry	/drai/
+duck	/dʌk/
+due	/djuː/
+dull	/dʌl/
+dumb	/dʌm/
+dump	/dʌmp/
+durable	/ˈdjuərəbl/
+duration	/djuəˈrei∫ən/
+during	/ˈdjuəriŋ/
+dusk	/dʌsk/
+dust	/dʌst/
+duty	/ˈdjuːti/
+dwelling	/ˈdweliŋ/
+dye	/dai/
+dying	/ˈdaiiŋ/
+dynamic	/daiˈnæmik/
+each	/iːt∫/
+eager	/ˈiːgə/
+eagle	/ˈiːgl/
+ear	/iə/
+early	/ˈəːli/
+earn	/əːn/
+earnest	/ˈəːnist/
+earth	/əːθ/
+earthquake	/ˈəːθkweik/
+ease	/iːz/
+easily	/ˈiːzili/
+east	/iːst/
+eastern	/ˈiːstən/
+easy	/ˈiːzi/
+eat	/iːt/
+echo	/ˈekəu/
+economic	/ˌiːkəˈnɔmik/
+economical	/ˌiːkəˈnɔmikəl/
+economy	/i(ː)ˈkɔnəmi/
+edge	/edʒ/
+edition	/iˈdi∫ən/
+editor	/ˈeditə/
+educate	/ˈedju(ː)keit/
+education	/ˌedju(ː)ˈkei∫ən/
+effect	/iˈfekt/
+effective	/iˈfektiv/
+efficiency	/iˈfi∫ənsi/
+efficient	/iˈfi∫ənt/
+effort	/ˈefət/
+egg	/eg/
+eight	/eit/
+eighteen	/ˈeiˈtiːn/
+eighth	/eitθ/
+eighty	/ˈeiti/
+either	/ˈaiðə(r)/
+elaborate	/iˈlæbərət/
+elastic	/iˈlæstik/
+elbow	/ˈelbəu/
+elder	/ˈeldə(r)/
+elect	/iˈlekt/
+election	/iˈlek∫(ə)n/
+electric	/iˈlektrik/
+electrical	/iˈlektrik(ə)l/
+electricity	/ilekˈtrisiti/
+electron	/iˈlektrɔn/
+electronic	/ilekˈtrɔnik/
+electronics	/ilekˈtrɔniks/
+element	/ˈelimənt/
+elementary	/ˌeliˈmentəri/
+elephant	/ˈelifənt/
+elevator	/ˈeliveitə/
+eleven	/iˈlevən/
+eleventh	/iˈlevnθ/
+eliminate	/iˈlimineit/
+elimination	/iˌlimiˈnei∫ən/
+else	/els/
+elsewhere	/ˈelsˈweə/
+embarrass	/imˈbærəs/
+embrace	/imˈbreis/
+emerge	/iˈməːdʒ/
+emergency	/iˈməːdʒnsi/
+emit	/iˈmit/
+emotion	/iˈməu∫ən/
+emotional	/iˈməu∫ənl/
+emperor	/ˈempərə/
+emphasis	/ˈemfəsis/
+emphasize	/ˈemfəsaiz/
+empire	/ˈempaiə/
+employ	/imˈplɔi/
+employee	/ˌemplɔiˈiː/
+employer	/imˈplɔiə/
+employment	/imˈplɔimənt/
+empty	/ˈempti/
+enable	/iˈneibl/
+enclose	/inˈkləuz/
+encounter	/inˈkauntə/
+encourage	/inˈkʌridʒ/
+end	/end/
+ending	/ˈendiŋ/
+endless	/ˈendlis/
+endure	/inˈdjuə/
+enemy	/ˈenimi/
+energy	/ˈenədʒi/
+enforce	/inˈfɔːs/
+engage	/inˈgeidʒ/
+engine	/ˈendʒin/
+engineer	/ˌendʒiˈniə/
+engineering	/ˌendʒiˈniəriŋ/
+England	/ˈinglənd/
+English	/ˈiŋgli∫/
+Englishman	/ˈiŋgli∫mən/
+enjoy	/inˈdʒɔi/
+enlarge	/inˈlɑːdʒ/
+enormous	/iˈnɔːməs/
+enough	/iˈnʌf/
+ensure	/inˈ∫uər/
+enter	/ˈentə/
+entertain	/ˌentəˈtein/
+enthusiasm	/inˈθjuːziæzəm/
+enthusiastic	/inθjuːziˈæstik/
+entire	/inˈtaiə/
+entitle	/inˈtaitl/
+entrance	/inˈtrɑːns/
+entry	/ˈentri/
+envelope	/ˈenviləup/
+environment	/inˈvaiərənmənt/
+envy	/ˈenvi/
+equal	/ˈiːkwəl/
+equality	/i(ː)ˈkwɔliti/
+equation	/iˈkwei∫ən/
+equip	/iˈkwip/
+equipment	/iˈkwipmənt/
+equivalent	/iˈkwivələnt/
+era	/ˈiərə/
+erect	/iˈrekt/
+error	/ˈerə/
+escape	/isˈkeip/
+especially	/isˈpe∫əli/
+essay	/ˈesei/
+essential	/iˈsen∫əl/
+establish	/isˈtæbli∫/
+establishment	/isˈtæbli∫mənt/
+estimate	/ˈestimeit/
+Europe	/ˈjuərəp/
+European	/ˌjuərəˈpi(ː)ən/
+evaluate	/iˈvæljueit/
+evaporate	/iˈvæpəreit/
+eve	/iːv/
+even	/ˈiːvən/
+evening	/ˈiːvniŋ/
+event	/iˈvent/
+eventually	/iˈventjuəli/
+ever	/ˈevə/
+every	/ˈevri/
+everybody	/ˈevribɔdi/
+everyday	/ˈevridei/
+everyone	/ˈevriwʌn/
+everything	/ˈevriθiŋ/
+everywhere	/ˈevriweə(r)/
+evidence	/ˈevidəns/
+evident	/ˈevidənt/
+evil	/ˈiːvl/
+evolution	/evəˈluː∫ən/
+evolve	/iˈvɔlv/
+exact	/igˈzækt/
+exactly	/igˈzæktli/
+exaggerate	/igˈzædʒəreit/
+exam	/igˈzæm/
+examination	/igˌzæmiˈnei∫ən/
+examine	/igˈzæmin/
+example	/igˈzɑːmpl/
+exceed	/ikˈsiːd/
+exceedingly	/ikˈsiːdiŋli/
+excellent	/ˈeksələnt/
+except	/ikˈsept/
+exception	/ikˈsep∫ən/
+excess	/ˈekses/
+excessive	/ikˈsesiv/
+exchange	/iksˈt∫eindʒ/
+excite	/ikˈsait/
+exciting	/ikˈsaitiŋ/
+exclaim	/iksˈkleim/
+exclude	/iksˈkluːd/
+exclusively	/ikˈskluːsivli/
+excursion	/iksˈkəː∫ən/
+excuse	/iksˈkjuːz/
+execute	/ˈeksikjuːt/
+executive	/igˈzekjutiv/
+exercise	/ˈeksəsaiz/
+exert	/igˈzəːt/
+exhaust	/igˈzɔːst/
+exhibit	/igˈzibit/
+exhibition	/ˌeksiˈbi∫ən/
+exist	/igˈzist/
+existence	/igˈzistəns/
+exit	/ˈeksit/
+expand	/iksˈpænd/
+expansion	/iksˈpæn∫ən/
+expect	/iksˈpekt/
+expectation	/ˌekspekˈtei∫ən/
+expense	/ikˈspens/
+expensive	/iksˈpensiv/
+experience	/iksˈpiəriəns/
+experiment	/iksˈperimənt/
+experimental	/ikˈsperiment(ə)l/
+expert	/ˈekspəːt/
+explain	/iksˈplein/
+explanation	/ˌekspləˈnei∫ən/
+explode	/iksˈpləud/
+exploit	/iksˈplɔit/
+explore	/iksˈplɔː/
+explosion	/iksˈpləuʒən/
+explosive	/iksˈpləusiv/
+export	/ˈekspɔːt/
+expose	/iksˈpəuz/
+exposure	/iksˈpəuʒə/
+express	/iksˈpres/
+expression	/iksˈpre∫ən/
+extend	/iksˈtend/
+extension	/iksˈten∫ən/
+extensive	/iksˈtensiv/
+extent	/iksˈtent/
+exterior	/eksˈtiəriə/
+external	/eksˈtəːnl/
+extra	/ˈekstrə/
+extraordinary	/ikˈstrɔːdəneri/
+extreme	/ikˈstriːm/
+extremely	/iksˈtriːmli/
+eye	/ai/
+eyesight	/ˈaisait/
+fable	/ˈfeibl/
+fabric	/ˈfæbrik/
+face	/feis/
+facility	/fəˈsiliti/
+fact	/fækt/
+factor	/ˈfæktə/
+factory	/ˈfæktəri/
+faculty	/ˈfækəlti/
+fade	/feid/
+Fahrenheit	/ˈfærənhait/
+fail	/feil/
+failure	/ˈfeiljə/
+faint	/feint/
+fair	/feə/
+fairly	/ˈfeəli/
+faith	/feiθ/
+faithful	/ˈfeiθful/
+fall	/fɔːl/
+false	/fɔːls/
+fame	/feim/
+familiar	/fəˈmiljə/
+family	/ˈfæmili/
+famine	/ˈfæmin/
+famous	/ˈfeiməs/
+fan	/fæn/
+fancy	/ˈfænsi/
+far	/fɑː/
+fare	/feə/
+farewell	/ˈfeəˈwel/
+farm	/fɑːm/
+farmer	/ˈfɑːmə/
+farther	/ˈfɑːðə/
+fashion	/ˈfæ∫ən/
+fashionable	/ˈfæ∫ənəbl/
+fast	/fɑːst/
+fasten	/fæ sn/
+fatal	/ˈfeitl/
+fate	/feit/
+father	/ˈfɑːðə/
+father-in-law	/ˈfɑːðərinlɔː/
+fatigue	/fəˈtiːg/
+fault	/fɔːlt/
+faulty	/ˈfɔːlti/
+favour	/ˈfeivə/
+favourable	/ˈfeiərəbl/
+favourite	/ˈfeivərit/
+fear	/fiə/
+fearful	/ˈfiəful/
+feasible	/ˈfiːzəbl/
+feast	/fiːst/
+feather	/ˈfeðə/
+feature	/ˈfiːt∫ə/
+February	/ˈfebruəri/
+federal	/ˈfedərəl/
+fee	/fiː/
+feeble	/ˈfiːbl/
+feed	/fiːd/
+feedback	/ˈfiːdbæk/
+feel	/fiːl/
+feeling	/ˈfiːliŋ/
+fellow	/ˈfeləu/
+female	/ˈfiːmeil/
+fence	/fens/
+fertile	/ˈfəːtail/
+fertilizer	/ˈfəːtiˌlaizə/
+festival	/ˈfestəvəl/
+fetch	/fet∫/
+fever	/ˈfiːvə/
+few	/fjuː/
+fibre	/ˈfaibə/
+fiction	/ˈfik∫ən/
+field	/fiːld/
+fierce	/fiəs/
+fifteen	/ˈfifˈtiːn/
+fifth	/fifθ/
+fifty	/ˈfifti/
+fight	/fait/
+figure	/ˈfigə/
+file	/fail/
+fill	/fil/
+film	/film/
+filter	/ˈfiltə/
+final	/ˈfainəl/
+finally	/ˈfainəli/
+finance	/faiˈnæns/
+financial	/faiˈnæn∫əl/
+find	/faind/
+finding	/ˈfaindiŋ/
+fine	/fain/
+finger	/ˈfiŋgə/
+finish	/ˈfini∫/
+fire	/ˈfaiə/
+fireman	/ˈfaiəmən/
+firm	/fəːm/
+first	/fəːst/
+fish	/fi∫/
+fisherman	/ˈfi∫əmən/
+fist	/fist/
+fit	/fit/
+five	/faiv/
+fix	/fiks/
+flag	/flæg/
+flame	/fleim/
+flare	/fleə/
+flash	/flæ∫/
+flat	/flæt/
+flavour	/ˈfleivə/
+fleet	/fliːt/
+flesh	/fle∫/
+flexible	/ˈfleksəbl/
+flight	/flait/
+float	/fləut/
+flock	/flɔk/
+flood	/flʌd/
+floor	/flɔə/
+flour	/ˈflauə/
+flourish	/ˈflʌri∫/
+flow	/fləu/
+flower	/ˈflauə/
+flu	/fluː/
+fluent	/ˈflu(ː)ənt/
+fluid	/ˈflu(ː)id/
+flush	/flʌ∫/
+fly	/flai/
+focus	/ˈfəukəs/
+fog	/fɔg/
+fold	/fəuld/
+folk	/fəuk/
+follow	/ˈfɔləu/
+following	/ˈfɔləuiŋ/
+fond	/fɔnd/
+food	/fuːd/
+fool	/fuːl/
+foolish	/ˈfuːli∫/
+foot	/fut/
+football	/ˈfutbɔːl/
+footstep	/ˈfutstep/
+for	/fɔː/
+forbid	/fəˈbid/
+force	/fɔːs/
+forecast	/ˈfɔːkɑːst/
+forehead	/ˈfɔːhed/
+foreign	/ˈfɔrin/
+foreigner	/ˈfɔrinə/
+foremost	/ˈfɔːməust/
+forest	/ˈfɔrist/
+forever	/fəˈrevə/
+forget	/fəˈget/
+forgive	/fəˈgiv/
+fork	/fɔːk/
+form	/fɔːm/
+formal	/ˈfɔːməl/
+formation	/fɔːˈmei∫ən/
+former	/ˈfɔːmə/
+formula	/ˈfɔːmjulə/
+forth	/fɔːθ/
+fortnight	/ˈfɔːtnait/
+fortunate	/ˈfɔːt∫ənit/
+fortunately	/ˈfɔːt∫ənətli/
+fortune	/ˈfɔːt∫ən/
+forty	/ˈfɔːti/
+forward	/ˈfɔːwəd/
+found	/faund/
+foundation	/faunˈdei∫ən/
+fountain	/ˈfauntin/
+four	/fɔː/
+fourteen	/ˈfɔːˈtiːn/
+fourth	/fɔːθ/
+fox	/fɔːks/
+fraction	/ˈfræk∫ən/
+fragment	/ˈfrægmənt/
+frame	/freim/
+framework	/ˈfreimwəːk/
+France	/frɑːns/
+frank	/fræŋk/
+free	/friː/
+freedom	/ˈfriːdəm/
+freely	/ˈfriːli/
+freeze	/friːz/
+freight	/freit/
+French	/frent∫/
+frequency	/ˈfriːkwənsi/
+frequent	/ˈfriːkwənt/
+frequently	/ˈfriːkwənt/
+fresh	/fre∫/
+friction	/ˈfrik∫ən/
+Friday	/ˈfraidi/
+fridge	/fridʒ/
+friend	/frend/
+friendly	/ˈfrendli/
+friendship	/ˈfrend∫ip/
+frighten	/ˈfraitn/
+frog	/frɔg/
+from	/frɔm/
+front	/frʌnt/
+frontier	/ˈfrʌntjə/
+frost	/frɔst/
+frown	/fraun/
+fruit	/fruːt/
+fruitful	/ˈfruːtful/
+fry	/frai/
+fuel	/fjuəl/
+fulfil	/fulˈfil/
+full	/ful/
+fun	/fʌn/
+function	/ˈfʌŋk∫ən/
+fund	/fʌnd/
+fundamental	/ˌfʌndəˈmentl/
+funeral	/ˈfjuːnərəl/
+funny	/ˈfʌni/
+fur	/fəː/
+furious	/ˈfjuəriəs/
+furnace	/ˈfəːnis/
+furnish	/ˈfəːni∫/
+furniture	/ˈfəːnit∫ə/
+further	/ˈfəːðə/
+furthermore	/fəːðəˈmɔː(r)/
+future	/ˈfjuːt∫ə/
+gain	/gein/
+gallery	/ˈgæləri/
+gallon	/ˈgælən/
+game	/geim/
+gang	/gæŋ/
+gap	/gæp/
+garage	/gə rɑː(d)ʒ/
+garbage	/ˈgɑːbidʒ/
+garden	/ˈgɑːdn/
+gardener	/ˈgɑːdnə(r)/
+gas	/gæs/
+gaseous	/ˈgæsiəs/
+gasoline	/ˈgæsəliːn/
+gasp	/gɑːsp/
+gate	/geit/
+gather	/ˈgæðə/
+gauge	/gedʒ/
+gay	/gei/
+gaze	/geiz/
+general	/ˈdʒenərəl/
+generally	/ˈdʒenərəli/
+generate	/ˈdʒenəˌreit/
+generation	/ˌdʒenəˈrei∫ən/
+generator	/ˈdʒenəreitə/
+generous	/ˈdʒenərəs/
+genius	/ˈdʒiːnjəs/
+gentle	/ˈdʒentl/
+gentleman	/ˈdʒentlmən/
+gently	/ˈdʒentli/
+genuine	/ˈdʒenjuin/
+geography	/dʒiˈɔgrəfi/
+geometry	/dʒiˈɔmitri/
+germ	/dʒəːm/
+German	/ˈdʒəːmən/
+Germany	/ˈdʒəːməni/
+gesture	/ˈdʒest∫ə/
+get	/get/
+ghost	/gəust/
+giant	/ˈdʒaiənt/
+gift	/gift/
+girl	/gəːl/
+give	/giv/
+glad	/glæd/
+glance	/glɑːns/
+glare	/gleə/
+glass	/glɑːs/
+glide	/glaid/
+glimpse	/glimps/
+glitter	/ˈglitə/
+globe	/gləub/
+gloomy	/ˈgluːmi/
+glorious	/ˈglɔːriəs/
+glory	/ˈglɔːri/
+glove	/glʌv/
+glow	/gləu/
+glue	/gluː/
+go	/gəu/
+goal	/gəul/
+goat	/gəut/
+God	/gɔd/
+gold	/gəuld/
+golden	/ˈgəuldən/
+golf	/gɔlf/
+good	/gud/
+goodbye	/ˌgudˈbai/
+goodness	/ˈgudnis/
+goods	/gudz/
+goose	/guːs/
+govern	/ˈgʌvən/
+government	/ˈgʌvənmənt/
+governor	/ˈgʌvənə/
+gown	/gaun/
+grace	/greis/
+graceful	/ˈgreisful/
+gracious	/ˈgrei∫əs/
+grade	/greid/
+gradual	/ˈgrædjuəl/
+gradually	/ˈgrædjuəli/
+graduate	/ˈgrædjueit/
+grain	/grein/
+gramme	/græm/
+grammar	/ˈgræmə/
+grammatical	/grəˈmætikəl/
+grand	/grænd/
+granddaughter	/ˈgrændɔːtə(r)/
+grandfather	/ˈgrændˌfɑːðə/
+grandmother	/ˈgrændˌmʌðə/
+grandson	/ˈgrændsʌn/
+grant	/grɑːnt/
+grape	/greip/
+graph	/grɑːf/
+grasp	/grɑːsp/
+grass	/grɑːs/
+grateful	/ˈgreitful/
+gratitude	/ˈgrætitjuːd/
+grave	/greiv/
+gravity	/ˈgræviti/
+gray	/grei/
+great	/greit/
+greatly	/ˈgreitli/
+greedy	/ˈgriːdi/
+Greek	/griːk/
+green	/griːn/
+greenhouse	/ˈgriːnhaus/
+greet	/griːt/
+greeting	/ˈgriːtiŋ/
+grey	/grei/
+grieve	/griːv/
+grind	/graind/
+grip	/grip/
+groan	/grəun/
+grocer	/ˈgrəusə/
+grocery	/ˈgrəusəri/
+gross	/grəus/
+ground	/graund/
+group	/gruːp/
+grow	/grəu/
+growth	/grəuθ/
+guarantee	/ˌgærənˈtiː/
+guard	/gɑːd/
+guess	/ges/
+guest	/gest/
+guidance	/ˈgaidəns/
+guide	/gaid/
+guilty	/ˈgilti/
+gulf	/gʌlf/
+gum	/gʌm/
+gun	/gʌn/
+gunpowder	/ˈgʌnpaudə(r)/
+gymnasium	/dʒimˈneiziəm/
+habit	/ˈhæbit/
+habitual	/həˈbitjuəl/
+hair	/heə/
+haircut	/ˈheəkʌt/
+half	/hɑːf/
+hall	/hɔːl/
+halt	/hɔːlt/
+hamburger	/ˈhæmbəːgə/
+hammer	/ˈhæmə/
+hand	/hænd/
+handful	/ˈhændful/
+handkerchief	/ˈhæŋkət∫iːf/
+handle	/ˈhændl/
+handsome	/ˈhænsəm/
+handwriting	/ˈhændˌraitiŋ/
+handy	/ˈhændi/
+hang	/hæŋ/
+happen	/ˈhæpən/
+happiness	/ˈhæpinis/
+happy	/ˈhæpi/
+harbour	/ˈhɑːbə/
+hard	/hɑːd/
+harden	/ˈhɑːdn/
+hardly	/ˈhɑːdli/
+hardship	/ˈhɑːdˌ∫ip/
+hardware	/ˈhɑːdweə/
+hare	/heə/
+harm	/hɑːm/
+harmful	/ˈhɑːmful/
+harmony	/ˈhɑːməni/
+harness	/ˈhɑːnis/
+harsh	/hɑː∫/
+harvest	/ˈhɑːvist/
+haste	/heist/
+hasten	/ˈheisn/
+hasty	/ˈheisti/
+hat	/hæt/
+hatch	/hæt∫/
+hate	/heit/
+hateful	/ˈheitful/
+hatred	/ˈheitrid/
+have	/hæv/
+hawk	/hɔːk/
+hay	/hei/
+hazard	/ˈhæzəd/
+he	/hiː/
+head	/hed/
+headache	/ˈhedeik/
+heading	/ˈhediŋ/
+headline	/ˈhedlain/
+headmaster	/hedˈmɑːstə(r)/
+headquarters	/ˈhedˌkwɔːtəz/
+heal	/hiːl/
+health	/helθ/
+healthy	/ˈhelθi/
+heap	/hiːp/
+hear	/hiə/
+heart	/hɑːt/
+heat	/hiːt/
+heating	/ˈhiːtiŋ/
+heaven	/ˈhevn/
+heavily	/ˈhevili/
+heavy	/ˈhiːvi/
+hedge	/hedʒ/
+heel	/hiːl/
+height	/hait/
+heir	/eə/
+helicopter	/ˈhelikɔptə/
+hell	/hel/
+hello	/ˈheləu/
+helmet	/ˈhelmit/
+help	/help/
+helpful	/ˈhelpful/
+helpless	/ˈhelplis/
+hen	/hen/
+hence	/hens/
+her	/həː/
+herd	/həːd/
+here	/hiə/
+hero	/ˈhiərəu/
+heroic	/hiˈrəuik/
+heroine	/ˈherəuin/
+hers	/həːz/
+herself	/həːˈself/
+hesitate	/ˈheziteit/
+hi	/hai/
+hide	/haid/
+high	/hai/
+highly	/ˈhaili/
+highway	/ˈhaiwei/
+hill	/hil/
+hillside	/ˈhilsaid/
+him	/him/
+himself	/himˈself/
+hint	/hint/
+hire	/ˈhaiə/
+his	/hiz/
+historical	/hisˈtɔrikəl/
+history	/ˈhistəri/
+hit	/hit/
+hobby	/ˈhɔbi/
+hold	/həuld/
+hole	/həul/
+holiday	/ˈhɔlidei/
+hollow	/ˈhɔləu/
+holy	/ˈhəuli/
+home	/həum/
+honest	/ˈɔnist/
+honesty	/ˈɔnisti/
+honey	/ˈhʌni/
+honeymoon	/ˈhʌnimuːn/
+honour	/ˈɔnə/
+honourable	/ˈɔnərəbl/
+hook	/huk/
+hope	/həup/
+hopeful	/ˈhəupful/
+hopeless	/ˈhəuplis/
+horizon	/həˈraizn/
+horizontal	/ˌhɔriˈzɔntl/
+horn	/hɔːn/
+horror	/ˈhɔrə/
+horse	/hɔːs/
+horsepower	/ˈhɔːsˌpauə/
+hospital	/ˈhɔspitl/
+host	/həust/
+hostess	/ˈhəustis/
+hostile	/ˈhɔstail/
+hot	/hɔt/
+hotel	/həuˈtel/
+hour	/ˈauə/
+house	/haus/
+household	/ˈhaushəuld/
+housewife	/ˈhauswaif/
+how	/hau/
+however	/hauˈevə/
+huge	/hjuːdʒ/
+human	/ˈhjuːmən/
+humble	/ˈhʌmbl/
+humid	/ˈhjuːmid/
+humorous	/ˈhjuːmərəs/
+humour	/ˈhjuːmə/
+hundred	/ˈhʌndrid/
+hunger	/ˈhʌŋgə/
+hungry	/ˈhʌŋgri/
+hunt	/hʌnt/
+hurry	/ˈhʌri/
+hurt	/həːt/
+husband	/ˈhʌzbənd/
+hut	/hʌt/
+hydrogen	/ˈhaidrəudʒən/
+I	/ˈaɪ/
+ice	/ais/
+ice-cream	/ˈaiskriːm/
+idea	/aiˈdiə/
+ideal	/aiˈdiəl/
+identical	/aiˈdentikəl/
+identify	/aiˈdentifai/
+idiom	/ˈidiəm/
+idle	/ˈaidl/
+i.e.	/ˈaiˈiː/
+if	/if/
+ignorant	/ˈignərənt/
+ignore	/igˈnɔː/
+ill	/il/
+illegal	/iˈliːgəl/
+illness	/ˈilnis/
+illustrate	/ˈiləstreit/
+illustration	/ˌiləsˈtrei∫ən/
+image	/ˈimidʒ/
+imaginary	/iˈmædʒinəri/
+imagination	/iˌmædʒiˈnei∫ən/
+imagine	/iˈmædʒin/
+imitate	/ˈimiteit/
+immediate	/iˈmiːdjət/
+immediately	/iˈmiːdjətli/
+immense	/iˈmens/
+immigrant	/ˈimigrənt/
+impact	/ˈimpækt/
+impatient	/imˈpei∫ənt/
+implication	/ˌimpliˈkei∫ən/
+imply	/imˈplai/
+import	/imˈpɔːt/
+importance	/imˈpɔːtəns/
+important	/imˈpɔːtənt/
+impose	/imˈpəuz/
+impossible	/imˈpɔsəbl/
+impress	/imˈpres/
+impression	/imˈpre∫ən/
+impressive	/imˈpresiv/
+imprison	/imˈprizn/
+improve	/imˈpruːv/
+improvement	/imˈpruːvmənt/
+in	/in/
+inch	/int∫/
+incident	/ˈinsidənt/
+incline	/inˈklain/
+include	/inˈ kluːd/
+income	/ˈinkəm/
+incorrect	/ˌinkəˈrekt/
+increase	/inˈkriːs/
+increasingly	/inˈkriːsiŋli/
+indeed	/inˈdiːd/
+indefinite	/inˈdefinit/
+independence	/ˌindiˈpendəns/
+independent	/indiˈpendənt/
+index	/ˈindeks/
+India	/ˈindjə/
+Indian	/ˈindjən/
+indicate	/ˈindikeit/
+indication	/ˌindiˈkei∫ən/
+indifferent	/inˈdifərənt/
+indignant	/inˈdignənt/
+indirect	/ˌindiˈrekt/
+indispensable	/ˌindisˈpensəbl/
+individual	/ˌindiˈvidjuəl/
+indoors	/ˈinˈdɔːz/
+industrial	/inˈdʌstriəl/
+industrialize	/inˈdʌstriəlaiz/
+industry	/ˈindəstri/
+inefficient	/ˌiniˈfi∫ənt/
+inevitable	/inˈevitəbl/
+inexpensive	/ˌiniksˈpensiv/
+infant	/ˈinfənt/
+infect	/inˈfekt/
+infer	/inˈfəː/
+inferior	/inˈfiəriə/
+infinite	/ˈinfinit/
+influence	/ˈinfluəns/
+influential	/ˌinfluˈen∫əl/
+inform	/inˈfɔːm/
+information	/ˌinfəˈmei∫ən/
+inhabit	/inˈhæbit/
+inhabitant	/inˈhæbitənt/
+inherit	/inˈherit/
+initial	/iˈni∫əl/
+injection	/inˈdʒek∫ən/
+injure	/ˈindʒə/
+injury	/ˈindʒəri/
+ink	/iŋk/
+inn	/in/
+inner	/ˈinə/
+innocent	/ˈinəsnt/
+input	/ˈinput/
+inquire	/inˈkwaiə/
+inquiry	/inˈkwaiəri/
+insect	/ˈinsekt/
+insert	/inˈsəːt/
+inside	/ˈinˈsaid/
+insist	/inˈsist/
+inspect	/inˈspekt/
+inspection	/inˈspek∫ən/
+inspire	/inˈspaiə/
+install	/inˈstɔːl/
+installation	/ˌinstəˈlei∫ən/
+instance	/ˈinstəns/
+instant	/ˈinstənt/
+instantly	/ˈinstəntli/
+instead	/inˈsted/
+instinct	/ˈinstiŋkt/
+institute	/ˈinstitjuːt/
+institution	/ˌinstiˈtjuː∫ən/
+instruct	/inˈstrʌkt/
+instruction	/inˈstrʌk∫ən/
+instrument	/ˈinstrumənt/
+insufficient	/ˌinsəˈfi∫ənt/
+insult	/ˈinsʌlt/
+insurance	/inˈ∫uərəns/
+insure	/inˈ∫uə/
+intellectual	/ˌintiˈlektjuəl/
+intelligence	/inˈtelidʒəns/
+intelligent	/inˈtelidʒənt/
+intend	/inˈtend/
+intense	/inˈtens/
+intensity	/inˈtensiti/
+intensive	/inˈtensiv/
+intention	/inˈten∫ən/
+intentional	/inˈten∫ənəl/
+interaction	/ˌintərˈæk∫ən/
+interest	/ˈintrist/
+interesting	/ˈintristiŋ/
+interfere	/ˌintəˈfiə/
+interference	/ˌintəˈfiərəns/
+interior	/inˈtiəriə/
+intermediate	/ˌintəˈmiːdjət/
+internal	/inˈtəːnl/
+international	/ˌintə(ː)ˈnæ∫ənəl/
+interpret	/inˈtəːprit/
+interpretation	/inˌtəːpriˈtei∫ən/
+interpreter	/inˈtəːpritə/
+interrupt	/ˌintəˈrʌpt/
+interruption	/ˌintəˈrʌp∫ən/
+interval	/ˈintəvəl/
+interview	/ˈintəvjuː/
+intimate	/ˈintimit/
+into	/ˈintu/
+introduce	/ˌintrəˈdjuːs/
+introduction	/ˌintrəˈdʌk∫ən/
+invade	/inˈveid/
+invasion	/inˈveiʒən/
+invent	/inˈvent/
+invention	/inˈven∫ən/
+inventor	/inˈventə(r)/
+invest	/inˈvest/
+investigate	/inˈvestigeit/
+investigation	/inˌvestiˈgei∫ən/
+investment	/inˈvestmənt/
+invisible	/inˈvizəbl/
+invitation	/ˌinviˈtei∫ən/
+invite	/inˈvait/
+involve	/inˈvɔlv/
+inward	/ˈinwəd/
+iron	/ˈaiən/
+irregular	/iˈregjulə/
+island	/ˈailənd/
+isolate	/ˈaisəleit/
+issue	/ˈisjuː/
+it	/it/
+Italian	/iˈtæljən/
+item	/ˈaitəm/
+its	/its/
+itself	/itˈself/
+jacket	/ˈdʒækit/
+jail	/dʒeil/
+jam	/dʒæm/
+January	/ˈdʒænjuəri/
+Japan	/dʒəˈpæn/
+Japanese	/dʒæpəˈniːz/
+jar	/dʒɑː/
+jaw	/dʒɔː/
+jazz	/dʒæz/
+jealous	/ˈdʒeləs/
+jet	/dʒet/
+jewel	/ˈdʒuːəl/
+jewish	/ˈdʒu(ː)i∫/
+job	/dʒɔb/
+join	/dʒɔin/
+joint	/dʒɔint/
+joke	/dʒəuk/
+jolly	/ˈdʒɔli/
+journal	/ˈdʒəːnl/
+journalist	/ˈdʒəːnəlist/
+journey	/ˈdʒəːni/
+joy	/dʒɔi/
+joyful	/ˈdʒɔiful/
+judge	/dʒʌdʒ/
+judgement	/ˈdʒʌdʒmənt/
+juice	/dʒuːs/
+July	/dʒu(ː)ˈlai/
+jump	/dʒʌmp/
+June	/dʒuːn/
+jungle	/ˈdʒʌŋgl/
+junior	/ˈdʒuːnjə/
+jury	/ˈdʒuəri/
+just	/dʒʌst/
+justice	/ˈdʒʌstis/
+justify	/ˈdʒʌstifai/
+keen	/kiːn/
+keep	/kiːp/
+keeper	/ˈkiːpə/
+kettle	/ˈketl/
+key	/kiː/
+keyboard	/ˈkiːbɔːd/
+kick	/kik/
+kid	/kid/
+kill	/kil/
+kilogram	/ˈkiləgræm/
+kilometer	/ˈkiləmiːtə/
+kind	/kaind/
+kindness	/ˈkaindnis/
+king	/kiŋ/
+kingdom	/ˈkiŋdəm/
+kiss	/kis/
+kitchen	/ˈkit∫in/
+kite	/kait/
+knee	/niː/
+kneel	/niːl/
+knife	/naif/
+knit	/nit/
+knob	/nɔb/
+knock	/nɔk/
+knot	/nɔt/
+know	/nəu/
+knowledge	/ˈnɔlidʒ/
+lab	/læb/
+label	/ˈleibl/
+laboratory	/ˈlæbərətəri/
+labour	/ˈleibə(r)/
+lace	/leis/
+lack	/læk/
+ladder	/ˈlædə/
+lady	/ˈleidi/
+lag	/læg/
+lake	/leik/
+lamb	/læm/
+lame	/leim/
+lamp	/læmp/
+land	/lænd/
+landing	/ˈlændiŋ/
+landlady	/ˈlændleidi/
+landlord	/ˈlændlɔːd/
+lane	/lein/
+language	/ˈlæŋgwidʒ/
+lantern	/ˈlæntən/
+lap	/læp/
+large	/lɑːdʒ/
+largely	/ˈlɑːdʒli/
+laser	/ˈleizə/
+last	/lɑːst/
+late	/leit/
+lately	/ˈleitli/
+later	/ˈleitə/
+Latin	/ˈlætin/
+latter	/ˈlætə/
+laugh	/lɑːf/
+laughter	/ˈlɑːftə/
+launch	/lɔːnt∫/
+laundry	/ˈlɔːndri/
+lavatory	/ˈlævəˌtəri/
+law	/lɔː/
+lawn	/lɔːn/
+lawyer	/ˈlɔːjə/
+lay	/lei/
+layer	/ˈleiə/
+layout	/ˈleiˌaut/
+lazy	/ˈleizi/
+lead	/liːd/
+leader	/ˈliːdə/
+leadership	/ˈliːdə∫ip/
+leading	/ˈliːdiŋ/
+leaf	/liːf/
+league	/liːg/
+leak	/liːk/
+lean	/liːn/
+leap	/liːp/
+learn	/ləːn/
+learned	/ˈləːnid/
+learning	/ˈləːniŋ/
+least	/liːst/
+leather	/ˈleðə/
+leave	/liːv/
+lecture	/ˈlekt∫ə/
+left	/left/
+leg	/leg/
+legal	/ˈliːgəl/
+legend	/ˈledʒənd/
+leisure	/ˈliːʒə/
+lemon	/ˈlemən/
+lend	/lend/
+length	/leŋθ/
+lens	/lenz/
+less	/les/
+lessen	/ˈlesn/
+lesson	/ˈlesn/
+lest	/lest/
+let	/let/
+letter	/ˈletə/
+level	/ˈlev(ə)l/
+lever	/ˈliːvə/
+liable	/ˈlaiəbl/
+liar	/ˈlaiə/
+liberal	/ˈlibərəl/
+liberate	/ˈlibəreit/
+liberation	/ˌlibəˈrei∫ən/
+liberty	/ˈlibəti/
+librarian	/laiˈbreəriən/
+library	/ˈlaibrəri/
+license	/ˈlaisəns/
+lick	/lik/
+lid	/lid/
+lie	/lai/
+lieutenant	/ljuːˈtenənt/
+life	/laif/
+lifetime	/ˈlaiftaim/
+lift	/lift/
+light	/lait/
+lighten	/ˈlaitn/
+lightly	/ˈlaitli/
+lightning	/ˈlaitniŋ/
+like	/laik/
+likely	/ˈlaikli/
+likewise	/ˈlaikˌwaiz/
+limb	/lim/
+lime	/laim/
+limit	/ˈlimit/
+limitation	/ˌlimiˈtei∫ən/
+limited	/ˈlimitid/
+line	/lain/
+linen	/ˈlinin/
+liner	/ˈlainə(r)/
+link	/liŋk/
+lion	/ˈlaiən/
+lip	/lip/
+liquid	/ˈlikwid/
+liquor	/ˈlikə/
+list	/list/
+listen	/ˈlisn/
+listener	/ˈlisnə/
+liter	/ˈliːtə/
+literary	/ˈlitərəri/
+literature	/ˈlitərit∫ə/
+little	/ˈlitl/
+live	/liv/
+lively	/ˈlaivli/
+liver	/ˈlivə/
+living	/ˈliviŋ/
+living-room	/?l?v?? ru?m/
+load	/ləud/
+loaf	/ləuf/
+loan	/ləun/
+local	/ˈləukəl/
+locate	/ləuˈkeit/
+location	/ləuˈkei∫ən/
+lock	/lɔk/
+locomotive	/ˌləukəˈməutiv/
+lodge	/lɔdʒ/
+log	/lɔg/
+logic	/ˈlɔdʒik/
+logical	/ˈlɔdʒikəl/
+lonely	/ˈləunli/
+long	/lɔŋ/
+look	/luk/
+loop	/luːp/
+loose	/luːs/
+loosen	/ˈluːsn/
+lord	/lɔːd/
+lorry	/ˈlɔri/
+lose	/luːz/
+loss	/lɔs/
+lot	/lɔt/
+loud	/laud/
+loudspeaker	/ˈlaudˈspiːkə/
+love	/lʌv/
+lovely	/ˈlʌvli/
+lover	/ˈlʌvə/
+low	/ləu/
+lower	/ˈləuə/
+loyal	/ˈlɔiəl/
+loyalty	/ˈlɔiəlti/
+luck	/lʌk/
+lucky	/ˈlʌki/
+luggage	/ˈlʌgidʒ/
+lumber	/ˈlʌmbə/
+lump	/lʌmp/
+lunch	/lʌnt∫/
+lung	/lʌŋ/
+luxury	/ˈlʌk∫əri/
+machine	/məˈ∫iːn/
+mad	/mæd/
+madam	/ˈmædəm/
+magazine	/ˌmægəˈziːn/
+magic	/ˈmædʒik/
+magnet	/ˈmægnit/
+magnetic	/mægˈnetik/
+magnificent	/mægˈnifisnt/
+maid	/meid/
+mail	/meil/
+main	/mein/
+mainly	/ˈmeinli/
+mainland	/ˈmeinlənd,-lænd/
+maintain	/meinˈtein/
+maintenance	/ˈmeintinəns/
+major	/ˈmeidʒə/
+majority	/məˈdʒɔriti/
+make	/meik/
+male	/meil/
+man	/mæn/
+manage	/ˈmænidʒ/
+management	/ˈmænidʒmənt/
+manager	/ˈmænidʒə/
+mankind	/mænˈkaind/
+manly	/ˈmænli/
+manner	/ˈmænə/
+manual	/ˈmænjuəl/
+manufacture	/ˌmænjuˈfækt∫ə/
+manufacturer	/ˌmænjuˈfækt∫ərə/
+many	/ˈmeni/
+map	/mæp/
+marble	/ˈmɑːbl/
+March	/mɑːt∫/
+margin	/ˈmɑːdʒin/
+marine	/məˈriːn/
+mark	/mɑːk/
+market	/ˈmɑːkit/
+marriage	/ˈmæridʒ/
+married	/ˈmærid/
+marry	/ˈmæri/
+marvelous	/ˈmɑːvəl/
+Marxism	/ˈmɑːksiz(ə)m/
+Marxist	/ˈmɑːksist/
+mask	/mɑːsk/
+mass	/mæs/
+master	/ˈmɑːstə/
+masterpiece	/ˈmɑːstəpiːs/
+mat	/mæt/
+match	/mæt∫/
+mate	/meit/
+material	/məˈtiəriəl/
+materialism	/məˈtiəriəlizəm/
+mathematical	/ˌmæθiˈmætikəl/
+mathematics	/ˌmæθiˈmætiks/
+maths	/mæθs/
+matter	/ˈmætə/
+mature	/məˈtjuə/
+maximum	/ˈmæksiməm/
+May	/mei/
+maybe	/ˈmeibi/
+mayor	/meə/
+me	/miː/
+meadow	/ˈmedəu/
+meal	/miːl/
+mean	/miːn/
+meaning	/ˈmiːniŋ/
+means	/miːnz/
+meantime	/ˈmiːnˈtaim/
+meanwhile	/ˈminhwail/
+measurable	/ˈmeʒərəbl/
+measure	/ˈmeʒə/
+measurement	/ˈmeʒəmənt/
+meat	/miːt/
+mechanic	/miˈkænik/
+mechanical	/miˈkænikl/
+mechanically	/miˈkænikəli/
+mechanics	/miˈkæniks/
+medal	/ˈmedl/
+medical	/ˈmedikəl/
+medicine	/ˈmedisn/
+Mediterranean	/meditəˈreiniən/
+medium	/ˈmiːdjəm/
+meet	/miːt/
+meeting	/ˈmiːtiŋ/
+melon	/ˈmelən/
+melt	/melt/
+member	/ˈmembə/
+memorial	/miˈmɔːriəl/
+memory	/ˈmeməri/
+mend	/mend/
+mental	/ˈmentl/
+mention	/ˈmen∫ən/
+menu	/ˈmenjuː/
+merchant	/ˈməːt∫ənt/
+mercury	/ˈməːkjuri/
+mercy	/ˈməːsi/
+mere	/miə/
+merely	/ˈmiəli/
+merit	/ˈmerit/
+merry	/ˈmeri/
+mess	/mes/
+message	/ˈmesidʒ/
+messenger	/ˈmesindʒə/
+metal	/ˈmetl/
+meter	/ˈmiːtə/
+method	/ˈmeθəd/
+metre	/ˈmiːtə/
+metric	/ˈmetrik/
+microcomputer	/ˈmaikrəukəmpjuːtə(r)/
+microphone	/ˈmaikrəfəun/
+microscope	/ˈmaikrəskəup/
+midday	/ˈmiddei/
+middle	/ˈmidl/
+midnight	/ˈmidˌnait/
+midst	/ˈmidst/
+might	/mait/
+mild	/maild/
+mile	/mail/
+military	/ˈmilitəri/
+milk	/milk/
+mill	/mil/
+millimetre	/ˈmiliˌmiːtə(r)/
+million	/ˈmiljən/
+mind	/maind/
+mine	/main/
+miner	/ˈmainə/
+mineral	/ˈminərəl/
+minimum	/ˈminiməm/
+minister	/ˈministə/
+ministry	/ˈministri/
+minor	/ˈmainə/
+minority	/maiˈnɔriti/
+minus	/ˈmainəs/
+minute	/ˈminit/
+miracle	/ˈmirəkl/
+mirror	/ˈmirə/
+miserable	/ˈmizərəbl/
+mislead	/misˈliːd/
+miss	/mis/
+missile	/ˈmisail/
+missing	/ˈmisiŋ/
+mission	/ˈmi∫ən/
+mist	/mist/
+mistake	/misˈteik/
+Mister	/ˈmistə/
+mistress	/ˈmistris/
+misunderstand	/ˈmisʌndəˈstænd/
+mix	/miks/
+mixture	/ˈmikst∫ə/
+moan	/məun/
+mobile	/ˈməubail/
+mode	/məud/
+model	/ˈmɔdl/
+moderate	/ˈmɔdərit/
+modern	/ˈmɔdən/
+modest	/ˈmɔdist/
+modify	/ˈmɔdifai/
+moist	/mɔist/
+moisture	/ˈmɔist∫ə/
+molecule	/ˈmɔlikjuːl/
+moment	/ˈməumənt/
+Monday	/ˈmʌndei/
+money	/ˈmʌni/
+monitor	/ˈmɔnitə/
+monkey	/mʌŋki/
+month	/mʌnθ/
+monthly	/ˈmʌnθli/
+monument	/ˈmɔnjumənt/
+mood	/muːd/
+moon	/muːn/
+moral	/ˈmɔrəl/
+more	/mɔː(r)/
+moreover	/mɔːˈrəuvə/
+morning	/ˈmɔːniŋ/
+mortal	/ˈmɔːtl/
+mosquito	/məsˈkiːtəu/
+most	/məust/
+mostly	/ˈməustli/
+mother	/ˈmʌðə/
+motion	/ˈməu∫ən/
+motivate	/ˈməutiveit/
+motive	/ˈməutiv/
+motor	/ˈməutə/
+mould	/məuld/
+mount	/maunt/
+mountain	/ˈmauntin/
+mourn	/mɔːn/
+mouse	/maus/
+mouth	/mauθ/
+mouthful	/ˈmauθˌful/
+move	/muːv/
+movement	/ˈmuːvmənt/
+movie	/ˈmuːvi/
+much	/mʌt∫/
+mud	/mʌd/
+muddy	/ˈmʌdi/
+mug	/mʌg/
+multiple	/ˈmʌltipl/
+multiply	/ˈmʌltipli/
+murder	/ˈməːdə/
+murderer	/ˈməːdərə(r)/
+muscle	/ˈmʌsl/
+museum	/mju(ː)ˈziəm/
+mushroom	/ˈmʌ∫rum/
+music	/ˈmjuːzik/
+musical	/ˈmjuːzikəl/
+musician	/mjuːˈzi∫ən/
+must	/mʌst/
+mute	/mjuːt/
+mutter	/ˈmʌtə/
+mutton	/ˈmʌtn/
+mutual	/ˈmjuːtjuəl/
+my	/mai/
+myself	/maiˈself/
+mysterious	/misˈtiəriəs/
+mystery	/ˈmistəri/
+nail	/neil/
+naked	/ˈneikid/
+name	/neim/
+namely	/ˈneimli/
+nap	/næp/
+narrow	/ˈnærəu/
+nasty	/ˈnæsti/
+nation	/ˈnei∫(ə)n/
+national	/ˈnæ∫ənəl/
+nationality	/ˌnæ∫əˈnæliti/
+native	/ˈneitiv/
+natural	/ˈnæt∫ərəl/
+naturally	/ˈnæt∫ərəli/
+nature	/ˈneit∫ə/
+naughty	/ˈnɔːti/
+naval	/ˈneivəl/
+navigation	/ˌnæviˈgei∫ən/
+navy	/ˈneivi/
+near	/niə/
+nearby	/ˈniəbai/
+nearly	/ˈniəli/
+neat	/niːt/
+necessarily	/nesiˈserili/
+necessary	/ˈnesəseri/
+necessity	/niˈsesiti/
+neck	/nek/
+necklace	/ˈneklis/
+need	/niːd/
+needle	/ˈniːdl/
+needless	/ˈniːdlis/
+negative	/ˈnegətiv/
+neglect	/niˈglekt/
+Negro	/ˈniːgrəu/
+neighbour	/ˈneibə/
+neighbourhood	/ˈneibəhud/
+neither	/ˈniːðə/
+nephew	/ˈnevjuː/
+nerve	/nəːv/
+nervous	/ˈnəːvəs/
+nest	/nest/
+net	/net/
+network	/ˈnetwəːk/
+neutral	/ˈnjuːtrəl/
+never	/ˈnevə/
+nevertheless	/ˌnevəðəˈles/
+new	/njuː/
+newly	/ˈnjuːli/
+news	/njuːz/
+newspaper	/ˈnjuːspeipə/
+next	/nekst/
+nice	/nais/
+niece	/niːs/
+night	/nait/
+nine	/nain/
+nineteen	/ˈnainˈtiːn/
+ninety	/ˈnainti/
+ninth	/nainθ/
+nitrogen	/ˈnaitrədʒən/
+no	/nəu/
+noble	/ˈnəub(ə)l/
+nobody	/ˈnəubədi/
+nod	/nɔd/
+noise	/nɔiz/
+noisy	/ˈnɔizi/
+none	/nʌn/
+nonsense	/ˈnɔnsəns/
+noon	/nuːn/
+nor	/nɔː/
+normal	/ˈnɔːməl/
+normally	/ˈnɔːməli/
+north	/nɔːθ/
+northeast	/ˈnɔːθˈiːst/
+northern	/ˈnɔːðən/
+northwest	/ˈnɔːθˈwest/
+nose	/nəuz/
+not	/nɔt/
+note	/nəut/
+notebook	/ˈnəutbuk/
+nothing	/ˈnʌθiŋ/
+notice	/ˈnəutis/
+noticeable	/ˈnəutisəbl/
+noun	/naun/
+novel	/ˈnɔvəl/
+November	/nəuˈvembə/
+now	/nau/
+nowadays	/ˈnauədeiz/
+nowhere	/ˈnəuhweə/
+nuclear	/ˈnjuːkliə/
+nucleus	/ˈnjuːkliəs/
+nuisance	/ˈnjuːsns/
+number	/ˈnʌmbə/
+numerous	/ˈnjuːmərəs/
+nurse	/nəːs/
+nursery	/ˈnəːsəri/
+nut	/nʌt/
+nylon	/ˈnailən/
+oak	/əuk/
+oar	/ɔə/
+obey	/əuˈbei/
+object	/ˈɔbdʒikt/
+objection	/əbˈdʒek∫ən/
+objective	/əbˈdʒektiv/
+oblige	/əˈblaidʒ/
+observation	/ˌəbzəːˈvei∫ən/
+observe	/əbˈzəːv/
+observer	/əbˈzəːvə/
+obstacle	/ˈɔbstəkl/
+obtain	/əbˈtein/
+obvious	/ˈɔbviəs/
+obviously	/ˈɔbviəsli/
+occasion	/əˈkeiʒən/
+occasional	/əˈkeiʒənəl/
+occasionally	/əˈkeiʒənəli/
+occupation	/ˌɔkjuˈpei∫ən/
+occupy	/ˈɔkjupai/
+occur	/əˈkəː/
+occurrence	/əˈkʌrəns/
+ocean	/ˈəu∫ən/
+Oceania	/ˌəu∫iˈeiniə/
+oˈclock	/əˈklɔk/
+October	/ɔkˈtəubə/
+odd	/ɔd/
+odour	/ˈəudə/
+of	/ɔːf/
+off	/ɔːf/
+offend	/əˈfend/
+offer	/ˈɔfə/
+office	/ˈɔfis/
+officer	/ˈɔfisə/
+official	/əˈfi∫əl/
+often	/ˈɔːfn/
+oh	/əu/
+oil	/ɔil/
+okay	/əuˈkei/
+old	/əuld/
+omit	/əuˈmit/
+on	/ɔn/
+once	/wʌns/
+one	/wʌn/
+oneself	/wʌnˈself/
+onion	/ˈʌnjən/
+only	/ˈəunli/
+onto	/ˈɔntu/
+open	/ˈəupən/
+opening	/ˈəupniŋ/
+opera	/ˈɔpərə/
+operate	/ˈɔpəreit/
+operation	/ˌɔpəˈrei∫ən/
+operational	/ˌɔpəˈrei∫ənl/
+operator	/ˈɔpəreitə/
+opinion	/əˈpinjən/
+opponent	/əˈpəunənt/
+opportunity	/ˌɔpəˈtjuːniti/
+oppose	/əˈpəuz/
+opposite	/ˈɔpəzit/
+oppress	/əˈpres/
+optical	/ˈɔptikəl/
+optimistic	/ˌɔptiˈmistik/
+option	/ˈɔp∫ən/
+optional	/ˈɔp∫ənəl/
+or	/ɔː(r)/
+oral	/ˈɔːrəl/
+orange	/ˈɔrindʒ/
+orbit	/ˈɔːbit/
+orchestra	/ˈɔːkistrə/
+order	/ˈɔːdə(r)/
+orderly	/ˈɔːdəli/
+ordinary	/ˈɔːdinəri/
+ore	/ɔː(r)/
+organ	/ˈɔːgən/
+organic	/ɔːˈgænik/
+organism	/ˈɔːgənizəm/
+organization	/ˌɔːgənaiˈzei∫ən/
+organize	/ˈɔːgənaiz/
+oriental	/ˌɔ(ː)riˈentl/
+origin	/ˈɔridʒin/
+original	/əˈridʒənəl/
+ornament	/ˈɔːnəmənt/
+orphan	/ˈɔːfən/
+other	/ˈʌðə/
+otherwise	/ˈʌðəwaiz/
+ought	/ɔːt/
+ounce	/auns/
+our	/ˈauə/
+ours	/ˈauəz/
+ourselves	/ˌauəˈselvz/
+out	/aut/
+outcome	/ˈautkʌm/
+outdoor	/ˈautdɔː/
+outdoors	/autˈdɔːz/
+outer	/ˈautə/
+outlet	/ˈautlet/
+outline	/ˈautlain/
+outlook	/ˈautluk/
+output	/ˈautput/
+outset	/ˈautset/
+outside	/ˈautˈsaid/
+outskirt	/ˈautskəːt/
+outstanding	/autˈstændiŋ/
+outward	/ˈautwəd/
+outwards	/ˈautwədz/
+oven	/ˈʌvən/
+over	/ˈəuvə/
+overall	/ˈəuvərɔːl/
+overcoat	/ˈəuvəkəut/
+overcome	/ˌəuvəˈkʌm/
+overhead	/ˈəuvəhed/
+overlook	/ˌəuvəˈluk/
+overnight	/ˈəuvəˈnait/
+overseas	/ˈəuvəˈsiːz/
+overtake	/ˈəuvəˈteik/
+overtime	/ˈəuvətaim/
+owe	/əu/
+owl	/aul/
+own	/əun/
+owner	/ˈəunə/
+ownership	/ˈəunə∫ip/
+ox	/ɔks/
+pace	/peis/
+pacific	/pəˈsifik/
+pack	/pæk/
+package	/ˈpækidʒ/
+packet	/ˈpækit/
+pad	/pæd/
+page	/peidʒ/
+pail	/peil/
+pain	/pein/
+painful	/ˈpeinful/
+paint	/peint/
+painter	/ˈpeintə/
+painting	/ˈpeintiŋ/
+pair	/peə/
+palace	/ˈpælis/
+pale	/peil/
+palm	/pɑːm/
+pan	/pæn/
+panda	/ˈpændə/
+pane	/pein/
+panel	/ˈpænl/
+pant	/pænt/
+paper	/ˈpeipə/
+parade	/pəˈreid/
+paradise	/ˈpærədaiz/
+paragraph	/ˈpærəgrɑːf/
+parallel	/ˈpærəlel/
+parcel	/ˈpɑːsl/
+pardon	/ˈpɑːdn/
+parent	/ˈpeərənt/
+park	/pɑːk/
+parliament	/ˈpɑːləmənt/
+part	/pɑːt/
+partial	/ˈpɑː∫əl/
+partially	/ˈpɑː∫əli/
+participate	/pɑːˈtisipeit/
+particle	/ˈpɑːtikl/
+particular	/pəˈtikjulə/
+particularly	/pəˈtikjuləli/
+partly	/ˈpɑːtli/
+partner	/ˈpɑːtnə/
+party	/ˈpɑːti/
+pass	/pɑːs/
+passage	/ˈpæsidʒ/
+passenger	/ˈpæsindʒə/
+passion	/ˈpæ∫ən/
+passive	/ˈpæsiv/
+passport	/ˈpɑːspɔːt/
+past	/pɑːst/
+paste	/peist/
+pastime	/ˈpɑːstaim/
+pat	/pæt/
+patch	/pæt∫/
+path	/pɑːθ/
+patience	/ˈpei∫əns/
+patient	/ˈpei∫ənt/
+pattern	/ˈpætən/
+pause	/pɔːz/
+pave	/peiv/
+pavement	/ˈpeivmənt/
+paw	/pɔː/
+pay	/pei/
+payment	/ˈpeimənt/
+pea	/piː/
+peace	/piːs/
+peaceful	/ˈpiːsful/
+peach	/piːt∫/
+peak	/piːk/
+pear	/peə/
+pearl	/pəːl/
+peasant	/ˈpezənt/
+pebble	/ˈpebl/
+peculiar	/piˈkjuːljə/
+peel	/piːl/
+peep	/piːp/
+pen	/pen/
+pencil	/ˈpensl/
+penetrate	/ˈpenitreit/
+peninsula	/piˈninsjulə/
+penny	/ˈpeni/
+pension	/ˈpen∫ən/
+people	/ˈpiːpl/
+pepper	/ˈpepə/
+per	/pəː/
+perceive	/pəˈsiːv/
+percent	/pəˈsent/
+percentage	/pəˈsentidʒ/
+perfect	/ˈpəːfikt/
+perfectly	/ˈpəːfiktli/
+perform	/pəˈfɔːm/
+performance	/pəˈfɔːməns/
+perfume	/ˈpəːfjuːm/
+perhaps	/pəˈhæps/
+period	/ˈpiəriəd/
+permanent	/ˈpəːmənənt/
+permanently	/ˈpəːməntli/
+permission	/pə(ː)ˈmi∫ən/
+permit	/pə(ː)ˈmit/
+persist	/pə(ː)ˈsist/
+person	/ˈpəːsn/
+personal	/ˈpəːsənl/
+personnel	/ˌpəːsəˈnel/
+perspective	/pəˈspektiv/
+persuade	/pəˈsweid/
+pessimistic	/ˌpesiˈmistik/
+pet	/pet/
+petrol	/ˈpetrəl/
+petroleum	/piˈtrəuliəm/
+phase	/feiz/
+phenomenon	/fiˈnɔminən/
+philosopher	/fiˈlɔsəfə/
+philosophy	/fiˈlɔsəfi/
+phone	/fəun/
+photograph	/ˈfəutəgrɑːf;(US)-græf/
+photographic	/fəutəˈgræfik/
+phrase	/freiz/
+physical	/ˈfizikəl/
+physician	/fiˈzi∫ən/
+physicist	/ˈfizisist/
+physics	/ˈfiziks/
+piano	/piˈænəu/
+pick	/pik/
+picnic	/ˈpiknik/
+picture	/ˈpikt∫ə/
+pie	/pai/
+piece	/piːs/
+pierce	/piəs/
+pig	/pig/
+pigeon	/ˈpidʒin/
+pile	/pail/
+pill	/pil/
+pillar	/ˈpilə/
+pillow	/ˈpiləu/
+pilot	/ˈpailət/
+pin	/pin/
+pinch	/pint∫/
+pine	/pain/
+pink	/piŋk/
+pint	/paint/
+pioneer	/ˌpaiəˈniə/
+pipe	/paip/
+pipeline	/ˈpaipˌlain/
+pistol	/ˈpistl/
+pit	/pit/
+pitch	/pit∫/
+pity	/ˈpiti/
+place	/pleis/
+plain	/plein/
+plan	/plæn/
+plane	/plein/
+planet	/ˈplænit/
+plant	/plɑːnt/
+plantation	/plænˈtei∫ən/
+plaster	/ˈplɑːstə/
+plastic	/plɑːstik/
+plate	/pleit/
+platform	/ˈplætfɔːm/
+play	/plei/
+player	/ˈpleiə/
+playground	/ˈpleiraund/
+pleasant	/ˈplezənt/
+please	/pliːz/
+pleasure	/ˈpleʒə/
+plentiful	/ˈplentiful/
+plenty	/ˈplenti/
+plot	/plɔt/
+plough	/plau/
+pluck	/plʌk/
+plug	/plʌg/
+plunge	/plʌndʒ/
+plural	/ˈpluərəl/
+plus	/plʌs/
+P.M.	/?pi? ??m/
+pocket	/ˈpɔkit/
+poem	/ˈpəuim/
+poet	/ˈpəuit/
+poetry	/ˈpəuitri/
+point	/pɔint/
+poison	/ˈpɔizn/
+poisonous	/ˈpɔiznəs/
+pole	/pəul/
+police	/pəˈliːs/
+policeman	/pəˈliːsmən/
+policy	/ˈpɔlisi/
+polish	/ˈpɔli∫/
+polite	/pəˈlait/
+political	/pəˈlitikəl/
+politician	/pɔliˈti∫ən/
+politics	/ˈpɔlitiks/
+pollute	/pəˈluːt/
+pollution	/pəˈluː∫(ə)n/
+pond	/pɔnd/
+pool	/puːl/
+poor	/puə/
+pop	/pɔp/
+popular	/ˈpɔpjulə(r)/
+population	/ˌpɔpjuˈlei∫ən/
+porch	/pɔːt∫/
+pork	/pɔːk/
+porridge	/ˈpɔridʒ/
+port	/pɔːt/
+portable	/ˈpɔːtəbl/
+porter	/ˈpɔːtə/
+portion	/ˈpɔː∫ən/
+portrait	/ˈpɔːtrit/
+Portuguese	/ˌpɔːtjuˈgiːz/
+position	/pəˈzi∫ən/
+positive	/ˈpɔzətiv/
+possess	/pəˈzes/
+possession	/pəˈze∫ən/
+possibility	/ˌpɔsiˈbiliti/
+possible	/ˈpɔsəbl/
+possibly	/ˈpɔsəbli/
+post	/pəust/
+postage	/ˈpəustidʒ/
+postman	/ˈpəustmən/
+postpone	/pəustˈpəun/
+pot	/pɔt/
+potato	/pəˈteitəu/
+potential	/pəˈten∫(ə)l/
+pound	/paund/
+pour	/pɔː(r)/
+poverty	/ˈpɔvəti/
+powder	/ˈpaudə/
+power	/ˈpauə/
+powerful	/ˈpauəful/
+practical	/ˈpræktikəl/
+practically	/ˈpræktikəli/
+practice	/ˈpræktis/
+practise	/ˈpræktis/
+praise	/preiz/
+pray	/prei/
+prayer	/preə/
+precaution	/priˈkɔː∫ən/
+preceding	/pri(ː)ˈsiːdiŋ/
+precious	/ˈpre∫əs/
+precise	/priˈsais/
+precision	/priˈsiʒən/
+predict	/priˈdikt/
+preface	/ˈprefis/
+prefer	/priˈfəː/
+preferable	/ˈprefərəbl/
+preference	/ˈprefərəns/
+prejudice	/ˈpredʒudis/
+preliminary	/priˈliminəri/
+premier	/priːˈmiər/
+preparation	/ˌprepəˈrei∫ən/
+prepare	/priˈpeə/
+preposition	/ˌprepəˈzi∫ən/
+prescribe	/prisˈkraib/
+presence	/ˈprezns/
+present	/priˈzent/
+presently	/ˈprezəntli/
+preserve	/priˈzəːv/
+president	/ˈprezidənt/
+press	/pres/
+pressure	/ˈpre∫ə(r)/
+pretend	/priˈtend/
+pretty	/ˈpriti/
+prevail	/priˈveil/
+prevent	/priˈvent/
+previous	/ˈpriːviəs/
+previously	/ˈpriːvjuːsli/
+price	/prais/
+pride	/praid/
+priest	/priːst/
+primarily	/ˈpraimərili/
+primary	/ˈpraiməri/
+prime	/praim/
+primitive	/ˈprimitiv/
+prince	/prins/
+princess	/prinˈses/
+principal	/ˈprinsip(ə)l/
+principle	/ˈprinsəpl/
+print	/print/
+prior	/ˈpraiə/
+prison	/ˈprizn/
+prisoner	/ˈpriznə/
+private	/ˈpraivit/
+privilege	/ˈprivilidʒ/
+prize	/praiz/
+probability	/ˌprɔbəˈbiliti/
+probable	/ˈprɔbəbl/
+probably	/ˈprɔbəb(ə)li/
+problem	/ˈprɔbləm/
+procedure	/prəˈsiːdʒə/
+proceed	/prəˈsiːd/
+process	/prəˈses/
+procession	/prəˈse∫(ə)n/
+proclaim	/prəˈkleim/
+produce	/prəˈdjuːs/
+product	/ˈprɔdəkt/
+production	/prəˈdʌk∫ən/
+productive	/prəˈdʌktiv/
+profession	/prəˈfe∫ən/
+professional	/prəˈfe∫ənl/
+professor	/prəˈfesə/
+profit	/ˈprɔfit/
+program	/ˈprəugræm/
+progress	/ˈprəugres/
+progressive	/prəˈgresiv/
+prohibit	/prəˈhibit/
+project	/ˈprɔdʒekt/
+prominent	/ˈprɔminənt/
+promise	/ˈprɔmis/
+promising	/ˈprɔmisiŋ/
+promote	/prəˈməut/
+prompt	/prɔmpt/
+pronoun	/ˈprəunaun/
+pronounce	/prəˈnauns/
+pronunciation	/prəˌnʌnsiˈei∫ən/
+proof	/pruːf/
+proper	/ˈprɔpə/
+properly	/ˈprɔpəli/
+property	/ˈprɔpəti/
+proportion	/prəˈpɔː∫ən/
+proportional	/prəˈpɔː∫ənl/
+proposal	/prəˈpəuzəl/
+propose	/prəˈpəuz/
+prospect	/ˈprɔspekt/
+prosperity	/prɔsˈperiti/
+prosperous	/ˈprɔspərəs/
+protect	/prəˈtekt/
+protection	/prəˈtek∫ən/
+protective	/prəˈtektiv/
+protein	/ˈprəutiːn/
+protest	/prəˈtest/
+proud	/praud/
+prove	/pruːv/
+provide	/prəˈvaid/
+provided	/prəːˈvaidid/
+province	/ˈprɔvins/
+provision	/prəˈviʒən/
+psychological	/ˌsaikəˈlɔdʒikəl/
+public	/ˈpʌblik/
+publication	/ˌpʌbliˈkei∫ən/
+publish	/ˈpʌbli∫/
+pudding	/ˈpudiŋ/
+puff	/pʌf/
+pull	/pul/
+pulse	/pʌls/
+pump	/pʌmp/
+punch	/pʌnt∫/
+punctual	/ˈpʌŋktjuəl/
+punish	/ˈpʌni∫/
+punishment	/ˈpʌni∫mənt/
+pupil	/ˈpjuːpil/
+puppet	/ˈpʌpit/
+purchase	/ˈpəːt∫əs/
+pure	/pjuə/
+purely	/ˈpjuəli/
+purify	/ˈpjuərifai/
+purity	/ˈpjuəriti/
+purple	/ˈpəːpl/
+purpose	/ˈpəːpəs/
+purse	/pəːs/
+pursue	/pəˈsjuː/
+pursuit	/pəˈsjuːt/
+push	/pu∫/
+put	/put/
+puzzle	/ˈpʌzl/
+qualify	/ˈkwɔlifai/
+quality	/ˈkwɔliti/
+quantity	/ˈkwɔntiti/
+quarrel	/ˈkwɔrəl/
+quart	/kɔːt/
+quarter	/ˈkwɔːtə/
+quarterly	/ˈkwɔːtəli/
+queen	/kwiːn/
+queer	/kwiə/
+question	/ˈkwest∫ən/
+queue	/kjuː/
+quick	/kwik/
+quicken	/ˈkwikən/
+quickly	/ˈkwikli/
+quiet	/ˈkwaiət/
+quilt	/kwilt/
+quit	/kwit/
+quite	/kwait/
+quiz	/kwiz/
+quotation	/kwəuˈtei∫ən/
+quote	/kwəut/
+rabbit	/ˈræbit/
+race	/reis/
+racial	/ˈrei∫əl/
+rack	/ræk/
+racket	/ˈrækit/
+radar	/ˈreidə/
+radiate	/ˈreidieit/
+radiation	/ˌreidiˈei∫ən/
+radio	/ˈreidiəu/
+radioactive	/ˈreidiəuˈæktiv/
+radioactivity	/ˈreidiəuækˈtiviti/
+radish	/ˈrædi∫/
+radium	/ˈreidjəm/
+radius	/ˈreidjəs/
+rag	/ræg/
+rage	/reidʒ/
+raid	/reid/
+rail	/reil/
+railroad	/ˈreilrəud/
+railway	/ˈreilwei/
+rain	/rein/
+rainbow	/ˈreinbəu/
+rainy	/ˈreini/
+raise	/reiz/
+rake	/reik/
+range	/reindʒ/
+rank	/ræŋk/
+rapid	/ˈræpid/
+rapidly	/ˈræpidli/
+rare	/reə/
+rarely	/ˈreəli/
+rat	/ræt/
+rate	/reit/
+rather	/ˈrɑːðə/
+ratio	/ˈrei∫iəu/
+rational	/ˈræ∫ənl/
+raw	/rɔː/
+ray	/rei/
+razor	/ˈreizə/
+reach	/riːt∫/
+react	/riˈækt/
+reaction	/ri(ː)ˈæk∫ən/
+read	/riːd/
+reader	/ˈriːdə/
+readily	/ˈredili/
+reading	/ˈriːdiŋ/
+ready	/ˈredi/
+real	/ˈriːəl/
+reality	/ri(ː)ˈæliti/
+realize	/ˈriəlaiz/
+really	/ˈriəli/
+realm	/relm/
+reap	/riːp/
+rear	/riə/
+reason	/ˈriːzn/
+reasonable	/ˈriːznəbl/
+rebel	/ˈrebəl/
+rebellion	/riˈbeljən/
+recall	/riˈkɔːl/
+receipt	/riˈsiːt/
+receive	/riˈsiːv/
+receiver	/riˈsiːvə/
+recent	/ˈriːsnt/
+recently	/ˈriːsəntli/
+reception	/riˈsep∫ən/
+recite	/riˈsait/
+recognition	/ˌrekəgˈni∫ən/
+recognize	/ˈrekəgnaiz/
+recollect	/ˌrekəˈlekt/
+recommend	/rekəˈmend/
+recommendation	/ˌrekəmenˈdei∫ən/
+record	/ˈrekərd/
+recorder	/riˈkɔːdə/
+recover	/riˈkʌvə/
+recovery	/riˈkʌvəri/
+red	/red/
+reduce	/riˈdjuːs/
+reduction	/riˈdʌk∫ən/
+reed	/riːd/
+reel	/riːl/
+refer	/riˈfəː/
+reference	/ˈrefrəns/
+refine	/riˈfain/
+reflect	/riˈflekt/
+reflection	/riˈflek∫ən/
+reflexion	/riˈflek∫ən/
+reform	/riˈfɔːm/
+refresh	/riˈfre∫/
+refreshment	/riˈfre∫mənt/
+refrigerator	/riˈfridʒəreitə/
+refuge	/ˈrefjuːdʒ/
+refusal	/riˈfjuːzəl/
+refuse	/riˈfjuːz/
+refute	/riˈfjuːt/
+regard	/riˈgɑːd/
+regarding	/riˈgɑːdiŋ/
+regardless	/riˈgɑːdlis/
+region	/ˈriːdʒən/
+register	/ˈredʒistə/
+regret	/riˈgret/
+regular	/ˈregjulə/
+regularly	/ˈregjuləli/
+regulate	/ˈregjuleit/
+regulation	/regjuˈlei∫ən/
+rehearsal	/riˈhəːsəl/
+reign	/rein/
+rein	/rein/
+reinforce	/ˌriːinˈfɔːs/
+reject	/riˈdʒekt/
+rejoice	/riˈdʒɔis/
+relate	/riˈleit/
+relation	/riˈlei∫ən/
+relationship	/riˈlei∫ən∫ip/
+relative	/ˈrelətiv/
+relatively	/ˈrelətivli/
+relativity	/ˌreləˈtiviti/
+relax	/riˈlæks/
+release	/riˈliːs/
+relevant	/ˈrelivənt/
+reliability	/riˌlaiəˈbiliti/
+reliable	/riˈlaiəbl/
+reliance	/riˈlaiəns/
+relief	/riˈliːf/
+relieve	/riˈliːv/
+religion	/riˈlidʒən/
+religious	/riˈlidʒəs/
+reluctant	/riˈlʌktənt/
+rely	/riˈlai/
+remain	/riˈmein/
+remains	/riˈmeins/
+remark	/riˈmɑːk/
+remarkable	/riˈmɑːkəbl/
+remedy	/ˈremidi/
+remember	/riˈmembə/
+remind	/riˈmaind/
+remote	/riˈməut/
+removal	/riˈmuːvəl/
+remove	/riˈmuːv/
+render	/ˈrendə/
+renew	/riˈnjuː/
+rent	/rent/
+repair	/riˈpeə/
+repeat	/riˈpiːt/
+repeatedly	/riˈpiːtidli/
+repent	/riˈpent/
+repetition	/ˌrepiˈti∫ən/
+replace	/ri(ː)ˈpleis/
+reply	/riˈplai/
+report	/riˈpɔːt/
+reporter	/riˈpɔːtə/
+represent	/ˌriːpriˈzent/
+representative	/ˌrepriˈzentətiv/
+reproach	/riˈprəut∫/
+reproduce	/ˌriːprəˈdjuːs/
+republic	/riˈpʌblik/
+republican	/riˈpʌblikən/
+reputation	/ˌrepju(ː)ˈtei∫ən/
+request	/riˈkwest/
+require	/riˈkwaiə/
+requirement	/riˈkwaiəmənt/
+rescue	/ˈreskjuː/
+research	/riˈsəːt∫/
+researcher	/riˈsəːt∫ə(r)/
+resemble	/riˈzembl/
+reserve	/riˈzəːv/
+reservoir	/ˈrezəvwɑː(r)/
+residence	/ˈrezidəns/
+resident	/ˈrezidənt/
+resign	/riˈzain/
+resignation	/ˌrezigˈnei∫ən/
+resist	/riˈzist/
+resistance	/riˈzistəns/
+resistant	/riˈzistənt/
+resolution	/ˌrezəˈljuː∫ən/
+resolve	/riˈzɔlv/
+resort	/riˈzɔːt/
+resource	/riˈsɔːs/
+respect	/risˈpekt/
+respectful	/risˈpektful/
+respective	/risˈpektiv/
+respectively	/riˈspektivli/
+respond	/risˈpɔnd/
+response	/risˈpɔns/
+responsibility	/risˌpɔnsəˈbiliti/
+responsible	/risˈpɔnsəbl/
+rest	/rest/
+restaurant	/ˈrestərənt/
+restless	/ˈrestlis/
+restore	/risˈtɔː/
+restrain	/risˈtrein/
+restraint	/risˈtreint/
+restrict	/risˈtrikt/
+restriction	/risˈtrik∫ən/
+result	/riˈzʌlt/
+resume	/riˈzjuːm/
+retain	/riˈtein/
+retell	/ˈriːˈtel/
+retire	/riˈtaiə/
+retreat	/riˈtriːt/
+return	/riˈtəːn/
+reveal	/riˈviːl/
+revenge	/riˈvendʒ/
+reverse	/riˈvəːs/
+review	/riˈvjuː/
+revise	/riˈvaiz/
+revolt	/riˈvəult/
+revolution	/ˌrevəˈluː∫ən/
+revolutionary	/ˈrevəˈluː∫ənəri/
+reward	/riˈwɔːd/
+rhythm	/ˈrið(ə)m/
+rib	/rib/
+ribbon	/ˈribən/
+rice	/rais/
+rich	/rit∫/
+rid	/rid/
+riddle	/ˈridl/
+ride	/raid/
+rider	/ˈraidə/
+ridge	/ridʒ/
+ridiculous	/riˈdikjuləs/
+rifle	/ˈraifl/
+right	/rait/
+rigid	/ˈridʒid/
+ring	/riŋ/
+ripe	/raip/
+ripen	/ˈraipən/
+rise	/raiz/
+risk	/risk/
+rival	/ˈraivəl/
+river	/ˈrivə/
+road	/rəud/
+roar	/rɔː/
+roast	/rəust/
+rob	/rɔb/
+robber	/ˈrɔbə/
+robbery	/ˈrɔbəri/
+robe	/rəub/
+robot	/ˈrəubɔt/
+rock	/rɔk/
+rocket	/ˈrɔkit/
+rod	/rɔd/
+role	/rəul/
+roll	/rəul/
+roller	/ˈrəulə/
+Roman	/ˈrəumən/
+romantic	/rəˈmæntik/
+roof	/ruːf/
+room	/rum/
+root	/ruːt/
+rope	/rəup/
+rose	/rəuz/
+rot	/rɔt/
+rotary	/ˈrəutəri/
+rotate	/rəuˈteit/
+rotation	/rəuˈtei∫ən/
+rotten	/ˈrɔtn/
+rough	/rʌf/
+roughly	/ˈrʌfli/
+round	/raund/
+rouse	/rauz/
+route	/ruːt/
+routine	/ruːˈtiːn/
+row	/rau/
+royal	/ˈrɔiəl/
+rub	/rʌb/
+rubber	/ˈrʌbə/
+rubbish	/ˈrʌbi∫/
+rude	/ruːd/
+rug	/rʌg/
+ruin	/ˈruːin/
+rule	/ruːl/
+ruler	/ˈruːlə/
+rumour	/ˈruːmə/
+run	/rʌn/
+runner	/ˈrʌnə(r)/
+rural	/ˈruər(ə)l/
+rush	/rʌ∫/
+Russian	/ˈrʌ∫ən/
+rust	/rʌst/
+rusty	/ˈrʌsti/
+sack	/sæk/
+sacred	/ˈseikrid/
+sacrifice	/ˈsækrifais/
+sad	/sæd/
+saddle	/ˈsædl/
+sadly	/ˈsædli/
+sadness	/ˈsædnis/
+safe	/seif/
+safely	/ˈseifli/
+safety	/ˈseifti/
+sail	/seil/
+sailor	/ˈseilə/
+saint	/seint/
+sake	/seik/
+salad	/ˈsæləd/
+salary	/ˈsæləri/
+sale	/seil/
+salesman	/ˈseilzmən/
+salt	/sɔːlt/
+salute	/səˈluːt/
+same	/seim/
+sample	/ˈsæmpl/
+sand	/sænd/
+sandwich	/ˈsænwidʒ/
+sandy	/ˈsændi/
+satellite	/ˈsætəlait/
+satisfaction	/ˌsætisˈfæk∫ən/
+satisfactory	/ˌsætisˈfæktəri/
+satisfy	/ˈsætisfai/
+Saturday	/ˈsætədi/
+sauce	/sɔːs/
+saucer	/ˈsɔːsə/
+sausage	/ˈsɔsidʒ/
+save	/seiv/
+saving	/ˈseiviŋ/
+saw	/sɔː/
+say	/sei/
+scale	/skeil/
+scan	/skæn/
+scar	/skɑː/
+scarce	/skeəs/
+scarcely	/ˈskeəsli/
+scare	/skeə/
+scarf	/skɑːf/
+scatter	/ˈskætə/
+scene	/siːn/
+scenery	/ˈsiːnəri/
+scent	/sent/
+schedule	/ˈskedʒjul/
+scheme	/skiːm/
+scholar	/ˈskɔlə/
+scholarship	/ˈskɔlə∫ip/
+school	/skuːl/
+science	/ˈsaiəns/
+scientific	/saiənˈtifik/
+scientist	/ˈsaiəntist/
+scissors	/ˈsizəz/
+scold	/skəuld/
+scope	/skəup/
+score	/skɔː/
+scorn	/skɔːn/
+scout	/skaut/
+scrape	/skreip/
+scratch	/skræt∫/
+scream	/skriːm/
+screen	/skriːn/
+screw	/skruː/
+sea	/siː/
+seal	/siːl/
+seaman	/ˈsiːmən/
+seaport	/ˈsiːpɔːt/
+search	/səːt∫/
+season	/ˈsiːzn/
+seat	/siːt/
+second	/ˈsekənd/
+secondary	/ˈsekəndəri/
+secondly	/?s?k?ndli/
+secret	/ˈsiːkrit/
+secretary	/ˈsekrəteri/
+section	/ˈsek∫ən/
+secure	/siˈkjuə/
+security	/siˈkjuəriti/
+see	/siː/
+seed	/siːd/
+seek	/siːk/
+seem	/siːm/
+seize	/siːz/
+seldom	/ˈseldəm/
+select	/siˈlekt/
+selection	/siˈlek∫ən/
+self	/self/
+selfish	/ˈselfi∫/
+sell	/sel/
+seller	/ˈselə/
+semester	/siˈmestə/
+semiconductor	/ˈsemikənˈdʌktə/
+senate	/ˈsenit/
+send	/send/
+senior	/ˈsiːnjə/
+sense	/sens/
+sensible	/ˈsensəbl/
+sensitive	/ˈsensitiv/
+sentence	/ˈsentəns/
+separate	/ˈsepəreit/
+separately	/ˈsepərətli/
+separation	/sepəˈrei∫ən/
+September	/səpˈtembə/
+sequence	/ˈsiːkwəns/
+series	/ˈsiəriːz/
+serious	/ˈsiəriəs/
+seriously	/ˈsiəriəsli/
+servant	/ˈsəːvənt/
+serve	/səːv/
+service	/ˈsəːvis/
+session	/ˈse∫ən/
+set	/set/
+setting	/ˈsetiŋ/
+settle	/ˈsetl/
+settlement	/ˈsetlmənt/
+seven	/ˈsevən/
+seventeen	/ˈsevənˈtiːn/
+seventh	/ˈsevənθ/
+seventy	/ˈsevənti/
+several	/ˈsevərəl/
+severe	/siˈviə/
+severely	/siˈviəli/
+sew	/sjuː/
+sex	/seks/
+shade	/∫eid/
+shadow	/ˈ∫ædəu/
+shady	/ˈ∫eidi/
+shake	/∫eik/
+shall	/∫æl/
+shallow	/ˈ∫æləu/
+shame	/∫eim/
+shampoo	/∫æmˈpuː/
+shape	/∫eip/
+share	/∫eə/
+sharp	/∫ɑːp/
+sharpen	/ˈ∫ɑːpən/
+sharply	/ˈ∫ɑːpli/
+shave	/∫eiv/
+she	/∫iː/
+shear	/∫iə/
+shed	/∫ed/
+sheep	/∫iːp/
+sheet	/∫iːt/
+shelf	/∫elf/
+shell	/∫el/
+shelter	/ˈ∫eltə/
+shepherd	/ˈ∫epəd/
+shield	/∫iːld/
+shift	/∫ift/
+shilling	/ˈ∫iliŋ/
+shine	/∫ain/
+ship	/∫ip/
+shirt	/∫əːt/
+shiver	/ˈ∫ivə/
+shock	/∫ɔk/
+shoe	/∫uː/
+shoot	/∫uːt/
+shop	/∫ɔp/
+shopkeeper	/ˈ∫ɔpkiːpə(r)/
+shopping	/ˈ∫ɔpiŋ/
+shore	/∫ɔː/
+short	/∫ɔːt/
+shortage	/ˈ∫ɔːtidʒ/
+shortcoming	/ˈ∫ɔːtkʌmiŋ/
+shortly	/ˈ∫ɔːtli/
+shot	/∫ɔt/
+should	/∫ud/
+shoulder	/ˈ∫əuldə/
+shout	/∫aut/
+show	/∫əu/
+shower	/ˈ∫auə/
+shriek	/∫riːk/
+shrink	/∫riŋk/
+shut	/∫ʌt/
+shy	/∫ai/
+sick	/sik/
+sickness	/ˈsiknis/
+side	/said/
+sideways	/ˈsaidweiz/
+sigh	/sai/
+sight	/sait/
+sightseeing	/ˈsaitsiːiŋ/
+sign	/sain/
+signal	/ˈsignl/
+signature	/ˈsignit∫ə/
+significance	/sigˈnifikəns/
+significant	/sigˈnifikənt/
+silence	/ˈsailəns/
+silent	/ˈsailənt/
+silk	/silk/
+silly	/ˈsili/
+silver	/ˈsilvə/
+similar	/ˈsimilə/
+similarly	/ˈsimiləli/
+simple	/ˈsimpl/
+simplicity	/simˈplisiti/
+simplify	/ˈsimplifai/
+simply	/ˈsimpli/
+sin	/sin/
+since	/sins/
+sincere	/sinˈsiə/
+sing	/siŋ/
+singer	/ˈsiŋə(r)/
+single	/ˈsiŋgl/
+singular	/ˈsiŋgjulə/
+sink	/siŋk/
+sir	/səː(r)/
+sister	/ˈsistə/
+sit	/sit/
+site	/sait/
+situation	/ˌsitjuˈei∫ən/
+six	/siks/
+sixteen	/ˈsiksˈtiːn/
+sixth	/siksθ/
+sixty	/ˈsiksti/
+size	/saiz/
+skate	/skeit/
+sketch	/sket∫/
+ski	/skiː/
+skill	/skil/
+skilled	/skild/
+skillful	/ˈskilful/
+skim	/skim/
+skin	/skin/
+skirt	/skəːt/
+sky	/skai/
+slam	/slæm/
+slave	/sleiv/
+slavery	/ˈsleivəri/
+sleep	/sliːp/
+sleepy	/ˈsliːpi/
+sleeve	/sliːv/
+slender	/ˈslendə/
+slice	/slais/
+slide	/slaid/
+slight	/slait/
+slightly	/ˈslaitli/
+slip	/slip/
+slipper	/ˈslipə/
+slippery	/ˈslipəri/
+slit	/slit/
+slogan	/ˈsləugən/
+slope	/sləup/
+slow	/sləu/
+slowly	/ˈsləuli/
+slum	/slʌm/
+sly	/slai/
+small	/smɔːl/
+smart	/smɑːt/
+smell	/smel/
+smile	/smail/
+smog	/smɔg/
+smoke	/sməuk/
+smooth	/smuːð/
+smoothly	/ˈsmuːðli/
+snake	/sneik/
+snow	/snəu/
+snowstorm	/ˈsnəustɔːm/
+snowy	/ˈsnəui/
+so	/səu/
+soak	/səuk/
+soap	/səup/
+sob	/sɔb/
+sober	/ˈsəubə/
+so-called	/sˈoʊkˈɔld/
+soccer	/ˈsɔkə/
+social	/ˈsəu∫əl/
+socialism	/ˈsəu∫əlizəm/
+socialist	/ˈsəu∫əlist/
+society	/səˈsaiəti/
+sock	/sɔk/
+soda	/ˈsəudə/
+soft	/sɔft/
+softly	/ˈsɔftli/
+soil	/sɔil/
+solar	/ˈsəulə/
+soldier	/ˈsəuldʒə/
+sole	/səul/
+solely	/ˈsəu(l)li/
+solemn	/ˈsɔləm/
+solid	/ˈsɔlid/
+soluble	/ˈsɔljubl/
+solution	/səˈljuː∫ən/
+solve	/sɔlv/
+some	/sʌm/
+somebody	/ˈsʌmbədi/
+somehow	/ˈsʌmhau/
+someone	/ˈsʌmwʌn/
+something	/ˈsʌmθiŋ/
+sometime	/ˈsʌmtaim/
+sometimes	/ˈsʌmtaimz/
+somewhat	/ˈsʌm(h)wɔt/
+somewhere	/ˈsʌm(h)weə/
+son	/sʌn/
+song	/sɔŋ/
+soon	/suːn/
+sophisticated	/səˈfistikeitid/
+sore	/sɔ/
+sorrow	/ˈsɔrəu/
+sorry	/ˈsɔri/
+sort	/sɔːt/
+soul	/səul/
+sound	/saund/
+soup	/suːp/
+sour	/ˈsauə/
+source	/sɔːs/
+south	/sauθ/
+southeast	/ˈsauθˈiːst/
+southern	/ˈsʌðən/
+southwest	/ˈsauθˈwest/
+Soviet	/ˈsəuviet/
+sow	/sau/
+space	/speis/
+spacecraft	/ˈspeiskrɑːft/
+spaceship	/ˈspeis∫ip/
+spade	/speid/
+span	/spæn/
+Spanish	/ˈspæni∫/
+spare	/speə/
+spark	/spɑːk/
+sparkle	/ˈspɑːkl/
+sparrow	/ˈspærəu/
+speak	/spiːk/
+speaker	/ˈspiːkə/
+spear	/spiə/
+special	/ˈspe∫əl/
+specialist	/ˈspe∫əlist/
+speciality	/ˌspe∫iˈæliti/
+specialize	/ˈspe∫əlaiz/
+specially	/ˈspe∫əli/
+specific	/spiˈsifik/
+specify	/ˈspesifai/
+specimen	/ˈspesimin/
+spectacle	/ˈspektəkl/
+speech	/spiːt∫/
+speed	/spiːd/
+spell	/spel/
+spelling	/ˈspeliŋ/
+spend	/spend/
+sphere	/sfiə/
+spider	/ˈspaidə/
+spill	/spil/
+spin	/spin/
+spirit	/ˈspirit/
+spiritual	/ˈspiritjuəl/
+spit	/spit/
+splash	/splæ∫/
+splendid	/ˈsplendid/
+split	/split/
+spoil	/spɔil/
+sponge	/spʌndʒ/
+sponsor	/ˈspɔnsə/
+spontaneous	/spɔnˈteiniəs/
+spoon	/spuːn/
+sport	/spɔːt/
+sportsman	/ˈspɔːtsmən/
+spot	/spɔt/
+spray	/sprei/
+spread	/spred/
+spring	/spriŋ/
+springtime	/ˈspriŋtaim/
+sprinkle	/ˈspriŋkl/
+spur	/spəː/
+spy	/spai/
+square	/skweə/
+squeeze	/skwiːz/
+squirrel	/ˈskwirəl/
+stab	/stæb/
+stability	/stəˈbiliti/
+stable	/ˈsteibl/
+stack	/stæk/
+stadium	/ˈsteidiəm/
+staff	/stɑːf/
+stage	/steidʒ/
+stain	/stein/
+stair	/steə/
+staircase	/ˈsteəkeis/
+stake	/steik/
+stale	/steil/
+stamp	/stæmp/
+stand	/stænd/
+standard	/ˈstændəd/
+standpoint	/ˈstændpɔint/
+star	/stɑː/
+stare	/steə(r)/
+start	/stɑːt/
+startle	/ˈstɑːtl/
+starve	/stɑːv/
+state	/steit/
+statement	/ˈsteitmənt/
+statesman	/ˈsteitsmən/
+static	/ˈstætik/
+station	/ˈstei∫ən/
+statistical	/stəˈtistikəl/
+statue	/ˈstæt∫uː/
+status	/ˈsteitəs/
+stay	/stei/
+steadily	/ˈstedili/
+steady	/ˈstedi/
+steal	/stiːl/
+steam	/stiːm/
+steamer	/ˈstiːmə/
+steel	/stiːl/
+steep	/stiːp/
+steer	/stiə/
+stem	/stem/
+step	/step/
+stern	/stəːn/
+steward	/ˈstjuəd/
+stewardess	/ˈstjuːədis/
+stick	/stik/
+sticky	/ˈstiki/
+stiff	/stif/
+stiffen	/ˈstifn/
+still	/stil/
+stimulate	/ˈstimjuleit/
+sting	/stiŋ/
+stir	/stəː/
+stitch	/stit∫/
+stock	/stɔk/
+stocking	/ˈstɔkiŋ/
+stomach	/ˈstʌmək/
+stone	/stəun/
+stony	/ˈstəuni/
+stool	/stuːl/
+stoop	/stuːp/
+stop	/stɔp/
+storage	/ˈstɔridʒ/
+store	/stɔː/
+storey	/ˈstɔːri/
+storm	/stɔːm/
+stormy	/ˈstɔːmi/
+story	/ˈstɔːri/
+stove	/stəuv/
+straight	/streit/
+strain	/strein/
+strange	/streindʒ/
+stranger	/ˈstreindʒə/
+strap	/stræp/
+strategy	/ˈstrætidʒi/
+straw	/strɔː/
+strawberry	/ˈstrɔːbəri/
+stream	/striːm/
+street	/striːt/
+strength	/streŋθ/
+strengthen	/ˈstreŋθən/
+stress	/stres/
+stretch	/stret∫/
+strict	/strikt/
+strictly	/ˈstriktli/
+strike	/straik/
+string	/striŋ/
+strip	/strip/
+stripe	/straip/
+stroke	/strəuk/
+strong	/strɔŋ/
+strongly	/ˈstrɔŋli/
+structural	/ˈstrʌkt∫ərəl/
+structure	/ˈstrʌkt∫ə/
+struggle	/ˈstrʌgl/
+student	/ˈstjuːdənt/
+study	/ˈstʌdi/
+stuff	/stʌf/
+stumble	/ˈstʌmbl/
+stupid	/ˈstjuːpid/
+style	/stail/
+subject	/ˈsʌbdʒikt/
+submarine	/sʌbməˈriːn/
+submerge	/səbˈməːdʒ/
+submit	/səbˈmit/
+subsequent	/ˈsʌbsikwənt/
+substance	/ˈsʌbstəns/
+substantial	/səbˈstæn∫əl/
+substitute	/ˈsʌbstitjuːt/
+subtract	/səbˈtrækt/
+suburb	/ˈsʌbəːb/
+subway	/ˈsʌbwei/
+succeed	/səkˈsiːd/
+success	/səkˈses/
+successful	/səkˈsesful/
+successfully	/səkˈsesfuli/
+succession	/səkˈse∫ən/
+successive	/səkˈsesiv/
+such	/sʌt∫/
+suck	/sʌk/
+sudden	/ˈsʌdn/
+suddenly	/ˈsʌdənli/
+suffer	/ˈsʌfə/
+sufficient	/səˈfi∫ənt/
+sufficiently	/səˈfi∫əntli/
+sugar	/ˈ∫ugə/
+suggest	/səˈdʒest/
+suggestion	/səˈdʒest∫ən/
+suit	/sjuːt/
+suitable	/ˈsjuːtəbl/
+sulphur	/ˈsʌlfə/
+sum	/sʌm/
+summarize	/ˈsʌməraiz/
+summary	/ˈsʌməri/
+summer	/ˈsʌmə/
+sun	/sʌn/
+Sunday	/ˈsʌndi/
+sunlight	/ˈsʌnlait/
+sunny	/ˈsʌni/
+sunrise	/ˈsʌnraiz/
+sunset	/ˈsʌnset/
+sunshine	/ˈsʌn∫ain/
+super	/ˈsjuːpə/
+superficial	/sjuːpəˈfi∫əl/
+superior	/sjuːˈpiəriə/
+supermarket	/ˈsjuːpəˌmɑːkit/
+supper	/ˈsʌpə/
+supplement	/ˈsʌplimənt/
+supply	/səˈplai/
+support	/səˈpɔːt/
+suppose	/səˈpəuz/
+supreme	/sjuːˈpriːm/
+sure	/∫uə/
+surely	/ˈ∫uəli/
+surface	/ˈsəːfis/
+surgeon	/ˈsəːdʒən/
+surgery	/ˈsəːdʒəri/
+surname	/ˈsəːneim/
+surprise	/səˈpraiz/
+surprising	/səˈpraiziŋ/
+surprisingly	/s?r?pra?z??li/
+surrender	/səˈrendə/
+surround	/səˈraund/
+surroundings	/səˈraundiŋz/
+survey	/səːˈvei/
+survive	/səˈvaiv/
+suspect	/səsˈpekt/
+suspend	/səsˈpend/
+suspicion	/səsˈpi∫ən/
+sustain	/səsˈtein/
+swallow	/ˈswɔləu/
+swamp	/swɔmp/
+swan	/swɔn/
+swarm	/swɔːm/
+sway	/swei/
+swear	/sweə/
+sweat	/swet/
+sweater	/ˈswetə/
+sweep	/swiːp/
+sweet	/swiːt/
+swell	/swel/
+swift	/swift/
+swim	/swim/
+swing	/swiŋ/
+Swiss	/swis/
+switch	/swit∫/
+sword	/sɔːd/
+symbol	/ˈsimbəl/
+sympathetic	/ˌsimpəˈθetik/
+sympathize	/ˈsimpəθaiz/
+sympathy	/ˈsimpəθi/
+synthetic	/sinˈθeti/
+system	/ˈsistəm/
+systematic(al)	/ˌsistiˈmætik/
+table	/ˈteibl/
+tablet	/ˈtæblit/
+tag	/tæg/
+tail	/teil/
+tailor	/ˈteilə/
+take	/teik/
+tale	/teil/
+talent	/ˈtælənt/
+talk	/tɔːk/
+tall	/tɔːl/
+tame	/teim/
+tan	/tæn/
+tank	/tæŋk/
+tap	/tæp/
+tape	/teip/
+target	/ˈtɑːgit/
+task	/tɑːsk/
+taste	/teist/
+tax	/tæks/
+taxi	/ˈtæksi/
+tea	/tiː/
+teach	/tiːt∫/
+teacher	/ˈtiːt∫ə/
+teaching	/ˈtiːt∫iŋ/
+team	/tiːm/
+tear	/tiə/
+technical	/ˈteknikəl/
+technician	/tekˈni∫(ə)n/
+technique	/tekˈniːk/
+technology	/tekˈnɔlədʒi/
+tedious	/ˈtiːdiəs/
+teenager	/ˈtiːnˌeidʒə/
+telegram	/ˈteligræm/
+telegraph	/ˈteligrɑːf/
+telephone	/ˈtelifəun/
+telescope	/ˈteliskəup/
+television	/ˈteliviʒən/
+tell	/tel/
+temper	/ˈtempə/
+temperature	/ˈtemprit∫ə(r)/
+temple	/ˈtempl/
+temporary	/ˈtempərəri/
+tempt	/tempt/
+temptation	/tempˈtei∫ən/
+ten	/ten/
+tenant	/ˈtenənt/
+tend	/tend/
+tendency	/ˈtendənsi/
+tender	/ˈtendə/
+tennis	/ˈtenis/
+tense	/tens/
+tent	/tent/
+tenth	/tenθ/
+term	/təːm/
+terminal	/ˈtəːminl/
+terrible	/ˈterəbl/
+terrific	/təˈrifik/
+territory	/ˈteritəri/
+terror	/ˈterə/
+test	/test/
+text	/tekst/
+textbook	/ˈtekstbuk/
+textile	/ˈtekstail/
+than	/ðæn/
+thank	/θæŋk/
+that	/ðæt/
+the	/ðə/
+theatre	/ˈθiətə(r)/
+their	/ðeə/
+theirs	/ðeəz/
+them	/θem/
+themselves	/ðəmˈselvz/
+then	/ðen/
+theoretical	/θiəˈretikəl/
+theory	/ˈθiəri/
+there	/ðeə/
+thereby	/ˈðeəˈbai/
+therefore	/ˈðeəfɔː/
+thermometer	/θəˈmɔmitə(r)/
+these	/ðiːz/
+they	/ðei/
+thick	/θik/
+thickness	/ˈθiknis/
+thief	/θiːf/
+thin	/θin/
+thing	/θiŋ/
+think	/θiŋk/
+third	/θəːd/
+thirdly	/ˈθəːdli/
+thirst	/θəːst/
+thirsty	/ˈθəːsti/
+thirteen	/ˈθəːˈtiːn/
+thirty	/ˈθəːti/
+this	/ðis/
+thorn	/θɔːn/
+thorough	/ˈθʌrə/
+those	/ðəuz/
+though	/ðəu/
+thought	/θɔːt/
+thoughtful	/ˈθɔːtful/
+thousand	/ˈθauzənd/
+thread	/θred/
+threat	/θret/
+threaten	/ˈθretn/
+three	/θriː/
+thrill	/θril/
+thrive	/θraiv/
+throat	/θrəut/
+throne	/θrəun/
+throng	/θrɔŋ/
+through	/θruː/
+throughout	/θru(ː)ˈaut/
+throw	/θrəu/
+thrust	/θrʌst/
+thumb	/θʌm/
+thunder	/ˈθʌndə/
+Thursday	/ˈθəːzdi/
+thus	/ðʌs/
+tick	/tik/
+ticket	/ˈtikit/
+tide	/taid/
+tidy	/ˈtaidi/
+tie	/tai/
+tiger	/ˈtaigə/
+tight	/tait/
+till	/til/
+timber	/ˈtimbə/
+time	/taim/
+timetable	/ˈtaimteib(ə)l/
+timid	/ˈtimid/
+tin	/tin/
+tiny	/ˈtaini/
+tip	/tip/
+tire	/ˈtaiə/
+tired	/ˈtaiəd/
+tissue	/ˈtisjuː/
+title	/ˈtaitl/
+to	/tuː/
+toast	/təust/
+tobacco	/təˈbækəu/
+today	/təˈdei/
+toe	/təu/
+together	/təˈgeðə/
+toilet	/ˈtɔilit/
+tolerance	/ˈtɔlərəns/
+tolerate	/ˈtɔləreit/
+tomato	/təˈmɑːtəu/
+tomb	/tuːm/
+tomorrow	/təˈmɔrəu/
+ton	/tʌn/
+tone	/təun/
+tongue	/tʌŋ/
+tonight	/təˈnait/
+too	/tuː/
+tool	/tuːl/
+tooth	/tuːθ/
+top	/tɔp/
+topic	/ˈtɔpik/
+torch	/tɔːt∫/
+torrent	/ˈtɔrənt/
+tortoise	/ˈtɔːtəs/
+torture	/ˈtɔːt∫ə/
+toss	/tɔːs/
+total	/ˈtəutl/
+touch	/tʌt∫/
+tough	/tʌf/
+tour	/tuə/
+tourist	/ˈtuərist/
+toward(s)	/təˈwɔːd/
+towel	/ˈtauəl/
+tower	/ˈtauə/
+town	/taun/
+toy	/tɔi/
+trace	/treis/
+track	/træk/
+tractor	/ˈtræktə/
+trade	/treid/
+tradition	/trəˈdi∫ən/
+traditional	/trəˈdi∫ən(ə)l/
+traffic	/ˈtræfik/
+tragedy	/ˈtrædʒidi/
+trail	/treil/
+train	/trein/
+training	/ˈtreiniŋ/
+traitor	/ˈtreitə/
+tram	/træm/
+tramp	/træmp/
+transfer	/trænsˈfəː/
+transform	/trænsˈfɔːm/
+transformation	/ˌtrænsfəˈmei∫ən/
+transformer	/trænsˈfɔːmə(r)/
+transistor	/trænˈsistə/
+translate	/trænsˈleit/
+translation	/trænsˈlei∫ən/
+transmission	/trænzˈmi∫ən/
+transmit	/trænzˈmit/
+transparent	/trænsˈpeərənt/
+transport	/trænsˈpɔːt/
+transportation	/ˌtrænspɔːˈtei∫ən/
+trap	/træp/
+travel	/ˈtrævl/
+tray	/trei/
+treason	/ˈtriːzn/
+treasure	/ˈtreʒə/
+treat	/triːt/
+treatment	/ˈtriːtmənt/
+treaty	/ˈtriːti/
+tree	/triː/
+tremble	/ˈtrembl/
+tremendous	/triˈmendəs/
+trend	/trend/
+trial	/ˈtraiəl/
+triangle	/ˈtraiæŋgl/
+tribe	/traib/
+trick	/trik/
+trifle	/ˈtraifl/
+trim	/trim/
+trip	/trip/
+triumph	/ˈtraiəmf/
+troop	/truːp/
+tropical	/ˈtrɔpikl/
+trouble	/ˈtrʌbl/
+troublesome	/ˈtrʌblsəm/
+trousers	/ˈtrauzəz/
+truck	/trʌk/
+true	/truː/
+truly	/truːli/
+trumpet	/ˈtrʌmpit/
+trunk	/trʌŋk/
+trust	/trʌst/
+truth	/truːθ/
+try	/trai/
+tub	/tʌb/
+tube	/ˈtjuːb/
+tuck	/tʌk/
+Tuesday	/ˈtjuːzdi/
+tuition	/tjuːˈi∫ən/
+tumble	/ˈtʌmbl/
+tune	/tjuːn/
+tunnel	/ˈtʌnl/
+turbine	/ˈtəːbain/
+turbulent	/ˈtəːbjulənt/
+turkey	/ˈtəːki/
+turn	/təːn/
+turning	/ˈtəːniŋ/
+turnip	/ˈtəːnip/
+tutor	/ˈtjuːtə/
+twelfth	/twelfθ/
+twelve	/twelv/
+twentieth	/ˈtwentiiθ/
+twenty	/ˈtwenti/
+twice	/twais/
+twin	/twin/
+twinkle	/ˈtwiŋkl/
+twist	/twist/
+two	/tuː/
+type	/taip/
+typewriter	/ˈtaipraitə/
+typhoon	/taiˈfuːn/
+typical	/ˈtipikəl/
+typist	/ˈtaipist/
+tyre	/ˈtaiə/
+ugly	/ˈʌgli/
+ultimate	/ˈʌltimit/
+ultimately	/ˈʌltimətli/
+umbrella	/ʌmˈbrelə/
+unable	/ˈʌnˈeibl/
+unbearable	/ʌnˈbeərəbl/
+uncertain	/ʌnˈsəːtn/
+uncle	/ˈʌŋkl/
+uncomfortable	/ʌnˈkʌmfətəbl/
+unconscious	/ʌnˈkɔn∫əs/
+uncover	/ʌnˈkʌvə/
+under	/ˈʌndə/
+undergo	/ˌʌndəˈgəu/
+undergraduate	/ˌʌndəˈgrædjuit/
+underground	/ˈʌndəgraund/
+underline	/ˌʌndəˈlain/
+underneath	/ˌʌndəˈniːθ/
+understand	/ˌʌndəˈstænd/
+understanding	/ˌʌndəˈstændiŋ/
+undertake	/ˌʌndəˈteik/
+undertaking	/ˌʌndəˈteikiŋ/
+undo	/ˈʌnˈduː/
+undoubtedly	/ʌnˈdautidli/
+uneasy	/ʌnˈiːzi/
+unexpected	/ˈʌniksˈpektid/
+unfair	/ˈʌnˈfeə/
+unfortunate	/ʌnˈfɔːt∫ənit/
+unfortunately	/ʌnˈfɔːtjunətli/
+unhappy	/ʌnˈhæpi/
+uniform	/ˈjuːnifɔːm/
+union	/ˈjuːnjən/
+unique	/juːˈniːk/
+unit	/ˈjuːnit/
+unite	/ju(ː)ˈnait/
+unity	/ˈjuːniti/
+universal	/ˌjuːniˈvəːsəl/
+universe	/ˈjuːnivəːs/
+university	/ˌjuːniˈvəːsiti/
+unjust	/ˈʌnˈdʒʌst/
+unkind	/ʌnˈkaind/
+unknown	/ˈʌnˈnəun/
+unless	/ʌnˈles/
+unlike	/ˈʌnˈlaik/
+unlikely	/ʌnˈlaikli/
+unload	/ˈʌnˈləud/
+unlucky	/ʌnˈlʌki/
+unnecessary	/ʌnˈnesisəri/
+unpleasant	/ʌnˈpleznt/
+unsatisfactory	/ˈʌnsætisˈfæktəri/
+unstable	/ˈʌnˈsteibl/
+unsuitable	/ʌnˈsuːtəb(ə)l/
+until	/ʌnˈtil/
+unusual	/ʌnˈjuːʒuəl/
+unusually	/ʌnˈjuːʒəli/
+unwilling	/ˈʌnˈwiliŋ/
+up	/ʌp/
+upon	/əˈpɔn/
+upper	/ˈʌpə/
+upright	/ˈʌpˈrait/
+upset	/ʌpˈset/
+upside-down	/ˈʌpsaidˈdaun/
+upstairs	/ˈʌpˈsteəz/
+up-to-date	/ˈʌptəˈdeit/
+upward	/ˈʌpwəd/
+upwards	/ˈʌpwədz/
+urge	/əːdʒ/
+urgent	/ˈəːdʒənt/
+us	/ʌs/
+usage	/ˈjuːsidʒ/
+use	/juːs/
+used	/juːst/
+useful	/ˈjuːsful/
+useless	/ˈjuːslis/
+user	/ˈjuːzə/
+usual	/ˈjuːʒuəl/
+usually	/ˈjuːʒuəli/
+utility	/juːˈtiliti/
+utilize	/juːˈtilaiz/
+utmost	/ˈʌtməust/
+utter	/ˈʌtə/
+vacant	/ˈveikənt/
+vacation	/veiˈkei∫ən/
+vacuum	/ˈvækjuəm/
+vague	/veig/
+vain	/vein/
+valid	/ˈvælid/
+valley	/ˈvæli/
+valuable	/ˈvæljuəbl/
+value	/ˈvæljuː/
+van	/væn/
+vanish	/ˈvæni∫/
+vanity	/ˈvæniti/
+vapour	/ˈveipə/
+variable	/ˈveəriəbl/
+variation	/ˌveəriˈei∫ən/
+variety	/vəˈraiəti/
+various	/ˈveəriəs/
+vary	/ˈveəri/
+vase	/veis/
+vast	/vɑːst/
+vegetable	/ˈvedʒitəbl/
+vehicle	/ˈviːikl/
+veil	/veil/
+velocity	/viˈlɔsiti/
+velvet	/ˈvelvit/
+venture	/ˈvent∫ə/
+verb	/vəːb/
+verify	/ˈverifai/
+version	/ˈvəː∫(ə)n; (US) ˈvərʒn/
+vertical	/ˈvəːtik(ə)l/
+very	/ˈveri/
+vessel	/ˈvesl/
+vest	/vest/
+veteran	/ˈvetərən/
+vex	/veks/
+via	/ˈvaiə/
+vibrate	/vaiˈbreit/
+vibration	/vaiˈbrei∫ən/
+vice	/vais/
+victim	/ˈviktim/
+victorious	/vikˈtɔːriəs/
+victory	/ˈviktəri/
+video	/ˈvidiəu/
+view	/vjuː/
+viewpoint	/ˈvjuːˌpɔint/
+vigorous	/ˈvigərəs/
+village	/ˈvilidʒ/
+vine	/vain/
+vinegar	/ˈvinigə/
+violence	/ˈvaiələns/
+violent	/ˈvaiələnt/
+violet	/ˈvaiəlit/
+violin	/ˌvaiəˈlin/
+virtually	/ˈvəːtjuəli/
+virtue	/ˈvəːtjuː/
+visible	/ˈvizəbl/
+vision	/ˈviʒən/
+visit	/ˈvizit/
+visitor	/ˈvizitə/
+visual	/ˈvizjuəl/
+vital	/ˈvaitl/
+vitamin	/ˈvaitəmin/
+vivid	/ˈvivid/
+vocabulary	/vəˈkæbjuləri/
+voice	/vɔis/
+volcano	/vɔlˈkeinəu/
+volleyball	/ˈvɔlibɔːl/
+volt	/vəult/
+voltage	/ˈvəultidʒ/
+volume	/ˈvɔljuːm/
+voluntary	/ˈvɔləntəri; (US) -teri/
+vote	/vəut/
+voyage	/ˈvɔiidʒ/
+wage	/weidʒ/
+waggon	/ˈwægən/
+waist	/weist/
+wait	/weit/
+waiter	/ˈweitə/
+wake	/weik/
+waken	/ˈweikən/
+walk	/wɔːk/
+wall	/wɔːl/
+wallet	/ˈwɔlit/
+wander	/ˈwɔndə/
+want	/wɔnt/
+war	/wɔː/
+warm	/wɔːm/
+warmth	/wɔːmθ/
+warn	/wɔːn/
+wash	/wɔ∫/
+waste	/weist/
+watch	/wɔt∫/
+water	/ˈwɔːtə/
+waterfall	/ˈwɔːtəfɔːl/
+waterproof	/ˈwɔːtəpruːf/
+wave	/weiv/
+wavelength	/ˈweivleŋθ/
+wax	/wæks/
+way	/wei/
+we	/wiː/
+weak	/wiːk/
+weaken	/ˈwiːkən/
+weakness	/ˈwiːknis/
+wealth	/welθ/
+wealthy	/ˈwelθi/
+weapon	/ˈwepən/
+wear	/wiə/
+weary	/ˈwiəri/
+weather	/ˈweðə/
+weave	/wiːv/
+wedding	/ˈwediŋ/
+Wednesday	/ˈwenzdei/
+weed	/wiːd/
+week	/wiːk/
+weekday	/ˈwiːkdei/
+weekend	/wiːkˈend/
+weekly	/ˈwiːkli/
+weep	/wiːp/
+weigh	/wei/
+weight	/weit/
+welcome	/ˈwelkəm/
+weld	/weld/
+welfare	/ˈwelfeə/
+well	/wel/
+well-known	/wˈɛlnˈoʊn/
+west	/west/
+western	/ˈwestən/
+westward	/ˈwestwəd/
+wet	/wet/
+what	/(h)wɔt/
+whatever	/wɔtˈevə/
+wheat	/wiːt/
+wheel	/wiːl/
+when	/(h)wen/
+whenever	/(h)wenˈevə/
+where	/(h)weə/
+wherever	/(h)weərˈevə/
+whether	/ˈ(h)weðə/
+which	/(h)wit∫/
+whichever	/(h)wit∫ˈevə/
+while	/(h)wail/
+whilst	/wailst/
+whip	/(h)wip/
+whirl	/(h)wəːl/
+whisky	/ˈ(h)wiski/
+whisper	/ˈ(h)wispə/
+whistle	/(h)wisl/
+white	/(h)wait/
+whitewash	/ˈ(h)waitwɔ∫/
+who	/huː/
+whoever	/huːˈevə(r)/
+whole	/həul/
+wholly	/ˈhəuli/
+whom	/huːm/
+whose	/huːz/
+why	/(h)wai/
+wicked	/ˈwikid/
+wide	/waid/
+widely	/ˈwaidli/
+widen	/ˈwaidn/
+widespread	/ˈwaidspred/
+widow	/ˈwidəu/
+width	/widθ/
+wife	/waif/
+wild	/waild/
+will	/wil/
+willing	/ˈwiliŋ/
+win	/win/
+wind	/waind/
+window	/ˈwindəu/
+wine	/wain/
+wing	/wiŋ/
+winner	/ˈwinə/
+winter	/ˈwintə/
+wipe	/waip/
+wire	/ˈwaiə/
+wireless	/ˈwaiəlis/
+wisdom	/ˈwizdəm/
+wise	/waiz/
+wish	/wi∫/
+wit	/wit/
+with	/wið/
+withdraw	/wiðˈdrɔː/
+within	/wiˈðin/
+without	/wiðˈaut/
+withstand	/wiðˈstænd/
+witness	/ˈwitnis/
+wolf	/wulf/
+woman	/ˈwumən/
+wonder	/ˈwʌndə/
+wonderful	/ˈwʌndəful/
+wood	/wud/
+wooden	/ˈwudn/
+wool	/wul/
+woollen	/ˈwulin/
+word	/wəːd/
+work	/wəːk/
+worker	/ˈwəːkə/
+workman	/ˈwəːkmən/
+workshop	/ˈwəːk∫ɔp/
+world	/wəːld/
+world-wide	/ˈwəːldwaid/
+worm	/wəːm/
+worry	/ˈwʌri/
+worse	/wəːs/
+worship	/ˈwəː∫ip/
+worst	/wəːst/
+worth	/wəːθ/
+worthless	/ˈwəːθlis/
+worthwhile	/ˈwəːðˈ(h)wail/
+worthy	/ˈwəːði/
+would	/wud/
+wound	/wuːnd/
+wrap	/ræp/
+wreath	/riːθ/
+wreck	/rek/
+wrist	/rist/
+write	/rait/
+writer	/ˈraitə/
+writing	/ˈraitiŋ/
+wrong	/rɔŋ/
+X-ray	/ˈeksˈrei/
+yard	/jˈɑrd/
+yawn	/jɔːn/
+year	/jəː/
+yearly	/ˈjəːli/
+yell	/jel/
+yellow	/ˈjeləu/
+yes	/jes/
+yesterday	/ˈjestədi/
+yet	/jet/
+yield	/jiːld/
+you	/juː/
+young	/jʌŋ/
+your	/jɔː/
+yours	/jɔːz/
+yourself	/jɔːˈself/
+youth	/juːθ/
+youthful	/ˈjuːθful/
+zeal	/ziːl/
+zealous	/ˈzeləs/
+zebra	/ˈziːbrə/
+zero	/ˈziərəu/
+zone	/zəun/
+zoo	/zuː/
