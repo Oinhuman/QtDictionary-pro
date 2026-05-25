@@ -106,7 +106,7 @@ bool MainWindow::exportReadmeScreens(const QString &outputDir)
     if(!dir.exists() && !dir.mkpath("."))
         return false;
 
-    resize(900,640);
+    resize(900,560);
     show();
 
     auto grabPage=[&](const QString &fileName)->bool

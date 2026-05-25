@@ -1,88 +1,76 @@
-# QtDictionary 优化版
+# QtDictionary Pro
 
-本项目基于 [bugcat9/QtDictionary](https://github.com/bugcat9/QtDictionary.git) 修改优化，是一个使用 Qt Widgets 实现的英语电子词典和背单词工具。
+基于 [bugcat9/QtDictionary](https://github.com/bugcat9/QtDictionary.git) 二次优化的 Qt Widgets 英语电子词典。项目保留红黑树词典检索结构，并补充了更直接的页面导航、键盘优先的背词流程和持久化错题本。
 
-* 使用 Qt 实现电子词典界面，采用红黑树进行单词搜索
-* 支持查询、历史、逐条浏览、背单词、错题本和词库维护
-* 词库文件统一放在 `txt/output_utf8_file.txt`
-* 支持 Qt 5 / Qt 6 环境构建，项目文件已加入多媒体和文本朗读模块
+## 功能亮点
 
-## 需求规格说明
+- 单词查询：支持英文查询、中文释义、音标显示、朗读和查询历史。
+- 背单词：支持中文提示、回车提交、自动进入下一题，答错后自动加入错题本。
+- 错题本：错题会保存到本机应用数据目录的 `wrong_words.json`，可复习、朗读、标记掌握或清空。
+- 词库管理：支持添加、删除、更新单词，也支持从文本文件批量导入。
+- 词库路径：统一使用 `txt/output_utf8_file.txt`，并附带 `txt/phonetics.txt` 音标数据。
 
-电子辞典是一种将传统的印刷词典转成数码方式、进行快速查询的学习工具，成为 21世纪学生学习生活的掌上利器。 在很多实际应用中，动态索引结构在文件创建或初始装入记录时生成，在系统运行过程中插入或删除记录时，为了保持较好的检索性能，索引结构本身将随之发生改变。教材上已经介绍的动态查找数据结构包括：二叉搜索树（BST）、平衡二叉树（AVL）、红黑树（RBT）、B-树。 
-
-本题要求选取一种已经学过的动态搜索树结构，设计并实现一个基于英语四级词汇的电子辞典软件。 
-
-## 总体分析与设计
-
-* 设计思想：
-  * 存储结构：红黑树
-  * 主要算法思想：对红黑树经行操作以实现基本的单词的查找等功能
-* 设计表示：
-  1. 主要类：Dictionary，负责电子词典的控制逻辑，主要的数据成员DicTree，主窗口类负责显示
-  2. 类中的insert、remove、update、Find实现对单词的插入、删除、更新、查找
-
-
-
-## 主要功能
-
-1. 查询
-2. 查看历史
-3. 逐条查看
-4. 背单词
-5. 错题本
-6. 设置
-   * 插入
-   * 删除
-   * 更改
-   * 选择单词文本文件
-
-## 本优化版改进
-
-1. 增加顶部工具栏入口，让查询、历史、逐条查看、背单词、错题本、设置等页面切换更直接。
-2. 背单词页面支持按回车提交答案，答题后自动进入下一题，减少重复点击。
-3. 增加持久化错题本，答错的单词会保存到本机应用数据目录的 `wrong_words.json`。
-4. 错题本支持查看、朗读、复习、标记掌握和清空。
-5. 词库路径统一为 `txt/output_utf8_file.txt`，构建时会把 `txt` 文件夹复制到可执行文件目录。
-6. 增加音标词库 `txt/phonetics.txt`，用于改善朗读和学习体验。
-
-
-
-## 使用说明
-
-1. 查询：可以通过查询直接查询英文的意思，并且可以发音，可以通过逐条翻看查看各个单词
-2. 背单词功能：可以根据中文提示和发音答出英文单词，输入完整单词后按回车或点击确认
-3. 错题本：答错的单词会自动加入错题本，可集中复习并在掌握后移除
-4. 设置：可以删除、添加、更新单词，也可以通过文本文件批量添加词库
-
-## 界面展示
+## 界面预览
 
 以下图片由当前程序运行时导出，展示的是实际 Qt 界面效果。
 
-查询界面：
+<table>
+  <tr>
+    <td width="50%">
+      <strong>单词查询</strong><br>
+      <img src="./image/optimized-search.png" alt="单词查询界面" width="100%">
+    </td>
+    <td width="50%">
+      <strong>背单词</strong><br>
+      <img src="./image/optimized-remember.png" alt="背单词界面" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>错题本</strong><br>
+      <img src="./image/optimized-wrongbook.png" alt="错题本界面" width="100%">
+    </td>
+  </tr>
+</table>
 
-![查询界面](image/optimized-search.png)
+## 项目结构
 
-背单词：
+```text
+QtDictionary.pro          qmake 项目文件
+main.cpp                  程序入口
+mainwindow.*              主窗口、导航、查询、背词和错题本逻辑
+dictionary.*              词典读写和查询逻辑
+rbtree.*                  红黑树实现
+showword.*                单词详情窗口
+txt/                      词库和音标数据
+image/                    README 展示图片
+transfer.py               词库转换脚本
+```
 
-![背单词界面](image/optimized-remember.png)
+## 编译运行
 
-错题本：
-
-![错题本界面](image/optimized-wrongbook.png)
-
-## 编译
-
-使用 qmake 编译 `QtDictionary.pro`：
+安装 Qt 后，在项目根目录执行：
 
 ```powershell
 qmake QtDictionary.pro
 mingw32-make
 ```
 
-项目文件已配置 `txt` 文件夹复制规则。编译后如果运行时词库为空，请确认可执行文件同级目录下存在：
+编译后运行可执行文件。若运行时词库为空，请确认可执行文件同级目录存在：
 
 ```text
 txt/output_utf8_file.txt
 txt/phonetics.txt
 ```
+
+在本机 Qt 6.11 + MinGW 环境中，建议把 Qt 自带 MinGW 放到 `PATH` 前面，避免系统中旧版 GCC 头文件干扰编译。
+
+```powershell
+$env:PATH="C:\Qt\Tools\mingw1310_64\bin;C:\Qt\6.11.0\mingw_64\bin;" + $env:PATH
+qmake QtDictionary.pro
+mingw32-make
+```
+
+## 设计说明
+
+本项目面向英语四级词汇电子辞典场景，使用红黑树维护动态索引，以支持查询、插入、删除和更新等操作。相比原始版本，本优化版重点改善日常使用流程：减少菜单层级、强化键盘操作、保留错题数据，并统一词库生成、构建复制和运行时读取路径。
