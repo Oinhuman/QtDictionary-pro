@@ -1,6 +1,6 @@
 # QtDictionary Pro
 
-基于 [bugcat9/QtDictionary](https://github.com/bugcat9/QtDictionary.git) 二次优化的 Qt Widgets 英语电子词典。项目保留红黑树词典检索结构，并补充了更直接的页面导航、键盘优先的背词流程和持久化错题本。
+基于 [bugcat9/QtDictionary](https://github.com/bugcat9/QtDictionary.git) 二次优化的 Qt Widgets 英语电子词典。
 
 ## 功能亮点
 
