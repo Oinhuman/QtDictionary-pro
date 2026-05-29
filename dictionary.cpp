@@ -1,10 +1,9 @@
 #include "dictionary.h"
 
+// v2 词库首行标记：有该标记时按“英文/音标/中文”三行一组解析。
 static const QString WordlistHeader=QStringLiteral("# QtDictionary wordlist v2");
 
-//字典的数据从path中读取，也就是说字典主要的数据都存在path对应的txt中，
-//其后加入的单词也都会存储在里面，删除单词也将删除掉里面的单词
-//其实最好的办法还是使用数据库
+// 从 path 读取词库。旧格式为“英文/中文”两行一组；v2 格式额外包含音标。
 Dictionary::Dictionary(QString path)
 {
 
@@ -27,6 +26,7 @@ Dictionary::Dictionary(QString path)
         hasFirstLine=!hasPhonetic;
     }
 
+    // hasFirstLine 用于兼容旧格式：首行不是版本头时，它就是第一个英文单词。
     while(hasFirstLine || !in.atEnd())
     {
 
@@ -56,13 +56,15 @@ Dictionary::Dictionary(QString path)
     file.close();
 
 }
-//析构函数会对单词进行储存，储存在读进来的文本当中
+
+// 析构时写回当前词库文件，确保增删改不会只停留在内存里。
 Dictionary::~Dictionary()
 {
     saveToFile();
     delete DicTree;
 }
 
+// 保存到构造时记录的词库路径。
 bool Dictionary::saveToFile()
 {
     if(savePath.isEmpty())
@@ -70,6 +72,7 @@ bool Dictionary::saveToFile()
     return saveToFile(savePath);
 }
 
+// 保存为 v2 格式；写入前先按红黑树中序遍历重建顺序列表。
 bool Dictionary::saveToFile(const QString &path)
 {
     this->setWords();
@@ -94,13 +97,13 @@ bool Dictionary::saveToFile(const QString &path)
     return true;
 }
 
-//插入函数，一个通过单个单词插入，一个通过文件插入,需要考虑重复插入
-//需要注意的是出入进去的单词要最终写在txt上
+// 插入无音标词条，委托完整插入接口处理去重和修剪。
 bool Dictionary::insert(QString Englishword, QString Chineseword)
 {
     return insert(Englishword,QString(),Chineseword);
 }
 
+// 插入完整词条：英文和释义必须存在，重复英文直接拒绝。
 bool Dictionary::insert(QString Englishword, QString Phoneticword, QString Chineseword)
 {
    Englishword=Englishword.trimmed();
@@ -119,7 +122,8 @@ bool Dictionary::insert(QString Englishword, QString Phoneticword, QString Chine
    }
    return false;
 }
-//文本插入
+
+// 批量导入文件；支持 v2 和旧格式，返回成功插入的新增词条数。
 int Dictionary::insertFile(QString path)
 {
     QFile file(path);
@@ -140,6 +144,7 @@ int Dictionary::insertFile(QString path)
         hasFirstLine=!hasPhonetic;
     }
 
+    // 逐条复用 insert，保证批量导入和单词插入的去重规则一致。
     while(hasFirstLine || !in.atEnd())
     {
 
@@ -165,7 +170,8 @@ int Dictionary::insertFile(QString path)
     file.close();
     return count;
 }
-//删除单词
+
+// 删除单词：树删除成功后，再同步三个顺序列表。
 bool Dictionary::remove(QString Englishword)
 {
     Englishword=Englishword.trimmed();
@@ -183,12 +189,14 @@ bool Dictionary::remove(QString Englishword)
     }
     return false;
 }
-//更新单词
+
+// 只改释义时保留原音标。
 bool Dictionary::update(QString Englishword, QString Chineseword)
 {
     return update(Englishword,FindPhonetic(Englishword),Chineseword);
 }
 
+// 更新完整词条：树节点和顺序列表必须同时更新，保持 UI 数据一致。
 bool Dictionary::update(QString Englishword, QString Phoneticword, QString Chineseword)
 {
      Englishword=Englishword.trimmed();
@@ -207,7 +215,8 @@ bool Dictionary::update(QString Englishword, QString Phoneticword, QString Chine
         Chinesewords[index]=Chineseword;
     return true;
 }
-//查询
+
+// 查找中文释义；未命中返回空串，由界面决定如何提示。
 QString Dictionary::Find(QString Englishword)
 {
     Englishword=Englishword.trimmed();
@@ -217,7 +226,8 @@ QString Dictionary::Find(QString Englishword)
     else
         return node->ChineseWord;
 }
-//查询音标
+
+// 查找音标；旧格式词条可能没有音标，返回空串属于正常情况。
 QString Dictionary::FindPhonetic(QString Englishword)
 {
     Englishword=Englishword.trimmed();
@@ -227,7 +237,8 @@ QString Dictionary::FindPhonetic(QString Englishword)
     else
         return node->PhoneticWord;
 }
-//得到英文和中文集合
+
+// 重建顺序列表；保存文件和 UI 补全都依赖这三个列表同下标对应。
 void Dictionary::setWords()
 {
     Englishwords.clear();

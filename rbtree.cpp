@@ -10,12 +10,13 @@ RBTree::~RBTree()
     this->destroy();
 }
 
-//非递归查询
+// 从根节点开始查找英文单词。
 RBTreeNode *RBTree::iterativeSearch(QString EnglishWord)
 {
     return   iterativeSearch(root, EnglishWord);
 }
 
+// 非递归二叉搜索：按 QString 字典序在左右子树间移动。
 RBTreeNode *RBTree::iterativeSearch(RBTreeNode *x, QString EnglishWord) const
 {
     while ((x!=NULL) && (x->EnglishWord!=EnglishWord))
@@ -32,7 +33,7 @@ RBTreeNode *RBTree::iterativeSearch(RBTreeNode *x, QString EnglishWord) const
 bool RBTree::insert(QString EnglishWord, QString PhoneticWord, QString ChinaWord)
 {
        RBTreeNode *z=NULL;
-       // 如果新建结点失败，则返回。
+       // new 失败时返回 false，避免上层误以为词条已插入。
        if ((z=new RBTreeNode(EnglishWord)) == NULL)
             return false;
        z->PhoneticWord=PhoneticWord;
@@ -44,7 +45,7 @@ bool RBTree::insert(QString EnglishWord, QString PhoneticWord, QString ChinaWord
 bool RBTree::remove(QString EnglishWord)
 {
        RBTreeNode *node=NULL;
-      // 查找key对应的节点(node)，找到的话就删除该节点
+      // 先定位英文单词对应的结点，找不到说明词库中没有该词。
      if ((node = iterativeSearch(root, EnglishWord)) == NULL)
              return false;
 
@@ -57,6 +58,7 @@ void RBTree::destroy()
     this->destroy(root);
 }
 
+// 非递归中序遍历，输出结果天然按英文单词升序排列。
 void RBTree::inorder(QStringList &Englishwords,QStringList &Phoneticwords,QStringList &Chinesewords)
 {
     QStack<RBTreeNode*> s;
@@ -72,7 +74,6 @@ void RBTree::inorder(QStringList &Englishwords,QStringList &Phoneticwords,QStrin
         if(!s.empty())
         {
            p=s.top();
-          //cout<<p->data<<" ";
            Englishwords.append(p->EnglishWord);
            Phoneticwords.append(p->PhoneticWord);
            Chinesewords.append(p->ChineseWord);
@@ -84,6 +85,7 @@ void RBTree::inorder(QStringList &Englishwords,QStringList &Phoneticwords,QStrin
 
 }
 
+// 递归释放子树结点。
 void RBTree::destroy(RBTreeNode *&tree)
 {
     if (tree==NULL)
@@ -100,67 +102,62 @@ void RBTree::destroy(RBTreeNode *&tree)
 
 void RBTree::leftRotate(RBTreeNode *x)
 {
-        // 设置x的右孩子为y
+        // y 上升，x 下沉到 y 的左侧。
         RBTreeNode*y = x->right;
 
-        // 将 “y的左孩子” 设为 “x的右孩子”；
-        // 如果y的左孩子非空，将 “x” 设为 “y的左孩子的父亲”
+        // y 的左子树转接为 x 的右子树。
         x->right = y->left;
         if (y->left != NULL)
             y->left->parent = x;
 
-        // 将 “x的父亲” 设为 “y的父亲”
+        // y 接到 x 原来的父结点位置。
         y->parent = x->parent;
 
         if (x->parent == NULL)
         {
-            root = y;            // 如果 “x的父亲” 是空节点，则将y设为根节点
+            root = y;
         }
         else
         {
             if (x->parent->left == x)
-                x->parent->left = y;    // 如果 x是它父节点的左孩子，则将y设为“x的父节点的左孩子”
+                x->parent->left = y;
             else
-                x->parent->right = y;    // 如果 x是它父节点的左孩子，则将y设为“x的父节点的左孩子”
+                x->parent->right = y;
         }
 
-        // 将 “x” 设为 “y的左孩子”
+        // x 成为 y 的左孩子。
         y->left = x;
-        // 将 “x的父节点” 设为 “y”
         x->parent = y;
 }
 
 void RBTree::rightRotate(RBTreeNode *y)
 {
-         // 设置x是当前节点的左孩子。
+        // x 上升，y 下沉到 x 的右侧。
         RBTreeNode *x = y->left;
 
-        // 将 “x的右孩子” 设为 “y的左孩子”；
-        // 如果"x的右孩子"不为空的话，将 “y” 设为 “x的右孩子的父亲”
+        // x 的右子树转接为 y 的左子树。
         y->left = x->right;
         if (x->right != NULL)
             x->right->parent = y;
 
-        // 将 “y的父亲” 设为 “x的父亲”
-
+        // x 接到 y 原来的父结点位置。
         x->parent = y->parent;
 
         if (y->parent == NULL)
         {
-            root = x;            // 如果 “y的父亲” 是空节点，则将x设为根节点
+            root = x;
         }
         else
         {
             if (y == y->parent->right)
-                y->parent->right = x;    // 如果 y是它父节点的右孩子，则将x设为“y的父节点的右孩子”
+                y->parent->right = x;
             else
-                y->parent->left = x;    // (y是它父节点的左孩子) 将x设为“x的父节点的左孩子”
+                y->parent->left = x;
         }
 
-        // 将 “y” 设为 “x的右孩子”
+        // y 成为 x 的右孩子。
         x->right = y;
 
-        // 将 “y的父节点” 设为 “x”
         y->parent = x;
 }
 
@@ -168,7 +165,7 @@ void RBTree::insert(RBTreeNode *node)
 {
     RBTreeNode *y = NULL;
     RBTreeNode *x = root;
-        // 1. 将红黑树当作一颗二叉查找树，将节点添加到二叉查找树中。
+        // 先按二叉搜索树规则找到新结点的父结点。
         while (x != NULL)
         {
             y = x;
@@ -191,39 +188,32 @@ void RBTree::insert(RBTreeNode *node)
             root = node;
             root->Color=COLOR_BLACK;
         }
-        // 2. 设置节点的颜色为红色
-       // node->Color = COLOR_RED;
 
-        // 3. 将它重新修正为一颗二叉查找树
+        // 新结点构造时默认为红色，插入后修正红黑树性质。
         insertFixup(node);
 }
 /*
- * 红黑树插入修正函数
- *
- * 在向红黑树中插入节点之后(失去平衡)，再调用该函数；
- * 目的是将它重新塑造成一颗红黑树。
- *
- * 参数说明：
- *        node 插入的结点
+ * 插入修正：
+ * 父红时才会破坏红黑树性质；通过变色和旋转把红色冲突向上消解。
  */
 void RBTree::insertFixup(RBTreeNode *node)
 {
         RBTreeNode *parent, *gparent;
         parent=node->parent;
 
-        // 若“父节点存在，并且父节点的颜色是红色”
+        // 只有父结点为红色时需要修复。
         while (node->parent!=NULL && node->parent->Color==COLOR_RED)
         {
             gparent = node->parent->parent;
 
             if(gparent==NULL)
                 break;
-            //若“父节点”是“祖父节点的左孩子”
+            // 父结点在祖父左侧时，叔叔结点在祖父右侧。
             if (parent == gparent->left)
             {
 
                 RBTreeNode *uncle = gparent->right;
-                if (uncle && uncle->Color==COLOR_RED)// Case 1条件：叔叔节点是红色
+                if (uncle && uncle->Color==COLOR_RED) // Case 1：叔叔为红，父叔变黑，祖父变红。
                 {
 
                     uncle->Color=COLOR_BLACK;
@@ -234,7 +224,7 @@ void RBTree::insertFixup(RBTreeNode *node)
                     node = gparent;
 
                 }
-                else if (parent->right == node) // Case 2条件：叔叔是黑色，且当前节点是右孩子
+                else if (parent->right == node) // Case 2：内侧插入，先旋成外侧形态。
                 {
                     RBTreeNode *tmp;
                     leftRotate(parent);
@@ -242,7 +232,7 @@ void RBTree::insertFixup(RBTreeNode *node)
                     parent = node;
                     node = tmp;
                 }
-                else// Case 3条件：叔叔是黑色，且当前节点是左孩子。
+                else // Case 3：外侧插入，祖父旋转并交换父祖颜色。
                 {
 
 
@@ -252,23 +242,18 @@ void RBTree::insertFixup(RBTreeNode *node)
                          rightRotate( gparent);
                 }
             }
-            else//若“z的父节点”是“z的祖父节点的右孩子”
+            else // 父结点在祖父右侧，处理逻辑与左侧对称。
             {
-                // Case 1条件：叔叔节点是红色
-
                   RBTreeNode *uncle = gparent->left;
                   if (uncle && uncle->Color==COLOR_RED)
                   {
-                      //rb_set_black(uncle);
                       uncle->Color=COLOR_BLACK;
-                      //rb_set_black(parent);
                       parent->Color=COLOR_BLACK;
-                     // rb_set_red(gparent);
                       gparent->Color=COLOR_RED;
                       node = gparent;
 
                   }
-                else  if (parent->left == node)// Case 2条件：叔叔是黑色，且当前节点是左孩子
+                else  if (parent->left == node) // Case 2：内侧插入。
                 {
                     RBTreeNode *tmp;
                     rightRotate( parent);
@@ -278,8 +263,6 @@ void RBTree::insertFixup(RBTreeNode *node)
                 }
                 else
                 {
-                      // Case 3条件：叔叔是黑色，且当前节点是右孩子。
-
                       parent->Color=COLOR_BLACK;
                       gparent->Color=COLOR_RED;
                       leftRotate( gparent);
@@ -288,7 +271,7 @@ void RBTree::insertFixup(RBTreeNode *node)
             }
         }
 
-        // 将根节点设为黑色
+        // 根结点必须保持黑色。
         root->Color=COLOR_BLACK;
 }
 
@@ -297,19 +280,17 @@ void RBTree::remove(RBTreeNode *node)
        RBTreeNode *child, *parent;
        Color_t color;
 
-       // 被删除节点的"左右孩子都不为空"的情况。
+       // 左右孩子都存在时，用中序后继替换被删结点。
        if ((node->left!=NULL) && (node->right!=NULL) )
        {
-           // 被删节点的后继节点。(称为"取代节点")
-           // 用它来取代"被删节点"的位置，然后再将"被删节点"去掉。
           RBTreeNode *replace = node;
 
-           // 获取后继节点
+           // 后继是右子树中最小的结点。
            replace = replace->right;
            while (replace->left != NULL)
                replace = replace->left;
 
-           // "node节点"不是根节点(只有根节点不存在父节点)
+           // 将后继结点接到被删结点原来的父结点位置。
            if (node!=root)
            {
                if (node->parent->left == node)
@@ -318,31 +299,27 @@ void RBTree::remove(RBTreeNode *node)
                    node->parent->right = replace;
            }
            else
-               // "node节点"是根节点，更新根节点。
                root = replace;
 
-           // child是"取代节点"的右孩子，也是需要"调整的节点"。
-           // "取代节点"肯定不存在左孩子！因为它是一个后继节点。
+           // 后继没有左孩子，右孩子 child 是删除后可能需要修复的结点。
            child = replace->right;
            parent = replace->parent;
-           // 保存"取代节点"的颜色
+           // 保存后继原颜色；黑色被移走才需要修复。
            color = replace->Color;
 
-           // "被删除节点"是"它的后继节点的父节点"
+           // 后继就是 node 的直接右孩子时，parent 需要指向 replace。
            if (parent == node)
            {
                parent = replace;
            }
            else
            {
-               // child不为空
                if (child!=NULL)
                    child->parent=parent;
                parent->left = child;
 
                replace->right = node->right;
                node->right->parent=replace;
-               //rb_set_parent(node->right, replace);
            }
 
            replace->parent = node->parent;
@@ -360,13 +337,13 @@ void RBTree::remove(RBTreeNode *node)
            child = node->right;
 
        parent = node->parent;
-       // 保存"取代节点"的颜色
+       // 单孩子或叶子删除：记录被删结点颜色。
        color = node->Color;
 
        if (child)
            child->parent = parent;
 
-       // "node节点"不是根节点
+       // 把 child 接到 node 原来的父结点位置。
        if (parent)
        {
            if (parent->left == node)
@@ -381,6 +358,7 @@ void RBTree::remove(RBTreeNode *node)
        delete node;
 }
 
+// 删除修正：node 代表缺失黑高的位置，parent 是它当前父结点。
 void RBTree::removeFixup(RBTreeNode *node,RBTreeNode *parent)
 {
     RBTreeNode *other;
@@ -392,10 +370,8 @@ void RBTree::removeFixup(RBTreeNode *node,RBTreeNode *parent)
                 other = parent->right;
                 if (other->Color==COLOR_RED)
                 {
-                    // Case 1: x的兄弟w是红色的
-                   // rb_set_black(other);
+                    // Case 1：兄弟为红，先旋转转化为黑兄弟场景。
                     other->Color=COLOR_BLACK;
-                  //  rb_set_red(parent);
                     parent->Color=COLOR_RED;
                     leftRotate( parent);
                     other = parent->right;
@@ -403,8 +379,7 @@ void RBTree::removeFixup(RBTreeNode *node,RBTreeNode *parent)
                 if ((!other->left || other->left->Color==COLOR_BLACK) &&
                     (!other->right || other->right->Color==COLOR_BLACK))
                 {
-                    // Case 2: x的兄弟w是黑色，且w的俩个孩子也都是黑色的
-                  //  rb_set_red(other);
+                    // Case 2：兄弟及其孩子全黑，兄弟变红，缺失黑高上移。
                     other->Color=COLOR_RED;
                     node = parent;
                     parent = node->parent;
@@ -413,18 +388,13 @@ void RBTree::removeFixup(RBTreeNode *node,RBTreeNode *parent)
                 {
                     if (!other->right || other->right->Color==COLOR_BLACK)
                     {
-                        // Case 3: x的兄弟w是黑色的，并且w的左孩子是红色，右孩子为黑色。
-                       // rb_set_black(other->left);
+                        // Case 3：远侄为黑，先旋转兄弟转化为 Case 4。
                         other->left->Color=COLOR_BLACK;
-                       // rb_set_red(other);
                         other->Color=COLOR_RED;
                         rightRotate( other);
                         other = parent->right;
                     }
-                    // Case 4: x的兄弟w是黑色的；并且w的右孩子是红色的，左孩子任意颜色。
-                    //rb_set_color(other, rb_color(parent));
-                    //rb_set_black(parent);
-                    //rb_set_black(other->right);
+                    // Case 4：远侄为红，旋转父结点后完成修复。
                     other->Color=parent->Color;
                     parent->Color=COLOR_BLACK;
                     other->right->Color=COLOR_BLACK;
@@ -438,9 +408,7 @@ void RBTree::removeFixup(RBTreeNode *node,RBTreeNode *parent)
                 other = parent->left;
                 if (other->Color==COLOR_RED)
                 {
-                    // Case 1: x的兄弟w是红色的
-                   // rb_set_black(other);
-                    //rb_set_red(parent);
+                    // Case 1：对称处理，兄弟为红。
                     other->Color=COLOR_BLACK;
                     parent->Color=COLOR_RED;
                     rightRotate( parent);
@@ -449,8 +417,7 @@ void RBTree::removeFixup(RBTreeNode *node,RBTreeNode *parent)
                 if ((!other->left || other->left->Color==COLOR_BLACK) &&
                     (!other->right || other->right->Color==COLOR_BLACK))
                 {
-                    // Case 2: x的兄弟w是黑色，且w的俩个孩子也都是黑色的
-                    //rb_set_red(other);
+                    // Case 2：兄弟及其孩子全黑。
                     other->Color=COLOR_RED;
                     node = parent;
                     parent =node->parent;
@@ -459,18 +426,13 @@ void RBTree::removeFixup(RBTreeNode *node,RBTreeNode *parent)
                 {
                     if (!other->left || other->left->Color==COLOR_BLACK)
                     {
-                        // Case 3: x的兄弟w是黑色的，并且w的左孩子是红色，右孩子为黑色。
-                        //rb_set_black(other->right);
-                        //rb_set_red(other);
+                        // Case 3：近侄为红，远侄为黑。
                         other->right->Color=COLOR_BLACK;
                         other->Color=COLOR_RED;
                         leftRotate(other);
                         other = parent->left;
                     }
-                    // Case 4: x的兄弟w是黑色的；并且w的右孩子是红色的，左孩子任意颜色。
-                    //rb_set_color(other, rb_color(parent));
-                    //rb_set_black(parent);
-                    //rb_set_black(other->left);
+                    // Case 4：远侄为红，旋转父结点后结束。
                     other->Color=parent->Color;
                     parent->Color=COLOR_BLACK;
                     other->left->Color=COLOR_BLACK;
@@ -481,7 +443,5 @@ void RBTree::removeFixup(RBTreeNode *node,RBTreeNode *parent)
             }
         }
         if (node)
-          // rb_set_black(node);
             node->Color=COLOR_BLACK;
 }
-

@@ -1,35 +1,39 @@
-#引入 core、gui、multimedia、texttospeech 四个功能包，自动补上 widgets 控件库。
+# Qt 模块：主窗口控件、音频反馈和英文朗读都在这里声明。
 QT += core gui multimedia texttospeech
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
-#生成名为 QtDictionary 的可执行应用程序。
+
+# 生成名为 QtDictionary 的可执行应用程序。
 TARGET = QtDictionary
 TEMPLATE = app
 CONFIG += c++17
 
-#当源码中调用已标记为废弃的接口时，编译器将输出提示信息，便于后续代码迁移。
+# 调用已废弃接口时给出编译警告，便于后续迁移。
 DEFINES += QT_DEPRECATED_WARNINGS
 
-#列出所有要编译的 .cpp 源文件
+# C++ 源文件。
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
     rbtree.cpp \
     dictionary.cpp \
     showword.cpp
-#列出所有头文件。
+
+# 头文件。
 HEADERS += \
         mainwindow.h \
     rbtree.h \
     dictionary.h \
     showword.h
-#列出用 Qt Designer 拖控件画出来的 .ui 界面文件。
+
+# Qt Designer 生成的界面文件。
 FORMS += \
         mainwindow.ui \
     showword.ui
-#确保多媒体相关类库被正确引入编译链接。
+
+# 保留显式 multimedia 声明，兼容旧 qmake 配置。
 QT += multimedia
 
-# Keep the generated UTF-8 wordlist beside the executable as txt/output_utf8_file.txt.
+# 将 UTF-8 词库复制到可执行文件旁，运行时固定读取 txt/output_utf8_file.txt。
 WORDLIST_DIR = $$PWD/txt
 WORDLIST_OUTPUT_DIR = $$OUT_PWD/txt
 win32 {
@@ -40,6 +44,7 @@ wordlists.files = $$files($$WORDLIST_DIR/*)
 wordlists.path = $$WORDLIST_OUTPUT_DIR
 COPIES += wordlists
 
+# 发布包需要带上转换脚本和原始/生成后的词库文件。
 DISTFILES += \
     transfer.py \
     txt/2.txt \

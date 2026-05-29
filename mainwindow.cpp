@@ -34,6 +34,7 @@
 #include<algorithm>
 #include<random>
 
+// 弹窗统一浅色样式，保证 QMessageBox 与自定义 QDialog 在深色系统主题下仍清晰。
 static QString lightDialogStyle()
 {
     return QStringLiteral(
@@ -47,6 +48,7 @@ static QString lightDialogStyle()
     );
 }
 
+// 词库中少量释义来自原始文本标记，这里只做展示层替换，不改持久化内容。
 static QString readableChinese(QString text)
 {
     text.replace("(缩作 OK)",QStringLiteral("缩写 OK："));
@@ -56,6 +58,7 @@ static QString readableChinese(QString text)
     return text;
 }
 
+// 兜底修正少量源数据中无法显示的音标，避免详情页和查词页出现问号。
 static QString readablePhonetic(const QString &word,QString phonetic)
 {
     if(word.compare("a.m",Qt::CaseInsensitive)==0 && phonetic.contains("?"))
@@ -73,6 +76,7 @@ static QString readablePhonetic(const QString &word,QString phonetic)
     return phonetic;
 }
 
+// UI 展示按本地化规则排序；同词忽略大小写后再用原文稳定排序。
 static QStringList sortedWordsForDisplay(const QStringList &words)
 {
     QStringList sorted=words;
@@ -90,6 +94,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
+    // 词库优先读取可执行文件旁的 txt；调试目录缺文件时回退到项目 txt。
     QString wordListPath = QCoreApplication::applicationDirPath()
             + QStringLiteral("/txt/output_utf8_file.txt");
     if(!QFile::exists(wordListPath))
@@ -98,17 +103,20 @@ MainWindow::MainWindow(QWidget *parent) :
     qDebug()<<wordListPath;
     ui->setupUi(this);
     this->setWindowTitle("电子词典");
-    //2010年大学英语四级词汇.txt作为输入和保存的文本,output_utf8_file是它utf8版本
+
+    // output_utf8_file.txt 是统一后的 UTF-8 v2 词库，包含英文、音标、释义三行一组。
     myDictionary=new Dictionary(wordListPath);
     completer=new QCompleter(myDictionary->Englishwords,this);
-    completer->setCaseSensitivity(Qt::CaseInsensitive);//设置大小写不敏感
-    ui->lineEditinPut->setCompleter(completer);     //实现模糊搜索
+    completer->setCaseSensitivity(Qt::CaseInsensitive); // 查词补全不区分大小写。
+    ui->lineEditinPut->setCompleter(completer);          // 输入时即时联想词库单词。
     group=new QButtonGroup(this);
     group->addButton(ui->checkBox,1);
     group->addButton(ui->checkBox_2,2);
     group->addButton(ui->checkBox_3,3);
     wordWidget=new ShowWord;
-    Textspeak=new QTextToSpeech(this);  //发声音，用于读单词
+
+    // 朗读统一使用美式英语，并调低语速，适合背词场景。
+    Textspeak=new QTextToSpeech(this);
     Textspeak->setLocale(QLocale(QLocale::English,QLocale::UnitedStates));
     Textspeak->setRate(-0.18);
     Textspeak->setPitch(1.0);
@@ -146,7 +154,7 @@ MainWindow::MainWindow(QWidget *parent) :
     m_quizUseWrongBookOnly=false;
     i=-1;
 
-    //接受单词详细界面传来的英文单词，进行读
+    // 详情窗口只发出朗读请求，实际朗读仍由主窗口统一处理。
     connect(wordWidget,&ShowWord::SpeakEnglis,
             [=](QString e)
     {
@@ -157,9 +165,12 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->textEditMean->setReadOnly(true);
     ui->lineEditinPut->setPlaceholderText("输入英文单词，按回车查询");
     ui->lineEditSure->setPlaceholderText("输入完整单词，按回车提交并进入下一题");
+
+    // 两个高频输入框都绑定回车，减少鼠标点击。
     connect(ui->lineEditinPut,&QLineEdit::returnPressed,this,&MainWindow::on_ButtonFind_clicked);
     connect(ui->lineEditSure,&QLineEdit::returnPressed,this,&MainWindow::on_ButtonSure_clicked);
 
+    // 用户学习数据写入 AppData；不可用时退回可执行文件旁的 txt，便于绿色运行。
     QString dataPath=QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
     if(dataPath.isEmpty())
         dataPath=QCoreApplication::applicationDirPath()+QStringLiteral("/txt");
@@ -180,6 +191,7 @@ MainWindow::MainWindow(QWidget *parent) :
 MainWindow::~MainWindow()
 {
 
+    // 退出前停止倒计时并落盘学习数据，防止结果停留在内存中。
     if(m_quizTimer!=NULL && m_quizTimer->isActive())
         m_quizTimer->stop();
     saveWrongBook();
@@ -188,6 +200,7 @@ MainWindow::~MainWindow()
     delete myDictionary;
 }
 
+// README 截图导出：复用真实页面状态，避免手工截图与程序界面脱节。
 bool MainWindow::exportReadmeScreens(const QString &outputDir)
 {
     QDir dir(outputDir);
@@ -227,6 +240,8 @@ bool MainWindow::exportReadmeScreens(const QString &outputDir)
 
     QMap<QString,WrongWord> oldWrongBook=wrongBook;
     wrongBook.clear();
+
+    // 临时构造演示错题；截图后会恢复用户原有错题本。
     WrongWord abandon;
     abandon.ChineseWord="v. 放弃；抛弃；离弃";
     abandon.Count=3;
@@ -254,7 +269,7 @@ bool MainWindow::exportReadmeScreens(const QString &outputDir)
     return ok;
 }
 
-//初始化顶部一级功能按钮，取消原来的菜单层级
+// 初始化顶部一级功能按钮，取消原来的菜单层级。
 void MainWindow::initNavigation()
 {
     ui->menuBar->hide();
@@ -290,6 +305,7 @@ void MainWindow::initNavigation()
     ui->mainToolBar->addAction(ui->actionset);
 }
 
+// 统一窗口、工具栏、输入框、按钮、列表和测验控件的浅色视觉。
 void MainWindow::initAppStyle()
 {
     setMinimumSize(820,560);
@@ -317,7 +333,7 @@ void MainWindow::initAppStyle()
     );
 }
 
-//初始化背单词界面，让键盘操作更顺手
+// 初始化背单词界面，让选择题点击、输入 A-D、回车提交保持同一条路径。
 void MainWindow::initRememberPage()
 {
     rememberTipLabel=new QLabel("输入答案后按回车提交，答错会自动进入错题本。",this);
@@ -356,7 +372,7 @@ void MainWindow::initRememberPage()
     ui->ButtonNext->setText("跳过");
 }
 
-//初始化错题本页面
+// 初始化错题本页面；页面由代码动态创建，避免改动原 Designer 布局。
 void MainWindow::initWrongBookPage()
 {
     wrongBookPage=new QWidget(this);
@@ -433,7 +449,7 @@ void MainWindow::initWrongBookPage()
     refreshWrongBook();
 }
 
-//开始背单词
+// 开始背词：随机练习为选择题，错题复习为默写题。
 void MainWindow::startRemember(bool wrongOnly)
 {
     rememberWrongOnly=wrongOnly;
@@ -447,7 +463,7 @@ void MainWindow::startRemember(bool wrongOnly)
     showNextRememberWord();
 }
 
-//显示下一个要背的单词
+// 显示下一道背词题；同时刷新输入框、按钮状态和本轮正确率提示。
 void MainWindow::showNextRememberWord()
 {
     if(myDictionary->Englishwords.isEmpty())
@@ -463,6 +479,8 @@ void MainWindow::showNextRememberWord()
     if(rememberWrongOnly)
     {
         QStringList candidates;
+
+        // 错题复习只抽仍存在于当前词库中的单词，避免历史数据引用失效。
         for(QMap<QString,WrongWord>::const_iterator it=wrongBook.constBegin();it!=wrongBook.constEnd();++it)
         {
             if(myDictionary->Englishwords.contains(it.key()))
@@ -503,6 +521,7 @@ void MainWindow::showNextRememberWord()
         rememberCurrentQuestionType=QRandomGenerator::global()->bounded(2);
         if(rememberCurrentQuestionType==0)
         {
+            // 题型 0：给英文，选中文释义。
             ui->labelShow->setText(e+"\n\n请选择正确的中文释义：");
             options.append(c);
             while(options.size()<4 && myDictionary->Chinesewords.size()>1)
@@ -518,6 +537,7 @@ void MainWindow::showNextRememberWord()
         }
         else
         {
+            // 题型 1：给中文，选英文单词。
             ui->labelShow->setText(c+"\n\n请选择正确的英文翻译：");
             options.append(e);
             while(options.size()<4 && myDictionary->Englishwords.size()>1)
@@ -563,7 +583,7 @@ void MainWindow::showNextRememberWord()
     rememberTipLabel->setText(rememberLastTip+score);
 }
 
-//生成背单词题面
+// 生成背词默写题面：保留首尾字母优先，避免短词被完全遮住。
 QString MainWindow::makeRememberQuestion(QString word) const
 {
     if(word.isEmpty())
@@ -590,7 +610,7 @@ QString MainWindow::makeRememberQuestion(QString word) const
     return question;
 }
 
-//加入错题本
+// 加入错题本：重复错误只累加次数，同时记录最近一次错误答案。
 void MainWindow::addWrongWord(QString Englishword, QString answer)
 {
     if(Englishword.isEmpty())
@@ -615,7 +635,7 @@ void MainWindow::addWrongWord(QString Englishword, QString answer)
     refreshWrongBook();
 }
 
-//读取错题本
+// 读取错题本；坏文件或空文件直接忽略，保证主流程可启动。
 void MainWindow::loadWrongBook()
 {
     wrongBook.clear();
@@ -644,7 +664,7 @@ void MainWindow::loadWrongBook()
     }
 }
 
-//保存错题本
+// 保存错题本；用 JSON 明文存储，方便跨版本排查和手工备份。
 void MainWindow::saveWrongBook()
 {
     if(wrongBookPath.isEmpty())
@@ -670,7 +690,7 @@ void MainWindow::saveWrongBook()
     file.close();
 }
 
-//刷新错题本界面
+// 刷新错题本界面：列表文本用于扫读，UserRole 保留英文 key 供后续操作。
 void MainWindow::refreshWrongBook()
 {
     if(wrongBookList==NULL)
@@ -696,7 +716,7 @@ void MainWindow::refreshWrongBook()
     readWrongButton->setEnabled(hasWrong);
 }
 
-//显示错题详情
+// 显示错题详情；词库缺释义时使用错题本缓存的释义兜底。
 void MainWindow::showWrongBookDetail(QListWidgetItem *item)
 {
     if(item==NULL)
@@ -711,7 +731,7 @@ void MainWindow::showWrongBookDetail(QListWidgetItem *item)
     wordWidget->show();
 }
 
-//播放背词反馈音
+// 播放背词反馈音；缺少音频文件时只对错误答案蜂鸣提醒。
 void MainWindow::playRememberSound(bool correct)
 {
     QString fileName=correct ? "正确.mp3" : "错误.mp3";
@@ -726,6 +746,7 @@ void MainWindow::playRememberSound(bool correct)
         QApplication::beep();
 }
 
+// 英文朗读入口：先停止当前朗读，再延迟启动，降低连续点击造成的重叠。
 void MainWindow::speakEnglish(QString word)
 {
     word=word.trimmed();
@@ -740,19 +761,18 @@ void MainWindow::speakEnglish(QString word)
     });
 }
 
-//设置界面的ok，用于删除、增加单词
+// 设置页确认：根据单选模式执行导入、删除或修改，并同步补全器与持久化文件。
 void MainWindow::on_buttonBox_accepted()
 {
- //qDebug()<< group->checkedId();
     QStringListModel *model=qobject_cast<QStringListModel*>(completer->model());
-    if(group->checkedId()==1)       //第一种情况插入单词
+    if(group->checkedId()==1)       // 模式 1：导入文件或插入单个词条。
     {
 
         QString e=ui->textEditEnglish->toPlainText().trimmed();
         QString c=ui->textEditChinese->toPlainText().trimmed();
         QString path=ui->lineEditFile->text();
         bool needSave=false;
-        if(!path.isEmpty())//如果路径不为空执行文本插入
+        if(!path.isEmpty())        // 文件路径非空时先批量导入。
         {
             int count=myDictionary->insertFile(path);
             if(model!=NULL && count>0)
@@ -778,7 +798,7 @@ void MainWindow::on_buttonBox_accepted()
         if(needSave)
             myDictionary->saveToFile();
     }
-    else if (group->checkedId()==2) //第二种情况删除单词
+    else if (group->checkedId()==2) // 模式 2：删除词条，同时清理同名错题。
     {
         QString e=ui->textEditEnglish->toPlainText().trimmed();
         if(myDictionary->remove(e))
@@ -794,7 +814,7 @@ void MainWindow::on_buttonBox_accepted()
         else
             QMessageBox::information(this,"提示","删除失败");
     }
-    else if (group->checkedId()==3) //第三种情况修改单词
+    else if (group->checkedId()==3) // 模式 3：修改释义，并刷新错题本中的展示释义。
     {
         QString e=ui->textEditEnglish->toPlainText().trimmed();
         QString c=ui->textEditChinese->toPlainText().trimmed();
@@ -820,13 +840,13 @@ void MainWindow::on_buttonBox_accepted()
     }
 }
 
-//设置界面的cancel
+// 设置页取消：不保存表单内容，直接回到查词页。
 void MainWindow::on_buttonBox_rejected()
 {
-    ui->stackedWidget->setCurrentIndex(0);//跳回查询界面
+    ui->stackedWidget->setCurrentIndex(0);
 }
 
-//逐条查找，可以查找有单词
+// 全部词条浏览：展示排序后的完整英文词表。
 void MainWindow::on_actionall_triggered()
 {
     ui->stackedWidget->setCurrentIndex(2);
@@ -834,7 +854,7 @@ void MainWindow::on_actionall_triggered()
     ui->listWidget->addItems(sortedWordsForDisplay(myDictionary->Englishwords));
 }
 
-//查找界面
+// 查词入口：切回查词页并清理上一次输入和结果。
 void MainWindow::on_actionFind_triggered()
 {
     ui->stackedWidget->setCurrentIndex(0);
@@ -842,7 +862,7 @@ void MainWindow::on_actionFind_triggered()
     ui->textEditMean->clear();
 }
 
-//按下查找按钮
+// 查词按钮：空输入只提示；命中后展示音标和释义，并写入本次历史。
 void MainWindow::on_ButtonFind_clicked()
 {
    QString e=ui->lineEditinPut->text().trimmed();
@@ -864,35 +884,41 @@ void MainWindow::on_ButtonFind_clicked()
        }
        history.append(e);
        statusBar()->showMessage("查询完成："+e,2000);
-   }else
+   }
+   else
        QMessageBox::information(this,"提示","词库无此单词");
 
 }
-//查看历史
+
+// 查看历史：历史只记录本次运行内的成功查询，避免自动污染用户数据。
 void MainWindow::on_actionHistory_triggered()
 {
     ui->stackedWidget->setCurrentIndex(1);
     ui->listWidgetHistory->clear();
     ui->listWidgetHistory->addItems(history);
 }
-//设置，用于增加、删除、更新单词
+
+// 设置入口：用于维护词库内容。
 void MainWindow::on_actionset_triggered()
 {
      ui->stackedWidget->setCurrentIndex(3);
 }
-//读单词
+
+// 查词页朗读：读取当前输入框内容。
 void MainWindow::on_ButtonRead_clicked()
 {
      QString e=ui->lineEditinPut->text();
 
      speakEnglish(e);
 }
-//背单词
+
+// 顶部“背单词”：默认进入全词库随机练习。
 void MainWindow::on_actionRemember_triggered()
 {
     startRemember(false);
 }
-//背单词填写好的确定
+
+// 背词提交：随机练习判定选项，错题复习判定完整拼写。
 void MainWindow::on_ButtonSure_clicked()
 {
     if(i<0 || i>=myDictionary->Englishwords.size())
@@ -918,6 +944,7 @@ void MainWindow::on_ButtonSure_clicked()
     }
     else
     {
+        // 支持输入 A-D，也支持直接输入完整选项内容。
         QString optionKey=answer.toUpper();
         int selectedIndex=-1;
         if(optionKey=="A")
@@ -946,6 +973,7 @@ void MainWindow::on_ButtonSure_clicked()
         rememberRight++;
         if(rememberWrongOnly && wrongBook.contains(rightWord))
         {
+            // 错题复习答对会递减错误次数，归零后自动移出错题本。
             WrongWord item=wrongBook.value(rightWord);
             item.Count--;
             if(item.Count<=0)
@@ -975,7 +1003,8 @@ void MainWindow::on_ButtonSure_clicked()
     showNextRememberWord();
 
 }
-//提示中文
+
+// 背词提示：随机选择题只提示操作方式，错题默写才显示中文释义。
 void MainWindow::on_Buttonhint_clicked()
 {
     if(i<0 || i>=myDictionary->Chinesewords.size())
@@ -988,7 +1017,8 @@ void MainWindow::on_Buttonhint_clicked()
     QString c=readableChinese(myDictionary->Chinesewords[i]);
     ui->lineEditHint->setText(c);
 }
-//对要背的英语单词进行读
+
+// 背词页朗读当前题单词。
 void MainWindow::on_ButtonReadHint_clicked()
 {
     if(i<0 || i>=myDictionary->Englishwords.size())
@@ -997,7 +1027,7 @@ void MainWindow::on_ButtonReadHint_clicked()
     speakEnglish(e);
 }
 
-//逐条浏览时点出单词的详细界面
+// 全部词条页点击单词：打开详情并展示音标、释义。
 void MainWindow::on_listWidget_itemPressed(QListWidgetItem *item)
 {
     QString e=item->text();
@@ -1007,7 +1037,7 @@ void MainWindow::on_listWidget_itemPressed(QListWidgetItem *item)
     wordWidget->show();
 }
 
-//查看历史时点出单词的详细界面
+// 历史页点击单词：复用同一个详情窗口，避免重复创建窗口。
 void MainWindow::on_listWidgetHistory_itemPressed(QListWidgetItem *item)
 {
     QString e=item->text();
@@ -1017,7 +1047,7 @@ void MainWindow::on_listWidgetHistory_itemPressed(QListWidgetItem *item)
     wordWidget->show();
 }
 
-//设置时进行查看,可以查看单词的主要信息
+// 设置页预览：不修改词库，只查看输入单词的详情。
 void MainWindow::on_Button_3_clicked()
 {
     QString e=ui->textEditEnglish->toPlainText().trimmed();
@@ -1031,16 +1061,16 @@ void MainWindow::on_Button_3_clicked()
         wordWidget->show();
     }
 }
-//插入时可以通过文本插入
+
+// 选择导入文件：仅把路径写入表单，真正导入由确认按钮完成。
 void MainWindow::on_ButtonFile_clicked()
 {
   QString  fileName = QFileDialog::getOpenFileName(this,
           tr("Open Image"), "E:/", tr("Text files (*.txt)"));
-  //qDebug()<<fileName;
- // myDictionary->insertFile(fileName);
   ui->lineEditFile->setText(fileName);
 }
-//背单词界面下一个按键
+
+// 背词跳过：随机练习视为错题，错题复习只跳过不增加错误次数。
 void MainWindow::on_ButtonNext_clicked()
 {
     if(i>=0 && i<myDictionary->Englishwords.size())
@@ -1059,11 +1089,13 @@ void MainWindow::on_ButtonNext_clicked()
     showNextRememberWord();
 }
 
+// 统一历史时间格式，保证 JSON 记录和界面显示一致。
 QString MainWindow::getCurrentTimeString() const
 {
     return QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss");
 }
 
+// 成绩评级阈值集中在一处，避免结果页和历史页出现不一致。
 QString MainWindow::getRating(double score) const
 {
     if(score>=90)
@@ -1077,6 +1109,7 @@ QString MainWindow::getRating(double score) const
     return "需要继续练习";
 }
 
+// 返回仍能在当前词库中找到的错题，避免旧数据导致抽题失败。
 QStringList MainWindow::getWrongBookWordList() const
 {
     QStringList words;
@@ -1088,6 +1121,7 @@ QStringList MainWindow::getWrongBookWordList() const
     return words;
 }
 
+// 读取测验历史；字段缺失的记录会被自然跳过或保留默认值。
 void MainWindow::loadQuizHistory()
 {
     QString dataPath=QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
@@ -1123,6 +1157,7 @@ void MainWindow::loadQuizHistory()
     }
 }
 
+// 保存测验历史；与错题本一样使用 JSON，便于用户迁移数据。
 void MainWindow::saveQuizHistory()
 {
     if(m_quizHistoryPath.isEmpty())
@@ -1152,6 +1187,7 @@ void MainWindow::saveQuizHistory()
     file.close();
 }
 
+// 初始化测验页面：页面运行时创建，支持选择题和默写题复用同一容器。
 void MainWindow::initQuizPage()
 {
     m_quizPage=new QWidget(this);
@@ -1222,6 +1258,7 @@ void MainWindow::initQuizPage()
     ui->stackedWidget->addWidget(m_quizPage);
 }
 
+// 开始测验：先生成题目，再切换页面，空题库时不进入测验页。
 void MainWindow::startQuiz(bool useWrongBookOnly)
 {
     m_quizUseWrongBookOnly=useWrongBookOnly;
@@ -1239,6 +1276,7 @@ void MainWindow::startQuiz(bool useWrongBookOnly)
     showCurrentQuizQuestion();
 }
 
+// 生成测验题：按范围取词、随机打散，最多生成 15 题。
 void MainWindow::generateQuizQuestions()
 {
     m_quizQuestions.clear();
@@ -1262,12 +1300,14 @@ void MainWindow::generateQuizQuestions()
     int questionCount=qMin(15,sourceWords.size());
     for(int k=0;k<questionCount;k++)
     {
+        // 题型按 1-2-3 轮换，最后再整体洗牌，保证题型覆盖且顺序随机。
         int type=(k%3)+1;
         generateQuestionOfType(sourceWords[k],type);
     }
     std::shuffle(m_quizQuestions.begin(),m_quizQuestions.end(),std::mt19937(QRandomGenerator::global()->generate()));
 }
 
+// 按题型生成单题：1 英译中，2 中译英，3 默写英文。
 void MainWindow::generateQuestionOfType(const QString &word,int type)
 {
     QuizQuestion question;
@@ -1283,6 +1323,7 @@ void MainWindow::generateQuestionOfType(const QString &word,int type)
 
     if(type==1)
     {
+        // 英译中选择题：正确释义 + 词库中的其他释义作为干扰项。
         question.CorrectAnswer=question.Chinese;
         question.Options.append(question.Chinese);
         while(question.Options.size()<4 && myDictionary->Chinesewords.size()>1)
@@ -1298,6 +1339,7 @@ void MainWindow::generateQuestionOfType(const QString &word,int type)
     }
     else if(type==2)
     {
+        // 中译英选择题：正确英文 + 词库中的其他英文作为干扰项。
         question.CorrectAnswer=question.English;
         question.Options.append(question.English);
         while(question.Options.size()<4 && myDictionary->Englishwords.size()>1)
@@ -1319,6 +1361,7 @@ void MainWindow::generateQuestionOfType(const QString &word,int type)
     m_quizQuestions.append(question);
 }
 
+// 显示当前测验题：重置选项、输入框和倒计时，避免上一题状态残留。
 void MainWindow::showCurrentQuizQuestion()
 {
     if(m_currentQuizIndex>=m_quizQuestions.size())
@@ -1346,6 +1389,7 @@ void MainWindow::showCurrentQuizQuestion()
     m_quizRadioGroup->setExclusive(false);
     for(int k=0;k<m_quizRadioButtons.size();k++)
     {
+        // 临时取消互斥，确保换题时可以清空所有选中状态。
         m_quizRadioButtons[k]->setAutoExclusive(false);
         m_quizRadioButtons[k]->setChecked(false);
         if(k<question.Options.size())
@@ -1379,6 +1423,7 @@ void MainWindow::showCurrentQuizQuestion()
         m_quizTimer->start(1000);
 }
 
+// 倒计时更新：最后 3 秒改红色，归零后统一走超时处理。
 void MainWindow::updateTimer()
 {
     if(m_currentTimeLeft>0)
@@ -1414,6 +1459,7 @@ void MainWindow::handleQuizTimeout()
     showCurrentQuizQuestion();
 }
 
+// 判定并记录当前题；已记录过的题直接返回，防止重复提交。
 void MainWindow::evaluateAndRecord()
 {
     if(m_currentQuizIndex>=m_quizQuestions.size())
@@ -1447,6 +1493,7 @@ void MainWindow::evaluateAndRecord()
         m_quizCorrectCount++;
 }
 
+// 单题结果弹窗：允许手动确认，也会 3 秒后自动进入下一步。
 void MainWindow::showAnswerDialog(bool isCorrect,const QString &correctAnswer)
 {
     QDialog dialog(this);
@@ -1475,6 +1522,7 @@ void MainWindow::showAnswerDialog(bool isCorrect,const QString &correctAnswer)
     dialog.exec();
 }
 
+// 测验提交：停表、判题、反馈、错题入库，再进入下一题。
 void MainWindow::on_ButtonSubmitAnswer_clicked()
 {
     if(m_currentQuizIndex>=m_quizQuestions.size())
@@ -1500,6 +1548,7 @@ void MainWindow::on_ButtonSubmitAnswer_clicked()
     showCurrentQuizQuestion();
 }
 
+// 测验结束：生成成绩单、保存历史，并把错题提示给用户。
 void MainWindow::showQuizResult()
 {
     if(m_quizTimer!=NULL && m_quizTimer->isActive())
@@ -1559,6 +1608,7 @@ void MainWindow::showQuizResult()
         ui->stackedWidget->setCurrentIndex(0);
 }
 
+// 测验入口：让用户选择全词库随机测验或仅错题测验。
 void MainWindow::on_actionQuiz_triggered()
 {
     QDialog dialog(this);
@@ -1606,6 +1656,7 @@ void MainWindow::on_actionQuiz_triggered()
         startQuiz(wrongOnly);
 }
 
+// 测验历史弹窗：列表倒序显示，双击可查看单次详细成绩单。
 void MainWindow::showQuizHistoryDialog()
 {
     if(m_quizHistoryList.isEmpty())
@@ -1688,6 +1739,7 @@ void MainWindow::showQuizHistoryDialog()
     dialog.exec();
 }
 
+// 顶部“测验历史”动作入口。
 void MainWindow::on_actionQuizHistory_triggered()
 {
     showQuizHistoryDialog();
