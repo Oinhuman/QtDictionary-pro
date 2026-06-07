@@ -198,6 +198,7 @@ MainWindow::~MainWindow()
     saveQuizHistory();
     delete ui;
     delete myDictionary;
+    delete wordWidget;
 }
 
 // README 截图导出：复用真实页面状态，避免手工截图与程序界面脱节。
@@ -1454,6 +1455,7 @@ void MainWindow::handleQuizTimeout()
     question.UserAnswer="超时未答";
     question.IsCorrect=false;
     addWrongWord(question.English,question.UserAnswer);
+    playRememberSound(false);
     showAnswerDialog(false,question.CorrectAnswer);
     m_currentQuizIndex++;
     showCurrentQuizQuestion();

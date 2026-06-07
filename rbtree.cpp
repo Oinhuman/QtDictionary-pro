@@ -91,10 +91,8 @@ void RBTree::destroy(RBTreeNode *&tree)
     if (tree==NULL)
           return ;
 
-    if (tree->left != NULL)
-            return destroy(tree->left);
-    if (tree->right != NULL)
-           return destroy(tree->right);
+    destroy(tree->left);
+    destroy(tree->right);
 
     delete tree;
     tree=NULL;
@@ -199,12 +197,12 @@ void RBTree::insert(RBTreeNode *node)
 void RBTree::insertFixup(RBTreeNode *node)
 {
         RBTreeNode *parent, *gparent;
-        parent=node->parent;
 
         // 只有父结点为红色时需要修复。
         while (node->parent!=NULL && node->parent->Color==COLOR_RED)
         {
-            gparent = node->parent->parent;
+            parent = node->parent;
+            gparent = parent->parent;
 
             if(gparent==NULL)
                 break;
